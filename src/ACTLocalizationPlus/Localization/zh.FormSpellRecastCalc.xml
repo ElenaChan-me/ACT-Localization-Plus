@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormSpellRecastCalc">
+  <Control ControlPath="root" UniqueName="cbUseRecastCalcs" Text="按重新施放 AA 重新计算" />
+  <Control ControlPath="root" UniqueName="cbRestrictShortDelays" Text="使用 12-120 秒之间的延迟" />
+  <Control ControlPath="root" UniqueName="btnSendToTimers" Text="发送到计时器" />
+  <Control ControlPath="root" UniqueName="btnClose" Text="关闭" />
+</ControlText>

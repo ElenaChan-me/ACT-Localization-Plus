@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormExportFormat">
+  <Control ControlPath="root" UniqueName="groupBox4" Text="서식 예시" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="서식 요소 설명" />
+  <Control ControlPath="root\groupBox3" UniqueName="lblElementDescription" Text="선택된 요소 없음" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="사용 가능한 서식 요소" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="서식 문자열" />
+  <Control ControlPath="root\groupBox1" UniqueName="label1" Text="전투원 정렬 기준:" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnAddTextPreset" Text="텍스트 형식 프리셋 추가" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbPrefixAllied" Text="아군 통계 접두어 추가" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbAlliesOnly" Text="아군 전투원만 내보내기" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox6" Text="아군 서식" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnEditAllyString" Text="직접 편집" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnAppendAllies" Text="추가" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnRemoveAllies" Text="제거" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox5" Text="전투원별 서식" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnEditCombatantString" Text="직접 편집" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnAppend" Text="추가" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnRemove" Text="제거" />
+</ControlText>

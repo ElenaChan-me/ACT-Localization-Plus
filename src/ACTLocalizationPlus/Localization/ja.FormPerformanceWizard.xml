@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormPerformanceWizard">
+  <Control ControlPath="root\tc1" UniqueName="tabPage1" Text="ステップ 1 " />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnCancel1" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="button2" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnTab1Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="label1" Text="このウィザードは、ACTのCPU使用量に影響する設定へ簡単にアクセスするためのものです。各セクションで設定を詳しく説明しているので、機能とパフォーマンスのバランスを調整しやすくなります。&#13;&#10;&#13;&#10;補足: 有効なカスタムトリガーの数は、通常動作時の解析速度(CPU使用量)に直接影響します。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage2" Text="ステップ 2 " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label21" Text="カスタムトリガーの解析に割り当てるスレッド数を変更します。0にすると、カスタムトリガーは元の解析スレッドで解析されます。使用中のカスタムトリガーが多く通常のログ解析が追いつかない場合は、1以上にしてください。この値は、CPUのコア数からゲームが使い切れるコア数を引いた数を超えないようにしてください。&#13;&#10;&#13;&#10;例: 4コアCPUでEQ2をプレイしている場合、この値は3を超えないようにします。EQ2のマルチコア対応が有効なら2がより安全です。デュアルコアCPUの場合、ACTがEQ2を遅くしないよう0～1が最適です。&#13;&#10;&#13;&#10;(カスタムトリガーの解析が遅れているかどうかは、設定 - その他ページのログファイル欄で確認できます。)" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label16" Text="カスタムトリガー解析で生成する追加スレッドの最大数: " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnCancel2" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label2" Text="通常のログ解析の優先度を変更します。すべてのプログラムには優先度があり、通常は既定で「通常」です。この優先度によって、現在の処理にどれだけCPU時間を割り当てるかが決まります。「最低(アイドル)」にすると、ログ解析は他のアプリケーションが使っていないCPU時間のみを使います。&#13;&#10;&#13;&#10;この設定を反映するには、ACTを再起動するか、現在のログを閉じて開き直す必要があります。" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="lblLogPriority" Text="通常のログ解析の CPU 優先度:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage3" Text="ステップ 3 " />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnCancel3" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="label3" Text="各ゾーンの最初のエンカウントとして「All」項目を作成し、そのゾーンの他のエンカウントのデータをすべて合算できます。ゾーン内でエンカウントが進むと、All 項目はリアルタイムで更新されます。All 項目は、そのゾーンの全エンカウントを統合したものと同一です。&#13;&#10;&#13;&#10;このオプションを無効にすると、初期設定と比べてメモリと CPU の使用量が10%強削減されます。" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="cbZoneAllListing" Text="ゾーン内の各エンカウントの全データを含む「All」エンカウントを作成する。(過去分には適用されません)" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage4" Text="ステップ 4 " />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnCancel4" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="label4" Text="オンにすると、各戦闘者の下で完全に作成されるダメージタイプ項目は、参照用に (Ref) が付いたものだけになります。「Melee (Out)」に All、crush、slash が表示される代わりに、crush/slash を合計した All のみが表示されます。crush と slash は (Ref) タグにより「All Outgoing (Ref)」の下で引き続き確認できます。&#13;&#10;&#13;&#10;このオプションを有効にすると、既定の設定と比べてCPU使用量が10%弱、メモリ使用量が10%強減ります。オフにすると、すべての項目が本来の分類で作成されます。" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="cbRestrictToAll" Text="(Ref) の付いたもの以外のDamageTypeカテゴリは「All」項目のみ作成する。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage5" Text="ステップ 5 " />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnCancel5" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label6" Text="画面を新しい情報で更新する頻度を変更する設定です。メインタブのテーブル更新の場合、グラフもこの間隔で更新されることがあります。間隔を短くすると、計算の更新にACTが使うCPU時間が増えます。&#13;&#10;&#13;&#10;ACTが最小化されているか「テーブルの自動更新を無効化」がオンの場合、これらの設定に関係なくメインタブのテーブル/グラフは更新されません。Mini Parse ウィンドウが無効な場合、Mini Parse の設定を変更してもCPU使用量には影響しません(更新されないため)。" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label23" Text="秒。" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label22" Text="ミニパースウィンドウの更新間隔:" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label5" Text="N秒ごとにテーブルを更新。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage6" Text="ステップ 6 " />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnCancel6" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="label7" Text="メインのエンカウントグラフの生成方法を変更します。&#13;&#10;- シンプル方式は、現在並べ替えている列の各値を棒グラフで表示します。すべての列で棒グラフを表示できるわけではありませんが、生成に使うCPU時間は常に比較的少なくなります。&#13;&#10;- 詳細方式は、各人のDPS推移を時間区間に分けた折れ線グラフで表示します。エンカウント全体のDPSよりも計算にかなり時間がかかります。" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphSimple" Text="現在の並べ替えを示すシンプルな棒グラフ。" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphAdv" Text="高度な DPS 推移グラフ (CPU 負荷大)" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage7" Text="ステップ 7 " />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnCancel7" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label8" Text="DPS推移グラフ(詳細エンカウントグラフおよび戦闘者グラフ)の生成優先度を変更します。すべてのプログラムには優先度があり、通常は既定で「通常」です。この優先度によって、現在の処理にどれだけCPU時間を割り当てるかが決まります。「最低(アイドル)」にすると、グラフ生成は他のアプリケーションが使っていないCPU時間のみを使います。EQ2の実行中はほぼゼロになります。「通常」では、ACTとEQ2などの他の処理に同じだけCPU時間が割り当てられます。&#13;&#10;&#13;&#10;「通常以上」(詳細エンカウントグラフ使用時は非推奨)では、グラフ生成が他のほとんどのプログラムより優先され、EQ2で目立つカクつきや一時的なフリーズが起きることがあります。グラフ生成中はACTのUIも応答しなくなることがあります。&#13;&#10;&#13;&#10;この設定はEQ2疑似HTML(および自動ODBC)エクスポートにも影響します。次のエンカウントが終了してエクスポートが必要になるまでにHTMLエクスポートが完了しない場合は、この設定を上げてください。" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label11" Text="グラフ生成の CPU 優先度:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage9" Text="ステップ 8" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnCancel8" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Back" Text="&lt; 戻る" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Next" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="cbRecordLogs" Text="解析中にすべてのログ行を記録する。(右クリックメニューの「ログを表示」で使用)" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="label20" Text="オンにすると、エンカウント中に出力されたすべてのログ行を記録します。エンカウントを右クリックして「ログを表示」を選ぶと、閲覧や検索ができます。  &#13;&#10;&#13;&#10;このオプションを無効にすると、既定の設定と比べてメモリ使用量が45%弱減ります。エクスポートしたACTファイルには記録したログが保持されます。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage8" Text="完了 " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label25" Text="ステップ 8: エンカウントログの記録" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2A" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label12" Text="後" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2B" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label10" Text="前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label19" Text="ステップ 7: グラフ/HTMLの優先度" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label18" Text="ステップ 6: メインのエンカウントグラフ" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label17" Text="ステップ 5: テーブルデータの更新" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label15" Text="ステップ 4: All (Ref) のみ作成" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label14" Text="ステップ 3: 「All」エンカウントの作成" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label13" Text="ステップ 2: ログ解析" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label9" Text="ステップ 1: " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnCancel" Text="キャンセル" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="button5" Text="次へ &gt;" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnTab9Back" Text="&lt; 戻る" />
+</ControlText>

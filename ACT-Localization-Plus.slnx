@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ACTLocalizationPlus/ACTLocalizationPlus.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ACTLocalizationPlus.Tests/ACTLocalizationPlus.Tests.csproj" />
+  </Folder>
+</Solution>

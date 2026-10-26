@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormTimeLine">
+  <Control ControlPath="root" UniqueName="groupBox" Text="이벤트 표시 전환" />
+  <Control ControlPath="root\groupBox" UniqueName="btnInvertChecked" Text="선택 반전" />
+  <Control ControlPath="root\groupBox" UniqueName="btnCheckAll" Text="모두 선택" />
+  <Control ControlPath="root\groupBox" UniqueName="btnApplyRecalc" Text="위 설정을 적용하고 다시 계산" />
+  <Control ControlPath="root\groupBox" UniqueName="label2" Text="샘플 정밀도 (초)" />
+  <Control ControlPath="root\groupBox" UniqueName="cbGlobalMaxLimit" Text="같은 유형의 행은 같은 축척 사용" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingHealing" Text="받는 치유" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutgoingHealing" Text="주는 치유" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingDamage" Text="받는 피해" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutDamage" Text="주는 피해" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLRollingAvg" Text="이동 평균 그래프 사용 (구간 아님)" />
+  <Control ControlPath="root\groupBox" UniqueName="label1" Text="전투원 그룹화" />
+</ControlText>

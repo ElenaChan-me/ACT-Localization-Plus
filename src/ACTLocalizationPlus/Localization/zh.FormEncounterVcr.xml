@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormEncounterVcr">
+  <Control ControlPath="root\panel2" UniqueName="lblStatus" Text="已暂停" />
+  <Control ControlPath="root\panel1" UniqueName="cbLinkToEnc" Text="实时模式" />
+  <Control ControlPath="root\panel1" UniqueName="cbRadialDisplay" Text="环形显示战斗者" />
+  <Control ControlPath="root\panel1" UniqueName="cbOutlineTraces" Text="描边轨迹指针" />
+  <Control ControlPath="root\panel1" UniqueName="label2" Text="秒" />
+  <Control ControlPath="root\panel1" UniqueName="label1" Text="阴影" />
+  <Control ControlPath="root\panel1" UniqueName="cbPersistantMobs" Text="保留非活动怪物" />
+  <Control ControlPath="root\panel1" UniqueName="label3" Text="伤害阈值 K" />
+</ControlText>

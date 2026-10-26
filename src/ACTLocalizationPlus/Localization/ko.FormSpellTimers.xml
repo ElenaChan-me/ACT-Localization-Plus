@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormSpellTimers">
+  <Control ControlPath="root" UniqueName="btnClearSearch" Text="지우기" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="타이머별 설정" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label17" Text="AE/스킬/사용자 트리거 이름" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label1" Text="타이머 주기(초)" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label9" Text="타이머를 화면에서 제거할 시점" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label3" Text="경고 시점(초)" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label23" Text="분류 지역 또는 몹으로 제한" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label22" Text="분류" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label21" Text="패널 B에 표시" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label20" Text="패널 A에 표시" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label19" Text="타이머 보정이 적용되도록 허용" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label18" Text="원형 타이머 표시" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label4" Text="타이머를 &quot;허용 목록&quot;으로 제한" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label2" Text="남은 시간이 있으면 타이머 재시작 무시" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label24" Text="DoT 틱은 사용하지 않고 재시작만" />
+  <Control ControlPath="root\splitContainer2\" UniqueName="btnAddEdit" Text="추가/편집(&amp;E)" />
+  <Control ControlPath="root\splitContainer2\" UniqueName="btnRemove" Text="제거(&amp;R)" />
+  <Control ControlPath="root" UniqueName="groupBox4" Text="타이머 허용 목록" />
+  <Control ControlPath="root\groupBox4" UniqueName="btnWhiteListRemove" Text="제거" />
+  <Control ControlPath="root\groupBox4" UniqueName="btnWhiteListAdd" Text="추가" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="전역 설정" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label8" Text="설정" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label11" Text="패널 불투명도 (%)" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label12" Text="패널 A" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label13" Text="패널 B" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label10" Text="표시 배율" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label14" Text="항상 위" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label15" Text="클릭 통과 사용" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label16" Text="표시" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="타이머별 사운드/메모/색상" />
+  <Control ControlPath="root\groupBox2" UniqueName="label7" Text="사용자 타이머 시작 소리" />
+  <Control ControlPath="root\groupBox2" UniqueName="label6" Text="사용자 툴팁" />
+  <Control ControlPath="root\groupBox2" UniqueName="label5" Text="사용자 경고 소리" />
+</ControlText>

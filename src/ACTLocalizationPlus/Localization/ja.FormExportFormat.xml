@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormExportFormat">
+  <Control ControlPath="root" UniqueName="groupBox4" Text="書式の例" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="書式要素の説明" />
+  <Control ControlPath="root\groupBox3" UniqueName="lblElementDescription" Text="要素が選択されていません" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="使用可能な書式要素" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="書式文字列" />
+  <Control ControlPath="root\groupBox1" UniqueName="label1" Text="戦闘者の並び順:" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnAddTextPreset" Text="テキスト形式プリセットを追加" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbPrefixAllied" Text="味方の統計を先頭に追加" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbAlliesOnly" Text="味方の戦闘者のみエクスポート" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox6" Text="味方の書式" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnEditAllyString" Text="直接編集" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnAppendAllies" Text="追加" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnRemoveAllies" Text="削除" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox5" Text="戦闘者ごとの書式" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnEditCombatantString" Text="直接編集" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnAppend" Text="追加" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnRemove" Text="削除" />
+</ControlText>

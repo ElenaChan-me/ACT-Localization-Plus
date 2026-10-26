@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormResistsDeathReport">
+  <Control ControlPath="root" UniqueName="lblDeathSelect" Text="사망 선택:" />
+  <Control ControlPath="root" UniqueName="btnHide" Text="닫기" />
+  <Control ControlPath="root" UniqueName="btnCopySelected" Text="선택 항목 복사" />
+  <Control ControlPath="root" UniqueName="btnCopyAll" Text="모두 복사" />
+</ControlText>

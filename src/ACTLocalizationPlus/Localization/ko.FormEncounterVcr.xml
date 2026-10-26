@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormEncounterVcr">
+  <Control ControlPath="root\panel2" UniqueName="lblStatus" Text="일시 정지됨" />
+  <Control ControlPath="root\panel1" UniqueName="cbLinkToEnc" Text="실시간 모드" />
+  <Control ControlPath="root\panel1" UniqueName="cbRadialDisplay" Text="전투원을 원형으로 표시" />
+  <Control ControlPath="root\panel1" UniqueName="cbOutlineTraces" Text="추적 포인터 테두리" />
+  <Control ControlPath="root\panel1" UniqueName="label2" Text="초" />
+  <Control ControlPath="root\panel1" UniqueName="label1" Text="그림자" />
+  <Control ControlPath="root\panel1" UniqueName="cbPersistantMobs" Text="비활성 몹 유지" />
+  <Control ControlPath="root\panel1" UniqueName="label3" Text="피해 임계값 K" />
+</ControlText>

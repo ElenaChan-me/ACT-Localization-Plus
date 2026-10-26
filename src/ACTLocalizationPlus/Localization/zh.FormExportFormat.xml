@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormExportFormat">
+  <Control ControlPath="root" UniqueName="groupBox4" Text="格式示例" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="格式元素说明" />
+  <Control ControlPath="root\groupBox3" UniqueName="lblElementDescription" Text="未选择元素" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="可用格式元素" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="格式字符串" />
+  <Control ControlPath="root\groupBox1" UniqueName="label1" Text="战斗者排序方式：" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnAddTextPreset" Text="添加文本格式预设" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbPrefixAllied" Text="前置队友统计" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbAlliesOnly" Text="仅导出队友战斗者" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox6" Text="队友格式" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnEditAllyString" Text="直接编辑" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnAppendAllies" Text="追加" />
+  <Control ControlPath="root\groupBox1\groupBox6" UniqueName="btnRemoveAllies" Text="移除" />
+  <Control ControlPath="root\groupBox1" UniqueName="groupBox5" Text="按战斗者格式" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnEditCombatantString" Text="直接编辑" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnAppend" Text="追加" />
+  <Control ControlPath="root\groupBox1\groupBox5" UniqueName="btnRemove" Text="移除" />
+</ControlText>

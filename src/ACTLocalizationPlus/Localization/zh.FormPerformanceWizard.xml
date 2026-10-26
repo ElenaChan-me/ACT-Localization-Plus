@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormPerformanceWizard">
+  <Control ControlPath="root\tc1" UniqueName="tabPage1" Text="步骤 1 " />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnCancel1" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="button2" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnTab1Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="label1" Text="本向导用于方便地访问影响 ACT CPU 占用的设置。每个部分都会详细说明一项设置，帮助您更好地平衡功能与性能。&#13;&#10;&#13;&#10;附注：启用的自定义触发器数量会直接影响正常运行时的解析速度（CPU 占用）。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage2" Text="步骤 2 " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label21" Text="此设置更改专用于自定义触发器解析的线程数。设为零时，自定义触发器将在原解析线程中解析。如果因自定义触发器数量过多导致正常日志解析跟不上，请增加到 1 以上。该值不应超过 CPU 核心数减去游戏可占满的核心数。&#13;&#10;&#13;&#10;例如，在 4 核 CPU 上玩 EQ2 时，该值不应超过 3。如果启用了 EQ2 的多核支持，2 会更稳妥。在双核 CPU 上玩时，0-1 是避免 ACT 拖慢 EQ2 的最佳值。&#13;&#10;&#13;&#10;（可在“选项 - 其他”页面的日志文件部分查看自定义触发器解析是否滞后。）" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label16" Text="自定义触发器解析最多可额外创建的线程数: " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnCancel2" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label2" Text="此设置更改正常日志解析的优先级。所有程序都有优先级，默认通常为“普通”，优先级决定分配给当前任务的 CPU 时间。如果设为“最低（空闲）”，日志解析只会使用其他程序未使用的 CPU 时间。&#13;&#10;&#13;&#10;要使此设置生效，必须重启 ACT 或关闭并重新打开当前日志。" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="lblLogPriority" Text="常规日志解析的 CPU 优先级:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage3" Text="步骤 3 " />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnCancel3" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="label3" Text="每个区域分支的第一个战斗可以是“All”条目，它会合并该区域所有其他战斗的数据。随着该区域内战斗的进行，All 条目会实时更新。All 条目与合并该区域所有战斗后的结果完全相同。&#13;&#10;&#13;&#10;与默认选项相比，禁用此选项可减少略多于 10% 的内存和 CPU 占用。" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="cbZoneAllListing" Text="生成包含区域内所有单独战斗数据的“All”战斗。（不追溯）" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage4" Text="步骤 4 " />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnCancel4" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="label4" Text="勾选后，每个战斗者下只有标记为 (Ref)（参考）的伤害类型条目会被完整填充。“Melee (Out)”将只显示 All（crush/slash 的合计），而不是 All、crush 和 slash。由于 (Ref) 标记，crush 和 slash 仍可在“All Outgoing (Ref)”下找到。&#13;&#10;&#13;&#10;与默认设置相比，启用此选项可减少略低于 10% 的 CPU 占用和略高于 10% 的内存占用。取消勾选时，所有条目都会按其逻辑列表填充。" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="cbRestrictToAll" Text="DamageType 分类仅填充“All”条目（标记 (Ref) 的除外）。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage5" Text="步骤 5 " />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnCancel5" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label6" Text="这些设置决定屏幕更新新信息的频率。对于主页表格更新，图表也可能以此频率更新。间隔越短，ACT 用于更新计算的 CPU 时间越多。&#13;&#10;&#13;&#10;如果 ACT 已最小化或勾选了“禁用表格自动刷新”，则无论这些设置如何，主页表格/图表都不会更新。如果未启用迷你解析窗口，更改迷你解析设置不会影响 CPU 占用（因为它不会更新）。" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label23" Text="秒。" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label22" Text="迷你解析窗口更新间隔:" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label5" Text="每 N 秒更新表格。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage6" Text="步骤 6 " />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnCancel6" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="label7" Text="更改主战斗图表的生成方式。&#13;&#10;- 简单方式只显示当前排序列不同数值的条形图。并非所有列都能显示条形图，但生成所需的 CPU 时间总是相对较少。&#13;&#10;- 高级图表方式会显示每个人按时间段划分的 DPS 趋势折线图。其计算时间比整场战斗的 DPS 要多得多。" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphSimple" Text="以简单条形图显示当前排序。" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphAdv" Text="高级 DPS 时间曲线图。(占用 CPU)" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage7" Text="步骤 7 " />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnCancel7" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label8" Text="此设置更改 DPS 趋势图（高级战斗图表和战斗者图表）生成的优先级。所有程序都有优先级，默认通常为“普通”，优先级决定分配给当前任务的 CPU 时间。如果设为“最低（空闲）”，图表生成只会使用其他程序未使用的 CPU 时间。如果 EQ2 正在运行，这几乎为零。“普通”优先级会为 ACT 和其他任务（如 EQ2）分配相同的 CPU 时间。&#13;&#10;&#13;&#10;“高于普通”（使用高级战斗图表时不推荐）会使图表生成的优先级高于大多数其他程序，可能导致 EQ2 明显卡顿或短暂冻结。图表生成期间 ACT 的界面也可能无响应。&#13;&#10;&#13;&#10;此设置也会影响 EQ2 伪 HTML（及自动 ODBC）导出。如果发现 HTML 导出无法在下一场战斗结束并需要导出前完成，可以考虑提高此设置。" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label11" Text="图表生成的 CPU 优先级:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage9" Text="步骤 8" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnCancel8" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Back" Text="&lt; 上一步" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Next" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="cbRecordLogs" Text="解析时记录所有日志行。（“查看日志”右键菜单选项）" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="label20" Text="勾选后，ACT 将记录战斗期间出现的所有日志行。之后可以右键单击战斗，选择“查看日志”来查看/搜索这些日志。&#13;&#10;&#13;&#10;与默认设置相比，禁用此选项可减少略低于 45% 的内存占用。导出的 ACT 文件会保留这些记录的日志。" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage8" Text="完成 " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label25" Text="步骤 8：记录战斗日志" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2A" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label12" Text="之后" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2B" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label10" Text="之前" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label19" Text="步骤 7：图表/HTML 优先级" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label18" Text="步骤 6：主战斗图表" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label17" Text="步骤 5：表格数据更新" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label15" Text="步骤 4：仅填充 All (Ref)" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label14" Text="步骤 3：生成“All”战斗" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label13" Text="步骤 2：日志解析" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label9" Text="步骤 1： " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnOk" Text="确定" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnCancel" Text="取消" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="button5" Text="下一步 &gt;" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnTab9Back" Text="&lt; 上一步" />
+</ControlText>

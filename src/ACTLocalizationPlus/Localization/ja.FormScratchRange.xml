@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormScratchRange">
+  <Control ControlPath="root" UniqueName="groupBox2" Text="時間範囲の入力" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label1" Text="範囲開始" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label2" Text="範囲終了" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label3" Text="タイムコード (他のウィンドウとコピー/貼り付け)" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnPasteCodes" Text="貼り付け" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnCopyCodes" Text="コピー" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="時間範囲をずらす" />
+  <Control ControlPath="root\groupBox1" UniqueName="label5" Text="終了" />
+  <Control ControlPath="root\groupBox1" UniqueName="label4" Text="開始" />
+</ControlText>

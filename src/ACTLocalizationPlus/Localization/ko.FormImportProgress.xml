@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormImportProgress">
+  <Control ControlPath="root" UniqueName="gbPov" Text="시점 선택" />
+  <Control ControlPath="root\gbPov" UniqueName="btnOk" Text="위 설정 사용" />
+  <Control ControlPath="root\gbPov" UniqueName="label1" Text="캐릭터 이름:" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="배치 통계" />
+  <Control ControlPath="root\groupBox3" UniqueName="lblLabels2" Text="소요 시간:&#10;읽은 줄:&#10;LPS:&#10;읽은 문자:&#10;CPS:&#10;" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="파일 통계" />
+  <Control ControlPath="root\groupBox2" UniqueName="lblLabels" Text="소요 시간:&#10;읽은 줄:&#10;LPS:&#10;읽은 문자:&#10;CPS:" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="진행 상황" />
+  <Control ControlPath="root\groupBox1" UniqueName="lblFileProgress" Text="진행률: 0%" />
+  <Control ControlPath="root\groupBox1" UniqueName="lblBatchCount" Text="배치 0 / 0" />
+  <Control ControlPath="root\groupBox4" UniqueName="btnClose" Text="닫기" />
+</ControlText>

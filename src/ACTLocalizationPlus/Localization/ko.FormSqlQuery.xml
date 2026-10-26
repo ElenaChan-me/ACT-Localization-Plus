@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormSqlQuery">
+  <Control ControlPath="root\panel1" UniqueName="btnClearText" Text="모두 지우기" />
+</ControlText>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormEncounterVcr">
+  <Control ControlPath="root\panel2" UniqueName="lblStatus" Text="一時停止" />
+  <Control ControlPath="root\panel1" UniqueName="cbLinkToEnc" Text="リアルタイムモード" />
+  <Control ControlPath="root\panel1" UniqueName="cbRadialDisplay" Text="戦闘者を円形に表示" />
+  <Control ControlPath="root\panel1" UniqueName="cbOutlineTraces" Text="トレースポインターの輪郭" />
+  <Control ControlPath="root\panel1" UniqueName="label2" Text="秒" />
+  <Control ControlPath="root\panel1" UniqueName="label1" Text="影" />
+  <Control ControlPath="root\panel1" UniqueName="cbPersistantMobs" Text="非アクティブな敵を残す" />
+  <Control ControlPath="root\panel1" UniqueName="label3" Text="ダメージしきい値 K" />
+</ControlText>

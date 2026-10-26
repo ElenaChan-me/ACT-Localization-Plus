@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormSpellRecastCalc">
+  <Control ControlPath="root" UniqueName="cbUseRecastCalcs" Text="Recast AAを考慮して再計算" />
+  <Control ControlPath="root" UniqueName="cbRestrictShortDelays" Text="12～120秒の間隔を使用" />
+  <Control ControlPath="root" UniqueName="btnSendToTimers" Text="タイマーへ送る" />
+  <Control ControlPath="root" UniqueName="btnClose" Text="閉じる" />
+</ControlText>

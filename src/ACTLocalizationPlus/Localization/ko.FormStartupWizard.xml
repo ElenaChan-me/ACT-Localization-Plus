@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormStartupWizard">
+  <Control ControlPath="root" UniqueName="btnClose" Text="닫기" />
+  <Control ControlPath="root" UniqueName="btnBack" Text="&lt; 이전" />
+  <Control ControlPath="root" UniqueName="btnNext" Text="다음 &gt;" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage1" Text="시작" />
+  <Control ControlPath="root\tabControl1\tabPage1" UniqueName="label1" Text="이 마법사는 분석 플러그인 선택, 업데이트 설정, 로그 파일 선택을 도와줍니다." />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage4" Text="분석 플러그인" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label8" Text="플레이 중인 게임에 맞는 플러그인을 선택했는지 확인하십시오.  (빨간 굵은 글씨로 표시)" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label7" Text="ACT 자체에는 게임 로그 파일을 분석하는 기능이 없습니다.  게임별 로그 파일을 분석하려면 외부 플러그인을 사용해야 합니다.  드롭다운 목록에서 플러그인을 선택하고 해당 버튼으로 활성화하십시오. 분석 플러그인은 한 번에 하나만 활성화하십시오." />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="btnUsePlugin" Text="플러그인 다운로드/활성화" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage2" Text="로그 파일" />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="label3" Text="캐릭터를 바꿀 때마다 ACT가 다른 로그 파일이 사용되는 것을 감지해 자동으로 전환할 수 있습니다." />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="cbAutoLogSwitch" Text="최근 변경된 로그 파일 자동 불러오기" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage3" Text="시작 설정" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label6" Text="시작, 종료 또는 캐릭터 전환 시 마지막으로 열린 로그 파일이 지정한 크기보다 크면 ACT가 파일 이름 변경을 시도합니다.  관리자 권한이 필요할 수 있으며, 현재 기록 중인 파일에는 동작하지 않습니다.&#13;&#10;&#13;&#10;이 작업은 오래된 파일을 가져오거나 텍스트 편집기로 열기 편하게 하기 위한 것입니다.  이 설정을 변경해도 실시간 성능에는 영향이 없습니다." />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label5" Text="MB.  (0이면 사용 안 함)" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label4" Text="로그 파일 분할 주기" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label2" Text="활성화하면 ACT와 일부 플러그인이 시작할 때마다 새 버전을 확인합니다.  수정 사항/추가 기능을 최신으로 유지하려면 활성화를 권장합니다.  (인터넷 연결 필요)" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="cbAutoVerCheck" Text="자동 버전 확인" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage5" Text="색상/테마" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark2" Text="어두운 샘플 색상 2 적용" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark" Text="어두운 샘플 색상 적용" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnResetColors" Text="모든 색상 초기화" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="label9" Text="Microsoft WinForms는 앱별 테마를 제공하지 않지만 일부 색상은 변경할 수 있습니다.  변경 가능한 색상은 설정 탭의 색상 및 글꼴 설정, 메인 사용자 인터페이스 페이지에 있습니다.  모든 사용자 지정을 초기화하거나 더 어두운 테마용 샘플 색상을 적용할 수도 있습니다.&#13;&#10;&#13;&#10;일부 컨트롤의 특정 부분은 색상을 바꿀 수 없으며 항상 시스템 정의 색상으로 표시됩니다.&#13;&#10;&#13;&#10;일부 색상은 ACT를 다시 시작해야 제대로 보일 수 있습니다." />
+</ControlText>

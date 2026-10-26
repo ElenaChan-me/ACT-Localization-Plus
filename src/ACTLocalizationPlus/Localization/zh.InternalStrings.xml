@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='utf-8'?>
+<InternalStrings>
+  <string key="btnFeedbackSubmit-Text2" value="请重启后再提交。" />
+  <string key="contextMenu-gridAppend" value="追加 &quot;, {0}&quot;" />
+  <string key="contextMenu-gridAppendLine" value="追加 &quot;&lt;newline&gt;&#10;{0}&quot;" />
+  <string key="contextMenu-gridCopy" value="复制 &quot;{0}&quot;" />
+  <string key="exportFormattingDesc-critheal%" value="治疗的暴击率。" />
+  <string key="exportFormattingDesc-critheals" value="暴击的治疗次数。" />
+  <string key="exportFormattingDesc-crithit%" value="伤害攻击的暴击率。" />
+  <string key="exportFormattingDesc-crithits" value="暴击的伤害攻击次数。" />
+  <string key="exportFormattingDesc-cures" value="该战斗者进行净化或驱散的总次数" />
+  <string key="exportFormattingDesc-custom" value="追加前请先在上方文本框中输入自定义文本。" />
+  <string key="exportFormattingDesc-damage" value="自动攻击、法术、CA 等对其他战斗者造成的伤害量。" />
+  <string key="exportFormattingDesc-damage%" value="该值表示本场战斗中该战斗者在所有队友伤害中所占的百分比。" />
+  <string key="exportFormattingDesc-damagetaken" value="该战斗者承受的伤害总量。" />
+  <string key="exportFormattingDesc-deaths" value="该角色被他人击杀的总次数。" />
+  <string key="exportFormattingDesc-dps" value="战斗者的伤害总量除以其个人时长，格式为 12.34" />
+  <string key="exportFormattingDesc-DPS" value="战斗者的伤害总量除以其个人时长，格式为 12" />
+  <string key="exportFormattingDesc-duration" value="战斗者或战斗的时长，以 mm:ss 显示" />
+  <string key="exportFormattingDesc-DURATION" value="战斗者或战斗的时长，以整秒显示。" />
+  <string key="exportFormattingDesc-extdps" value="战斗者的伤害总量除以战斗时长，格式为 12.34 -- 比 DPS 更常用" />
+  <string key="exportFormattingDesc-EXTDPS" value="战斗者的伤害总量除以战斗时长，格式为 12 -- 比 DPS 更常用" />
+  <string key="exportFormattingDesc-exthps" value="战斗者的治疗总量除以战斗时长，格式为 12.34" />
+  <string key="exportFormattingDesc-EXTHPS" value="战斗者的治疗总量除以战斗时长，格式为 12" />
+  <string key="exportFormattingDesc-healed" value="该战斗者产生的所有治疗、护盾等的数值总和。" />
+  <string key="exportFormattingDesc-healed%" value="该值表示本场战斗中该战斗者在所有队友治疗中所占的百分比。" />
+  <string key="exportFormattingDesc-heals" value="该战斗者的治疗总次数。" />
+  <string key="exportFormattingDesc-healstaken" value="该战斗者承受的治疗总量。" />
+  <string key="exportFormattingDesc-hitfailed" value="除未命中以外的所有失败攻击。包括抵抗、反射、格挡、闪避等。" />
+  <string key="exportFormattingDesc-hits" value="造成伤害的攻击次数，例如成功造成伤害的法术。" />
+  <string key="exportFormattingDesc-kills" value="该角色完成击杀的总次数。" />
+  <string key="exportFormattingDesc-maxheal" value="单次最高治疗量，格式为 [Combatant-]SkillName-Healing#" />
+  <string key="exportFormattingDesc-MAXHEAL" value="单次最高治疗量，格式为 [Combatant-]Healing#" />
+  <string key="exportFormattingDesc-maxhealward" value="单次最高治疗/护盾量，格式为 [Combatant-]SkillName-Healing#" />
+  <string key="exportFormattingDesc-MAXHEALWARD" value="单次最高治疗/护盾量，格式为 [Combatant-]Healing#" />
+  <string key="exportFormattingDesc-maxhit" value="单次最高伤害，格式为 [Combatant-]SkillName-Damage#" />
+  <string key="exportFormattingDesc-MAXHIT" value="单次最高伤害，格式为 [Combatant-]Damage#" />
+  <string key="exportFormattingDesc-misses" value="产生未命中信息的自动攻击或 CA 次数。" />
+  <string key="exportFormattingDesc-name" value="战斗者名称。" />
+  <string key="exportFormattingDesc-NAME" value="战斗者名称截取冒号后指定的字符数，如：&quot;NAME:5&quot;" />
+  <string key="exportFormattingDesc-NAME10" value="战斗者名称，最多显示 10 个字符。" />
+  <string key="exportFormattingDesc-NAME11" value="战斗者名称，最多显示 11 个字符。" />
+  <string key="exportFormattingDesc-NAME12" value="战斗者名称，最多显示 12 个字符。" />
+  <string key="exportFormattingDesc-NAME13" value="战斗者名称，最多显示 13 个字符。" />
+  <string key="exportFormattingDesc-NAME14" value="战斗者名称，最多显示 14 个字符。" />
+  <string key="exportFormattingDesc-NAME15" value="战斗者名称，最多显示 15 个字符。" />
+  <string key="exportFormattingDesc-NAME3" value="战斗者名称，最多显示 3 个字符。" />
+  <string key="exportFormattingDesc-NAME4" value="战斗者名称，最多显示 4 个字符。" />
+  <string key="exportFormattingDesc-NAME5" value="战斗者名称，最多显示 5 个字符。" />
+  <string key="exportFormattingDesc-NAME6" value="战斗者名称，最多显示 6 个字符。" />
+  <string key="exportFormattingDesc-NAME7" value="战斗者名称，最多显示 7 个字符。" />
+  <string key="exportFormattingDesc-NAME8" value="战斗者名称，最多显示 8 个字符。" />
+  <string key="exportFormattingDesc-NAME9" value="战斗者名称，最多显示 9 个字符。" />
+  <string key="exportFormattingDesc-newline" value="此元素之后的格式将显示在新的一行。" />
+  <string key="exportFormattingDesc-powerdrain" value="该战斗者从他人吸取的能量。" />
+  <string key="exportFormattingDesc-powerheal" value="该战斗者为他人恢复的能量。" />
+  <string key="exportFormattingDesc-swings" value="攻击尝试次数。包括所有自动攻击和技能，也包括被抵抗而未造成伤害的技能。" />
+  <string key="exportFormattingDesc-tab" value="此元素之后的格式将以相对列的方式排列。(格式示例无法正确显示)" />
+  <string key="exportFormattingDesc-threatdelta" value="相对于零的直接仇恨输出量。" />
+  <string key="exportFormattingDesc-threatstr" value="增加/减少的直接仇恨输出量。" />
+  <string key="exportFormattingDesc-title" value="已结束战斗的标题。仅可用于队友格式。" />
+  <string key="exportFormattingDesc-tohit" value="命中次数与出手次数的百分比，格式为 12.34" />
+  <string key="exportFormattingDesc-TOHIT" value="命中次数与出手次数的百分比，格式为 12" />
+  <string key="exportFormattingLabel-critheal%" value="治疗暴击率" />
+  <string key="exportFormattingLabel-critheals" value="治疗暴击次数" />
+  <string key="exportFormattingLabel-crithit%" value="暴击率" />
+  <string key="exportFormattingLabel-crithits" value="暴击次数" />
+  <string key="exportFormattingLabel-cures" value="净化/驱散次数" />
+  <string key="exportFormattingLabel-custom" value="自定义文本" />
+  <string key="exportFormattingLabel-damage" value="伤害" />
+  <string key="exportFormattingLabel-damage%" value="伤害 %" />
+  <string key="exportFormattingLabel-damagetaken" value="承受伤害" />
+  <string key="exportFormattingLabel-deaths" value="死亡次数" />
+  <string key="exportFormattingLabel-DPS" value="简短 DPS" />
+  <string key="exportFormattingLabel-duration" value="持续时间" />
+  <string key="exportFormattingLabel-DURATION" value="简短时长" />
+  <string key="exportFormattingLabel-extdps" value="战斗 DPS" />
+  <string key="exportFormattingLabel-EXTDPS" value="简短战斗 DPS" />
+  <string key="exportFormattingLabel-exthps" value="战斗 HPS" />
+  <string key="exportFormattingLabel-EXTHPS" value="简短战斗 HPS" />
+  <string key="exportFormattingLabel-healed" value="治疗量" />
+  <string key="exportFormattingLabel-healed%" value="治疗量 %" />
+  <string key="exportFormattingLabel-heals" value="治疗次数" />
+  <string key="exportFormattingLabel-healstaken" value="承受治疗" />
+  <string key="exportFormattingLabel-hitfailed" value="其他回避" />
+  <string key="exportFormattingLabel-hits" value="命中" />
+  <string key="exportFormattingLabel-kills" value="击杀数" />
+  <string key="exportFormattingLabel-maxheal" value="最高治疗" />
+  <string key="exportFormattingLabel-MAXHEAL" value="简短最高治疗" />
+  <string key="exportFormattingLabel-maxhealward" value="最高治疗/护盾" />
+  <string key="exportFormattingLabel-MAXHEALWARD" value="简短最高治疗/护盾" />
+  <string key="exportFormattingLabel-maxhit" value="最高伤害" />
+  <string key="exportFormattingLabel-MAXHIT" value="简短最高伤害" />
+  <string key="exportFormattingLabel-misses" value="未命中次数" />
+  <string key="exportFormattingLabel-name" value="名称" />
+  <string key="exportFormattingLabel-NAME" value="简短名称" />
+  <string key="exportFormattingLabel-NAME10" value="名称 (10 字符)" />
+  <string key="exportFormattingLabel-NAME11" value="名称 (11 字符)" />
+  <string key="exportFormattingLabel-NAME12" value="名称 (12 字符)" />
+  <string key="exportFormattingLabel-NAME13" value="名称 (13 字符)" />
+  <string key="exportFormattingLabel-NAME14" value="名称 (14 字符)" />
+  <string key="exportFormattingLabel-NAME15" value="名称 (15 字符)" />
+  <string key="exportFormattingLabel-NAME3" value="名称 (3 字符)" />
+  <string key="exportFormattingLabel-NAME4" value="名称 (4 字符)" />
+  <string key="exportFormattingLabel-NAME5" value="名称 (5 字符)" />
+  <string key="exportFormattingLabel-NAME6" value="名称 (6 字符)" />
+  <string key="exportFormattingLabel-NAME7" value="名称 (7 字符)" />
+  <string key="exportFormattingLabel-NAME8" value="名称 (8 字符)" />
+  <string key="exportFormattingLabel-NAME9" value="名称 (9 字符)" />
+  <string key="exportFormattingLabel-newline" value="换行" />
+  <string key="exportFormattingLabel-powerdrain" value="能量吸取" />
+  <string key="exportFormattingLabel-powerheal" value="能量恢复" />
+  <string key="exportFormattingLabel-swings" value="出手次数（攻击）" />
+  <string key="exportFormattingLabel-tab" value="制表符" />
+  <string key="exportFormattingLabel-threatdelta" value="仇恨差值" />
+  <string key="exportFormattingLabel-threatstr" value="仇恨增加/减少" />
+  <string key="exportFormattingLabel-title" value="战斗标题" />
+  <string key="exportFormattingLabel-tohit" value="命中率 %" />
+  <string key="exportFormattingLabel-TOHIT" value="简短命中率 %" />
+  <string key="fileDialogFilter-actExport" value="ACT 二进制文件 (*.act)|*.act" />
+  <string key="fileDialogFilter-exportHtml" value="HTML 文件 (*.html)|*.html" />
+  <string key="fileDialogFilter-gameLogs" value="游戏日志文件|{0}|文本文件 (*.txt)|*.txt|日志文件 (*.log)|*.log|所有文件 (*.*)|*.*" />
+  <string key="fileDialogFilter-plugins" value="所有插件类型|*.exe;*.dll;*.cs;*.vb;|动态链接库 (*.dll)|*.dll|CSharp(C#) 源文件 (*.cs)|*.cs|Visual Basic.NET 源文件 (*.vb)|*.vb" />
+  <string key="fileDialogTitle-actExport" value="将战斗导出为数据文件" />
+  <string key="fileDialogTitle-exportHtml" value="将战斗导出为 HTML" />
+  <string key="fileDialogTitle-importHistoryNoLogMatch" value="打开包含 {0} {1} 至 {2} {3} 的日志文件" />
+  <string key="fileDialogTitle-importSettingsXml" value="从 XML 导入设置" />
+  <string key="fileDialogTitle-saveGraph" value="图表另存为..." />
+  <string key="fileDialogTitle-saveScreenshot" value="保存 ACT 窗口截图..." />
+  <string key="fileDialogTitle-saveTableImage" value="图表另存为..." />
+  <string key="fileDialogTitle-xmlEncounter" value="将战斗导出为 XML" />
+  <string key="graphAdv-toolTip" value="+{0} (平均 {1} 秒)" />
+  <string key="graphAttackTypes-noDataError" value="此排序方式没有可用数据。" />
+  <string key="graphCombatant-toolTip" value="+{0} (平均 {1:#,0} 秒)" />
+  <string key="graphEncText-noDataError" value="表格当前没有可绘制图表的数据..." />
+  <string key="graphEncText-noDataSortingError" value="没有可绘制图表的有效数据行...&#10;请尝试按其他列排序表格。" />
+  <string key="helpPanel-btnApplyDark" value="这将应用一些用于伪深色主题的初始颜色。为获得最佳效果，应用后请重启 ACT。 &#10;&#10;附：WinForms 在 Microsoft 提供的条件下永远不可能有很好的主题效果。" />
+  <string key="helpPanel-btnApplyDark2" value="这将应用一些用于伪深色主题的初始颜色。为获得最佳效果，应用后请重启 ACT。 &#10;&#10;附：WinForms 在 Microsoft 提供的条件下永远不可能有很好的主题效果。" />
+  <string key="helpPanel-btnExportUIBrowser" value="点击此按钮启动向导，可将 EQ2 的网页浏览器设置为 ACT 的战斗索引，并可选择解压一个带可折叠界面和控件的浏览器 UI 替代品，以最大化屏幕空间。" />
+  <string key="helpPanel-btnImportFile" value="要从日志文件导入战斗，请用选择器选择开始和结束日期，然后选择要解析的日志文件。" />
+  <string key="helpPanel-btnOdbcDropTables" value="对 ACT 使用的每个表执行 DROP 命令。这将删除所有表数据并从数据源中移除这些表。" />
+  <string key="helpPanel-btnOdbcTestConnection" value="将尝试登录连接字符串中指定的 ODBC 数据源。" />
+  <string key="helpPanel-btnOdbcValidateTables" value="确认 ODBC 数据源中存在所需的表且表中包含所需的列。如有缺失，ACT 将尝试创建或修改表。必须成功才能进行 SQL 导出。" />
+  <string key="helpPanel-btnResetAll" value="重置所有子页面中定义的颜色，需要重启 ACT。" />
+  <string key="helpPanel-btnResetColors" value="重置颜色/字体设置需要重启 ACT。" />
+  <string key="helpPanel-btnResetOdbcHacks" value="此按钮将删除所有 ODBC 修正规则，并替换为一组适用于各种数据源的已知规则，如 MSSQL、MS Access、Postgres..." />
+  <string key="helpPanel-cbAutoLoadLogs" value="ACT 每隔几秒检查已有日志是否有更新，并切换到当前正在使用的日志。(不会自动检查新文件)" />
+  <string key="helpPanel-cbBlockisHit" value="勾选后，报告未造成任何伤害的攻击仍会被视为命中。取消勾选时，只有造成伤害的攻击才被视为成功。" />
+  <string key="helpPanel-cbCullAll" value="创建新的区域列表时，ACT 将保留所列数量的区域“All”战斗，并清理较旧的战斗。" />
+  <string key="helpPanel-cbCullCount" value="战斗结束时，普通战斗将被清理至所列数量。适用于当前或先前任何区域的战斗，但不影响区域“All”战斗。" />
+  <string key="helpPanel-cbCullCountIgnoreNoAlly" value="没有队友、标记为“Encounter”的战斗在确定要削减的旧战斗数量时不计入。" />
+  <string key="helpPanel-cbCullNoAlly" value="战斗结束时，将移除所有标记为“Encounter”的战斗（最后一场除外）。" />
+  <string key="helpPanel-cbCullOther" value="创建新的区域列表时，ACT 将保留此数量的先前区域中的普通战斗。" />
+  <string key="helpPanel-cbCullTimer" value="战斗结束时，将移除超过此时限的所有战斗（区域“All”战斗除外）。" />
+  <string key="helpPanel-cbCurrentOdbc" value="战斗中，ACT 可以每隔几秒导出到 ODBC 数据源上名为 current_table 的临时表。每次导出时，该表都会被清空并重新填充以反映当前战斗。仅建议在与数据源连接速度很快时使用此选项。" />
+  <string key="helpPanel-cbDisableIncrementalCaching" value="禁用战斗表格和迷你解析导出的新增量缓存。仅在实时计算结果与导入的战斗不一致时使用。" />
+  <string key="helpPanel-cbDoubleBufferLV" value="勾选后，ACT 将尝试以最小重绘方式绘制主表格。WindowsXP 之前的 Windows 版本通常不具备此功能，可能导致意外结果。" />
+  <string key="helpPanel-cbEncSilenceCut" value="启用后，若在此秒数内没有记录到敌对行动，战斗时长将被缩短。此设置应低于上方的结束战斗空闲计时器。此设置不会使战斗时长超过最后一次敌对行动。" />
+  <string key="helpPanel-cbExFile" value="战斗结束时，此选项会将类似剪贴板导出的内容导出到宏文件。该文件导出不像剪贴板导出那样受 256 个字符的限制，但最多只能输出 16 行。导出创建后，可以使用以下命令显示结果:&#10;&#10;/do_file_commands act-export.txt&#10;&#10;可以创建 EQ2 宏来触发此命令。宏文件导出会尝试将数据制成表格以便查看。&#10;&#10;必须事先在下方选项中设置要显示导出内容的频道。如果频道前缀留空，除非“纯文本格式”选项为*每一行*都加上频道前缀，否则宏文件将无法正常工作。" />
+  <string key="helpPanel-cbExFileColumnAlign" value="启用后，文本导出将对齐为表格，每个单元格会填充至该列最长条目的长度。建议使用 {NAME10} 而不是 {name} 等文本格式，否则该列可能填充过多。" />
+  <string key="helpPanel-cbExGraph" value="勾选后，HTML 导出将包含主战斗图表。" />
+  <string key="helpPanel-cbExHTML" value="EQ2 内置了基于 FireFox 的网页浏览器，可用于在全屏状态下查看 ACT 导出的数据。主战斗表格将导出为 HTML，以便在 EQ2 HTML 窗口中查看。要打开 HTML 窗口，请输入: &quot;/browser&quot;" />
+  <string key="helpPanel-cbExHTMLFTP" value="勾选后，ACT 导出 EQ2 兼容的 HTML 文件时，会尝试将其上传到您指定的 FTP 服务器。使用前请务必测试设置。" />
+  <string key="helpPanel-cbExOdbc" value="战斗结束时自动通过 ODBC 进行 SQL 导出。&#10;&#10;要使用此功能，您需要连接数据源的 ODBC 驱动程序，并在连接字符串中填写远程主机信息。http://connectionstrings.com/ 可帮助您为特定 SQL 数据源编写连接字符串。" />
+  <string key="helpPanel-cbExportBeep" value="勾选后，任何导出到剪贴板的操作都会发出系统默认提示音。这可以很好地提示战斗已结束、有新数据可粘贴到 EQ2 中。" />
+  <string key="helpPanel-cbExportDurationWallTime" value="对于 duration/DURATION 等文本导出，持续时间通常按 EndTime-StartTime 计算。此设置允许在战斗中时，将日志文件的 LastEstimatedTime 作为战斗的 EndTime 用于持续时间文本导出。脱离战斗时，将始终使用战斗的 EndTime。" />
+  <string key="helpPanel-cbExportFilterSpace" value="勾选后，迷你解析窗口和剪贴板导出将排除名字中含有空格的战斗者。这会排除大多数怪物，如“a giant bat”或“King Drayek”，但不会排除“Anguis”或“Frostbite”。" />
+  <string key="helpPanel-cbExText" value="战斗结束后，该战斗的战斗者摘要将导出到剪贴板。这些摘要可以在 EQ2 中按 Ctrl-V 粘贴，并可在 常规选项 -&gt; 纯文本格式 -&gt; 剪贴板导出格式 中自定义。" />
+  <string key="helpPanel-cbFrameBorders" value="此设置会在 ACT 窗口边缘添加彩色面板，以遮盖选项卡控件固定的灰色边框。" />
+  <string key="helpPanel-cbGCollectOnClear" value="启用后，ACT 会在清除战斗时调用 GCCollect。这会使“清除战斗”按钮耗时更长，并且已知可能导致 ACT 完全卡死直到重启。仅当 ACT 长时间运行后从不释放内存时才使用此选项。" />
+  <string key="helpPanel-cbGermanMergeNames" value="启用后，具有语法变化的战斗者，例如: ruhiger Wachposten, ruhigen Wachpostens s, ruhigen Wachposten, ruhige Wachposten, ruhigen Wachposten en; 都将显示为同一战斗者。(以战斗中最先出现的为准)" />
+  <string key="helpPanel-cbGExpEnd" value="如果出现“You gain bonus experience for defeating the encounter!”，则视为战斗结束。&#10;(一秒内出现两次“You convert experience into achievement experience!”也会触发此判定。)" />
+  <string key="helpPanel-cbGraphSoloInc" value="取消勾选时，单个战斗者图表只显示造成伤害的 DPS 曲线。勾选后，还会生成承受伤害和承受治疗的 DPS 曲线。（生成所需的 CPU 时间会略有增加）" />
+  <string key="helpPanel-cbHtmlTimers" value="勾选后，ACT 将导出一个显示计时器窗口当前视图的 HTML 页面。计时器视图的尺寸与原窗口相同，请根据需要调整窗口大小。" />
+  <string key="helpPanel-cbIdleEnd" value="如果 N 秒内未观察到攻击等战斗行为，则视为战斗结束。" />
+  <string key="helpPanel-cbIdleTimerEnd" value="此选项以前默认不可设置。ACT 可以在内部计算未活动的秒数，而不必等待晚于最后一次战斗行为足够时间的日志时间戳。禁用时，ACT 仅根据时间戳结束战斗；如果没有解析到新的日志行，则在 EQ2 输出新的日志时间戳之前，战斗可能永远不会结束。启用时，计时器不会严格按照设定时间结束战斗，而是在其后两秒结束 (在没有日志时间戳的情况下)。" />
+  <string key="helpPanel-cbKillEnd" value="当队友战斗者击杀其他目标时，将视为战斗结束。" />
+  <string key="helpPanel-cbLcdRoute" value="连接 ACT Clipboard Sharer 后，使用此选项会将所有 LCD 数据传送到所连接计算机键盘上的 G15 LCD。这样即使在 EQ2 以外的计算机上运行 ACT，也能保留所有 LCD 功能。" />
+  <string key="helpPanel-cbLongEncDuration" value="以前仅使用计时结束战斗时，倒计时期间施放的治疗会影响战斗的总时长，进而影响 ExtDPS。如果取消勾选，最后一次战斗行动之后的治疗仍会被记录直到战斗结束，但不会影响战斗时长。" />
+  <string key="helpPanel-cbMiniClickThrough" value="启用后，鼠标操作不会影响迷你窗口。设置透明度后，既可以透过窗口看到后面的内容，也可以点击后面的东西。当然，在禁用点击穿透之前，无法用常规方式移动或关闭窗口。注意：可以右键单击主窗口的“显示迷你窗口”按钮切换此选项。" />
+  <string key="helpPanel-cbMiniColumnAlign" value="启用后，文本导出将对齐为表格，每个单元格会填充至该列最长条目的长度。对齐效果取决于所选字体。建议使用 {NAME10} 而不是 {name} 等文本格式，否则该列可能填充过多。" />
+  <string key="helpPanel-cbMultiDamageIsOne" value="启用后，具有多种伤害类型的攻击（如“300 crushing, 5 poison and 5 disease damage”）将显示为一次总攻击：300/5/5 crushing/poison/disease，内部记为 310。禁用时，每种伤害类型都会显示为单独的出手，即三次攻击：300 crushing; 5 poison; 5 disease。单次攻击显示为多次会影响 ToHit% 的计算。" />
+  <string key="helpPanel-cbOnlyGraphAllies" value="勾选后，简单战斗条形图只显示您的队友。" />
+  <string key="helpPanel-cbOriginalLoglineCustomTriggers" value="启用后，传递给自定义触发器的是原始日志行，而不是经插件修改或去除时间戳的版本。" />
+  <string key="helpPanel-cbOriginalLoglineViewLogs" value="启用后，“查看日志”中显示的是原始日志行，而不是经插件修改后的版本。" />
+  <string key="helpPanel-cbPetIsMaster" value="勾选后，宠物不会作为独立条目显示，而是作为其主人的技能显示。取消勾选时，宠物被视为单独的战斗者，拥有与主人无关的独立统计。&#10;此设置不追溯，不会合并或拆分已发生战斗中的宠物与主人。只有之后的战斗会受此设置影响。&#10;&#10;&#10;自 LU19 起 &lt;Purpose tags&gt; 显示在宠物名字下方而不在日志文件中，解析器无法自动识别宠物的主人。" />
+  <string key="helpPanel-cbRecalcWardedHits" value="启用后，紧随护盾吸收之后的无伤害命中或减伤命中将加上吸收量。Stoneskin 的无伤害命中无法重新计算。" />
+  <string key="helpPanel-cbRecordLogs" value="勾选后，ACT 将记录战斗期间出现的所有日志行。之后可以右键单击战斗，选择“查看日志”来查看/搜索这些日志。与默认设置相比，禁用此选项可减少略低于 45% 的内存占用。导出的 ACT 文件会保留这些记录的日志。" />
+  <string key="helpPanel-cbRestrictToAll" value="勾选后，每个战斗者下只有标记为 (Ref)（参考）的伤害类型条目会被完整填充。“Melee (Out)”将只显示 All（crush/slash 的合计），而不是 All、crush 和 slash。由于 (Ref) 标记，crush 和 slash 仍可在“All Outgoing (Ref)”下找到，只是列表会更拥挤。&#10;与默认设置相比，启用此选项可减少略低于 10% 的 CPU 占用和略高于 10% 的内存占用。取消勾选时，所有条目都会按其逻辑列表填充。" />
+  <string key="helpPanel-cbSExpEnd" value="如果出现“You gain experience!”，则视为战斗结束。&#10;(出现“You convert experience into achievement experience!”也会触发此判定。)" />
+  <string key="helpPanel-cbSqlSafeMode" value="在安全模式下，SQL 命令将逐条发送并检查服务器响应。否则命令将以每批 100 行发送，速度更快但更难调试。" />
+  <string key="helpPanel-cbSwarmIsMaster" value="启用后，&quot;Дух огня (персонажа)&quot;、&quot;Wässrige Horde des Character&quot; 等类似命名的宠物的攻击伤害将计入其主人，而不是作为独立的条目。承受的攻击*不会*重定向到主人的数据中。" />
+  <string key="helpPanel-cbUnblockFiles" value="通过浏览器下载的文件会带有文件属性标记，Windows 会阻止直接执行。此设置会扫描 ACT 尝试使用的文件和文件夹是否带有此标记，并提示解除。这对插件非常重要。" />
+  <string key="helpPanel-cbWebServerEnabled" value="ACT Web 界面在外观上与 EQ2 HTML 导出有些相似。不同的是，Web 界面不由中间 HTML 文件构成，而是在请求时生成 HTML。默认情况下，可以查看当前战斗表格、迷你窗口文本（支持多个预设）、技能计时器的自动刷新页面，以及可浏览 ACT 内存中所有战斗数据的页面。目前尚不支持基于这些数据的右键菜单报告，但可以通过插件扩展 Web 界面。" />
+  <string key="helpPanel-cbWebServerShowReq" value="启用后将显示所有 HTTP 请求。否则，页面中自动更新的部分或 .css/.js 文件等将被隐藏 (除非非常大)。一个对 '/timers' (始终显示) 的请求可能还会引发对 '/ACT.js'、'/ACT.css' 和 '/timers.body' (可选显示) 的请求。" />
+  <string key="helpPanel-cbWmpRequireInvoke" value="要求在 UI 线程上播放声音。如果 ACT 在播放声音时似乎卡死，请勿使用。" />
+  <string key="helpPanel-cbZoneAllListing" value="每个区域分支的第一个战斗可以是“All”条目，它会合并该区域所有其他战斗的数据。随着该区域内战斗的进行，All 条目会实时更新。All 条目与合并该区域所有战斗后的结果完全相同。&#10;&#10;与默认选项相比，禁用此选项可减少略多于 10% 的内存和 CPU 占用。" />
+  <string key="helpPanel-ccDGAllyText" value="标记为队友的战斗者名称的前景色。" />
+  <string key="helpPanel-ccDGPersonalBackcolor" value="主表格中包含您自己的战斗者所在行的背景色。" />
+  <string key="helpPanel-ccEncLabel1" value="所有敌人被击败的战斗所用的颜色。" />
+  <string key="helpPanel-ccEncLabel2" value="结果未知的战斗所用的颜色。" />
+  <string key="helpPanel-ccEncLabel3" value="所有队友被击败的战斗所用的颜色。" />
+  <string key="helpPanel-ColorRestart" value="更改这些颜色需要重新启动 ACT。" />
+  <string key="helpPanel-CurrentExports" value="勾选后将创建一个包含自动更新图表或表格的自定义 HTML 页面。页面会按用户指定的间隔自动刷新，提供近乎实时的战斗视图。" />
+  <string key="helpPanel-ddlGraphPriority" value="此设置更改图表生成的优先级。所有程序都有优先级，默认通常为“普通”，优先级决定分配给当前任务的 CPU 时间。如果设为“最低（空闲）”，图表生成只会使用其他程序未使用的 CPU 时间。如果 EQ2 正在运行，这几乎为零。“普通”优先级会为 ACT 和其他任务（如 EQ2）分配相同的 CPU 时间。“高于普通”（不推荐）会使图表生成的优先级高于大多数其他程序，可能导致 EQ2 明显卡顿或短暂冻结。图表生成期间 ACT 的界面也可能无响应。" />
+  <string key="helpPanel-ddlLanguage" value="将解析引擎更改为其他语言或仅技能计时器模式。" />
+  <string key="helpPanel-defaultText" value="将鼠标悬停在项目上以查看更详细的说明。" />
+  <string key="helpPanel-ExFTPPASV" value="如果您处于路由器之后或有多块网卡，可能需要使用被动模式传输。如果目标 FTP 服务器处于相同情况 (仅支持 PASV)，则必须使用主动模式。两台都需要 PASV 模式的机器无法建立 FTP 传输。" />
+  <string key="helpPanel-gbOdbcHacks" value="此部分包含的规则会在连接字符串匹配时修改发送到数据源的所有命令。可以使用“重置”按钮预先填入已知规则作为参考。" />
+  <string key="helpPanel-GraphSize" value="设置 HTML 导出和 EQ2 查看中图表的图片尺寸。" />
+  <string key="helpPanel-GraphType" value="选择主战斗显示的图表方式。" />
+  <string key="helpPanel-invertLuminosity" value="这些设置会反转插件可能定义的颜色（如主表格单元格颜色）的亮度。纯灰色反转后保持不变，但您可以对反转值应用偏移来整体调亮/调暗颜色以及增减饱和度。这些设置不会改变上方明确定义的颜色。" />
+  <string key="helpPanel-IO_ExportAct" value="此功能将导出一个压缩的二进制文件，之后可由 ACT 导入以重现战斗。如果要将多场战斗导出为单个文件，请使用主页的“显示复选框”功能。" />
+  <string key="helpPanel-IO_ExportHtml" value="此功能将所选战斗导出为单个静态 HTML 文件，由 JavaScript 和 CSS 控制。" />
+  <string key="helpPanel-IO_ImportAct" value="此功能专门用于导入由 ACT 导出的 *.act 文件。" />
+  <string key="helpPanel-IO_ImportClip" value="点击“导入剪贴板”按钮，将剪贴板内容按日志文件的方式导入。" />
+  <string key="helpPanel-IO_ImportLog" value="选择要解析的文件之前，请先选择起点和终点。" />
+  <string key="helpPanel-IO_XmlFile" value="此功能应用户要求添加。我也不知道它有什么实际用途。" />
+  <string key="helpPanel-lblExFileLines" value="ACT 创建的宏文件最多只包含此数量的命令。注意: EQ2 在服务器端有过滤机制以防止公共频道刷屏。无论如何，短时间内在公共频道中都不能超过 16 条聊天命令。" />
+  <string key="helpPanel-lblExportSound" value="ACT 手动或在战斗结束后立即创建剪贴板导出、宏导出等时播放的声音。" />
+  <string key="helpPanel-lblSplitFile" value="只要文件未被其他程序锁定，ACT 会在打开或关闭文件时尝试用日期重命名该文件。(超过此大小时)" />
+  <string key="helpPanel-lblWebServerPort" value="接受 HTTP 请求的监听端口。如果使用非标准端口（80），客户端必须在 URL 中加上端口，例如：http://127.0.0.1:80/" />
+  <string key="helpPanel-LogPriority" value="此设置更改正常日志解析的优先级。所有程序都有优先级，默认通常为“普通”，优先级决定分配给当前任务的 CPU 时间。如果设为“最低（空闲）”，日志解析只会使用其他程序未使用的 CPU 时间。如果 EQ2 正在运行，这几乎为零。“普通”优先级会为 ACT 和其他任务（如 EQ2）分配相同的 CPU 时间。&#10;&#10;如果 EQ2 运行时 ACT 似乎跟不上日志解析，可以考虑将其设为“高于普通”。&#10;&#10;要使此设置生效，必须重启 ACT 或关闭并重新打开当前日志。" />
+  <string key="helpPanel-Options_MiniParse" value="迷你解析窗口是显示当前战斗的小型纯文本窗口。点击角落的红色按钮也可显示图表。要更改显示的信息，请为新的导出格式创建预设。" />
+  <string key="helpPanel-Options_Odbc" value="此部分用于将 ACT 数据导出到 SQL 数据源。ACT 使用 ODBC 连接这些数据源，本机必须安装对应类型数据源的 ODBC 驱动程序才能通信。" />
+  <string key="helpPanel-Options_SelectiveParsing" value="选择性解析用于限制显示的数据。左侧列表决定哪些战斗者用于数据/导出。" />
+  <string key="helpPanel-Options_Sound" value="此面板用于配置 ACT 在各种事件下发出的声音。命令声音是指您在游戏中输入命令与 ACT 交互时的声音，如“/act end”或“/e end”。其他声音是指 ACT 为其他目的提醒您时的声音，可能是更新提示，甚至是播放不存在的声音时的错误。&#10;&#10;下方的单选按钮用于更改 ACT 播放声音所用的 API。Windows API 非常基础，用于兼容。大多数情况下 WMP 已足够。" />
+  <string key="helpPanel-Options_TableAttackType" value="这些列会在点击“crush”或“Smite”等树状视图节点时出现在主页表格中。该表格列出所选技能的每一次战斗行动。" />
+  <string key="helpPanel-Options_TableCombatant" value="这些列会在点击“PlayerName”或“MobName”等树状视图节点时出现在主页表格中。该表格列出该战斗者的所有伤害类型分类。" />
+  <string key="helpPanel-Options_TableDamageType" value="这些列会在点击“Outgoing Damage”或“Healed”等树状视图节点时出现在主页表格中。该表格列出所选伤害类型分类的所有技能名称。" />
+  <string key="helpPanel-Options_TableEnc" value="这些列会在点击“Mobname - [1:23] 12:01:02 PM”等树状视图节点时出现在主页表格中。该表格列出所选战斗的所有战斗者。" />
+  <string key="helpPanel-Options_TableZone" value="这些列会在点击“Import/Merge [1]”或“ZoneName [3] 12:00:00 PM”等树状视图节点时出现在主页表格中。该表格列出该节点（区域）的所有战斗。" />
+  <string key="helpPanel-rbSParseFull" value="完全选择性解析仅应在附近有其他小队的小规模队伍中使用。战斗开始时，设置会锁定到该战斗。使用此功能可能导致 ExtDPS 计算结果与其他 ACT 或其他解析器不同，具体取决于它们使用的限制选项。战斗发生后，除非重新解析该战斗，否则无法添加或移除战斗者。完全选择性解析会造成数据缺失，在使用 ACT 分析战斗或统计时不应使用，因为它无法显示战斗的完整“全貌”。" />
+  <string key="helpPanel-SampleType" value="这些设置决定 X 轴上 DPS 采样点的数量。如果战斗时长为一分钟，并选择了固定 DPS 采样数（6），X 轴上将有六个间隔 10 秒的采样点。如果选择每 15 秒采样一次，则会有四个间隔 15 秒的 DPS 采样点。固定数量可使图表无论战斗多长都保持易读，固定采样时长则便于与其他时间轴比较。" />
+  <string key="helpPanel-soundTts-correction" value="使用正则表达式查找 TTS 字符串中的部分内容并替换为指定的修正文本。主要用于修正发音。" />
+  <string key="helpPanel-soundTts-lblTtsMethod" value="当前使用的 TTS 引擎方式" />
+  <string key="helpPanel-soundTts-linkTtsCpl" value="打开经典的文本转语音控制面板。Windows 10/11 的设置应用仅影响 UWP 应用，不影响 ACT。" />
+  <string key="helpPanel-soundTts-rbTtsSapiDirect" value="直接使用 Windows SAPI。与另一设置及其他 WAV 声音文件相比，音量曲线会有所不同。" />
+  <string key="helpPanel-soundTts-rbTtsSapiWav" value="使用 Windows SAPI 生成的临时 WAV 文件。此方式最初是为在运行高 CPU 负载游戏时无法稳定播放 TTS 的低配置机器设计的。" />
+  <string key="helpPanel-soundTts-TestTts" value="输入文本，使用当前规则和引擎朗读" />
+  <string key="helpPanel-tbActTitle" value="此设置更改 ACT 主窗口的标题文本。{0} 替换为导入/导出指示，{1} 替换为战斗指示，{2} 替换为日志活动指示，{3} 替换为当前区域名称，{4} 替换为当前日志时间，{5} 替换为当前估算时间。&#10;&#10;默认：{0}{1}Advanced Combat Tracker{2} - {3} - 日志时间：{4}（估计 {5}）" />
+  <string key="helpPanel-tbCharName" value="如果已打开日志文件，则忽略此设置；但如果仅将 ACT 用作离线解析器，则会使用此设置填入您的名称，而不是使用“YOU”。" />
+  <string key="helpPanel-tbConvertXml" value="您可以将 ACT 配置文件的一部分粘贴到此文本框中，并将其转换为片段。其他人复制此片段并点击角落的 [Import XML] 按钮即可导入其中包含的配置设置。" />
+  <string key="helpPanel-tbExFileName" value="导出文件名可以是相对于游戏文件夹的相对路径，也可以是绝对路径。" />
+  <string key="helpPanel-TextFormatAddPreset" value="将这些格式选项保存到下拉列表。" />
+  <string key="helpPanel-TextFormatAllies" value="队友格式字符串。(首行格式)" />
+  <string key="helpPanel-TextFormatAlliesOnly" value="勾选后，导出中只包含在战斗中被确认为队友的战斗者，包括为您或其他已确认的队友治疗、或攻击您的敌人的人。如果战斗中没有任何队友，将导出所有战斗者。" />
+  <string key="helpPanel-TextFormatAlliesStats" value="勾选后，队友的合计数据将添加到普通导出的开头。" />
+  <string key="helpPanel-TextFormatPlayers" value="每位玩家的格式字符串。（重复格式）" />
+  <string key="helpPanel-TextFormatPreset" value="用已保存的预设替换当前格式。" />
+  <string key="helpPanel-TextFormatRemovePreset" value="从下拉列表中移除当前选择的格式。" />
+  <string key="helpPanel-TextFormatSort" value="该格式选项使用的排序方式。" />
+  <string key="helpPanel-xmlShare" value="此部分用于导入自定义触发器或技能计时器等小型设置片段。这些片段通常从游戏聊天中解析，也可以从其他地方复制粘贴。&#10;&#10;当在聊天中检测到 XML 片段时，默认会在第三个（黄色）列表框中显示角色名和数据类型。您可以点击该数据在右侧文本框中查看，然后导入或删除该条目。&#10;&#10;如果希望始终导入某个角色的数据，可在黄色列表框上方的文本框中输入其名字并点击上方的“添加”按钮。同样也有一个始终忽略其数据的角色列表。可以取消勾选来临时禁用某个接受/拒绝条目，也可以直接使用任一列表的“移除”按钮。&#10;&#10;您也可能遇到其他来源为此功能制作的 XML 片段。无需让别人通过私聊发送，可以直接将其粘贴到“导入/删除”按钮上方的大文本框中。它会作为自定义条目显示，您可以导入或删除它。&#10;&#10;要用自己的数据创建片段，请进入“技能计时器”选项页或“自定义触发器”页，在列表中右键单击条目并选择“复制为可共享 XML”。如果在 EQ2 聊天中发送，XML 片段必须单独发送，不能包含其他聊天内容或空格。" />
+  <string key="helpPanel-xmlSubscription" value="此部分用于与外部 ACT 设置保持同步。XML 配置文件可以放在网上，ACT 可在启动时或按需检查这些文件是否有更新（基于时间戳）。ACT 可以设置为自动导入或通知用户这些更新。&#10;&#10;上方的列表框包含已在关注的外部文件 URL。要添加条目，请在对应文本框中输入 URL，选择更新选项并点击“添加/编辑”。更新选项包括：检查但忽略更新的文件、通过消息框通知更新，或检测到更新时自动导入外部 XML 文件。“查询 URL”按钮会列出该 URL 的大致内容（如有效）及其标记为已更改的时间。“在浏览器中查看”链接会在默认浏览器中打开该 URL。&#10;&#10;“立即检查”按钮会按需检查所有 URL 是否有更改，并勾选已更新的文件。如果 URL 已更新但设置为忽略，则会以灰色勾选标记。您可以点击条目手动勾选或取消勾选。&#10;&#10;“更新已勾选项”按钮会导入所有正常勾选的条目，无论是否检测到更改。" />
+  <string key="htmlText-currentEncounter" value="当前战斗" />
+  <string key="htmlText-lastEnc" value="上次战斗" />
+  <string key="htmlText-lastUpdated" value="最后更新: " />
+  <string key="htmlText-return" value="返回索引" />
+  <string key="htmlText-timers" value="计时器窗口" />
+  <string key="ioExport" value="导出战斗" />
+  <string key="ioExportAct" value="导出为 *.act 文件" />
+  <string key="ioExportHtml" value="导出为 HTML 页面" />
+  <string key="ioImport" value="导入战斗" />
+  <string key="ioImportAct" value="导入 *.act 文件" />
+  <string key="ioImportClip" value="导入剪贴板" />
+  <string key="ioImportLog" value="导入日志文件" />
+  <string key="ioOdbc" value="导出到 SQL/ODBC" />
+  <string key="ioXmlFile" value="导出为 XML 文件" />
+  <string key="messageBox-avoidanceCopyDetail" value="&#10;&#10;是否要将其复制到 Windows 剪贴板？" />
+  <string key="messageBox-clipboardNoText" value="剪贴板内容无法转换为纯文本数据。" />
+  <string key="messageBox-clipConnectError" value="&#10;&#10;指定的计算机是否正在运行 ACT Clipboard Sharer 程序？&#10;&#10;如果游戏和 ACT 在同一台电脑上运行，请勿使用此功能" />
+  <string key="messageBox-cullHistory" value="已删除 {0} 条记录（共 {1} 条）。" />
+  <string key="messageBox-duplicatePlugin" value="插件 {0} 似乎被加载了多次。" />
+  <string key="messageBox-eq2FolderWizard" value="检测到的 EQ2 路径为:&#10;{0}&#10;&#10;是否正确？" />
+  <string key="messageBox-eq2NotFound" value="此文件夹中未找到 EverQuest2.exe。如果使用的是国际版，可能需要选择 'LP_REGION_??_??' 文件夹。" />
+  <string key="messageBox-exportNoEncounters" value="请在树状视图中选择一场战斗。" />
+  <string key="messageBox-exportNoOptions" value="请选择要在导出中显示的内容。" />
+  <string key="messageBox-feedbackNoComments" value="您没有输入任何意见。" />
+  <string key="messageBox-feedbackNoEmail" value="您没有输入电子邮件地址。如果需要技术支持或帮助，将无法联系到您。&#10;如果您报告的是罕见错误，没有您提供的更多信息可能无法修复。&#10;&#10;确定要将电子邮件留空吗？" />
+  <string key="messageBox-feedbackShort" value="您的反馈似乎很短。如果您是在报告问题，描述得越详细越好。如果问题描述不充分，我只能去猜测您的问题是什么……也可能根本无法回复。&#10;&#10;要继续发送反馈吗？" />
+  <string key="messageBox-feedbackSuccess" value="反馈已完成。" />
+  <string key="messageBox-ftpConnectionTest" value="测试期间 ACT 可能会无响应。请在测试进行时等待至少 30 秒，如出现防火墙提示请允许访问。" />
+  <string key="messageBox-ftpTestSuccess" value="&#10;&#10;=============================&#10;测试已成功完成。&#10;&#10;" />
+  <string key="messageBox-htmlNoFileAccess" value="无法写入所需文件。&#10;&#10;{0}" />
+  <string key="messageBox-importDateTimeFail" value="在文件中找不到指定的日期范围。" />
+  <string key="messageBox-importHistoryNoLogMatch" value="找不到您角色可能包含该日期范围的日志文件。请手动查找此文件。" />
+  <string key="messageBox-importParseError" value="解析时遇到无法恢复的错误:&#10;{0}&#10;解析位置: {1}&#10;&#10;{2}&#10;&#10;是否忽略此错误并继续？" />
+  <string key="messageBox-invalidRegex" value="正则表达式语法有误：&#10;{0}&#10;&#10;请点击“正则表达式”链接或访问论坛，获取更多编写正则匹配的帮助。" />
+  <string key="messageBox-localSecurityPolicy" value="由于本机的安全设置，应用程序被禁止执行该操作。&#10;如果您是从网络计算机上运行此程序，请将其复制到本地运行。&#10;&#10;" />
+  <string key="messageBox-noFileFound" value="指定的路径不存在。" />
+  <string key="messageBox-odbcDropTables" value="此操作将删除所有 ACT 相关的表数据，并从数据库中移除这些表。&#10;完成后无法撤销，ACT 需要重新创建这些表后才能再次存储数据。&#10;&#10;确定要继续吗？" />
+  <string key="messageBox-openLogWizard" value="&#10;显示的日志文件是否是您要用 ACT 打开的文件？" />
+  <string key="messageBox-openLogWizardNoFolder" value="此文件夹中不存在 logs 文件夹。必须在 EQ2 中启用日志记录才能使用 ACT。在 EQ2 中输入 &quot;/log&quot; 以确认日志记录状态。" />
+  <string key="messageBox-openLogWizardNoLogs" value="该文件夹及其子文件夹中似乎没有日志。要使用 ACT，必须在 EQ2 中启用日志记录。在 EQ2 中输入 &quot;/log&quot; 以确认日志状态。" />
+  <string key="messageBox-playerRemoveError" value="请在列表中选择要移除的名称。" />
+  <string key="messageBox-pluginCompileError" value="编译插件源文件时出错。&#10;&#10;详情请参阅“插件信息”面板。" />
+  <string key="messageBox-pluginImageError" value="所选文件不是有效的 ACT 插件，或已损坏。" />
+  <string key="messageBox-pluginInvalid" value="该程序集中没有实现 ACT 插件接口的类，或扫描该程序集时发生错误。" />
+  <string key="messageBox-removePlugin" value="确定要移除插件 {0} 吗？" />
+  <string key="messageBox-searchResults" value="搜索返回 {0} 条结果。" />
+  <string key="messageBox-sortingColumnError" value="请选择要排序的列。" />
+  <string key="messageBoxText-abilityRedirectError" value="请填写“技能”和“转入”两栏并选择技能类型。" />
+  <string key="messageBoxText-addCalcTimer" value="计算出的最短重新施放时间已发送到技能计时器选项。现在要添加/替换此计时器吗？" />
+  <string key="messageBoxText-AlreadyLoadedAssembly" value="此文件已加载到内存中。继续之前应重启 ACT。" />
+  <string key="messageBoxText-colorRestart" value="应重启 ACT 以完成这些颜色更改。" />
+  <string key="messageBoxText-combatantRenameError" value="请填写“之前”和“之后”两栏。" />
+  <string key="messageBoxText-ctBenchComplete1" value="基准测试的基线耗时太短，无法提供有效结果。请选择其他日志行更多的战斗。" />
+  <string key="messageBoxText-ctBenchComplete2" value="基准测试完成。&#10;&#10;请找出比基准开销高出许多倍的自定义触发器进行优化。或者，如果尚未限制区域，可将其限制到特定区域。" />
+  <string key="messageBoxText-ctBenchNoSelection" value="请在左侧树状视图中选择一场战斗。" />
+  <string key="messageBoxText-ctBenchSmallSelection" value="请选择日志行数超过 1000 的战斗。" />
+  <string key="messageBoxText-customTriggerDeleteMultiple" value="确定要删除“{1}”下的 {0} 个自定义触发器吗？" />
+  <string key="messageBoxText-exFilePrefixBlank" value="将此字段留空是危险的，除非所用的剪贴板格式正确地为每一行加上频道命令前缀，否则生成的宏文件将无法工作。" />
+  <string key="messageBoxText-fatalUnhandledException" value="发生未处理的异常。ACT 可能会关闭。&#10;按 Ctrl-C 可复制此消息框。&#10;&#10;{0}" />
+  <string key="messageBoxText-getPlugins409" value="远程服务器返回 409 状态错误。&#10;&#10;这可能是反机器人措施。如果您正在使用 VPN，请尝试不使用 VPN 下载。" />
+  <string key="messageBoxText-getPlugins429" value="远程服务器返回 429 状态错误。&#10;&#10;这可能表示您最近访问该资源的次数过多。请稍后再试。" />
+  <string key="messageBoxText-getPluginsApplied" value="插件已添加并启动。" />
+  <string key="messageBoxText-getPluginsAppliedZip" value="已从 ZIP 中添加并启动 {0} 个插件。" />
+  <string key="messageBoxText-getPluginsApplyFail" value="下载的文件中不包含可加载的插件。" />
+  <string key="messageBoxText-getPluginsUnknownFile" value="下载的文件不是插件所需的类型。" />
+  <string key="messageBoxText-importAbort" value="是否要中止导入过程？" />
+  <string key="messageBoxText-noPluginPath" value="找不到插件文件“{0}”。您是否想使用“获取插件”对话框？" />
+  <string key="messageBoxText-pluginInternetBlocked" value="{0}&#10;&#10;---&#10;&#10;建议：插件 ({1}) 可能因被标记为来自网络而被阻止加载。请右键单击该文件，选择“属性”并解除锁定。&#10;&#10;如果此插件附带其他文件，也请一并解除锁定。" />
+  <string key="messageBoxText-pluginWizParserAdded" value="解析插件已添加并启动。" />
+  <string key="messageBoxText-restartAct" value="必须重启 ACT 才能应用更改。" />
+  <string key="messageBoxText-spellTimerDeleteMultiple" value="确定要删除“{1}”下的 {0} 个技能计时器吗？" />
+  <string key="messageBoxText-startupWizEQ2" value="ACT 是否用于 EverQuest II？" />
+  <string key="messageBoxText-startupWizFF14" value="ACT 是否用于 Final Fantasy XIV？" />
+  <string key="messageBoxText-startupWizManualSelect" value="请手动选择游戏日志文件。" />
+  <string key="messageBoxText-startupWizParserWarn" value="简单检测显示您可能已启用了解析插件。添加其他插件前请先检查“插件”页。" />
+  <string key="messageBoxText-unblock1a" value="以下 {0} 个文件是从网络下载的，仍处于锁定状态：&#10;&#10;{1}&#10;&#10;要解除锁定吗？按 [Cancel] 不再询问。" />
+  <string key="messageBoxText-unblock1b" value="还有 {0} 个文件..." />
+  <string key="messageBoxText-unblockFail" value="部分文件无法解除锁定。请尝试以管理员身份运行 ACT。&#10;&#10;{0}" />
+  <string key="messageBoxText-viewLogsDisabled" value="ACT 当前不允许将日志行与战斗对象一起保存。&#10;&#10;请在“其他”选项页面中查找“解析时记录所有日志行。”选项。" />
+  <string key="messageBoxText-xmlShareInvalid" value="此功能仅用于导入 XML 共享片段。如果要导入 XML 配置文件，请使用“选项 -&gt; 配置导入/导出”中的导入按钮。" />
+  <string key="messageboxText-xmlShareUnknown" value="{0}：没有 XML 片段处理程序将该片段标记为已处理。该共享类型是否需要插件？" />
+  <string key="messageBoxText-xmlSnippetNotUsed" value="{0}：没有 XML 片段处理程序将该片段标记为已使用。该共享类型可能需要插件。" />
+  <string key="messageBoxText-xmlSubsImportNoUpdates" value="没有需要更新的外部 XML 文件。" />
+  <string key="messageBoxText-xmlSubsImportQuestion1" value="{0} -- 已过期。&#10;&#10;" />
+  <string key="messageBoxText-xmlSubsImportQuestion2" value="警告：{0} -- 已过期但已忽略。&#10;&#10;" />
+  <string key="messageBoxText-xmlSubsImportQuestion3" value="立即导入这些吗？" />
+  <string key="messageBoxText-xmlSubsUpdatesComplete" value="已导入 {0} 个外部 XML 文件。" />
+  <string key="messageBoxTitle-abilityRedirectError" value="无效条目" />
+  <string key="messageBoxTitle-addCalcTimer" value="立即添加计时器？" />
+  <string key="messageBoxTitle-avoidanceCopyDetail" value="每次命中平均回避伤害：{0}" />
+  <string key="messageBoxTitle-clipboardNoText" value="剪贴板导入失败" />
+  <string key="messageBoxTitle-clipConnectError" value="剪贴板连接失败" />
+  <string key="messageBoxTitle-combatantRenameError" value="无效条目" />
+  <string key="messageBoxTitle-ctBenchComplete" value="完成" />
+  <string key="messageBoxTitle-ctBenchInvalid" value="无效选择" />
+  <string key="messageBoxTitle-cullHistory" value="削减历史" />
+  <string key="messageBoxTitle-customTriggerDeleteMultiple" value="删除多个触发器？" />
+  <string key="messageBoxTitle-duplicatePlugin" value="插件重复" />
+  <string key="messageBoxTitle-eq2FolderWizard" value="检测到 EQ2 文件夹" />
+  <string key="messageBoxTitle-eq2NotFound" value="无法确认所选文件夹" />
+  <string key="messageBoxTitle-error" value="错误" />
+  <string key="messageBoxTitle-exFilePrefixBlank" value="DoFileCommands 频道前缀" />
+  <string key="messageBoxTitle-exportNoEncounters" value="没有可导出的内容" />
+  <string key="messageBoxTitle-fatalUnhandledException" value="致命错误 - 未处理的异常" />
+  <string key="messageBoxTitle-feedbackFail" value="反馈未提交" />
+  <string key="messageBoxTitle-feedbackNoConnect" value="连接反馈服务器失败" />
+  <string key="messageBoxTitle-feedbackNoSend" value="发送反馈数据失败" />
+  <string key="messageBoxTitle-feedbackWarning" value="反馈警告" />
+  <string key="messageBoxTitle-fileError" value="文件不可用" />
+  <string key="messageBoxTitle-ftpTestFail" value="测试未完成" />
+  <string key="messageBoxTitle-ftpTestSuccess" value="测试完成" />
+  <string key="messageBoxTitle-getPluginsApplied" value="插件已应用" />
+  <string key="messageBoxTitle-getPluginsApplyFail" value="插件加载失败" />
+  <string key="messageBoxTitle-getPluginsApplyFail2" value="应用插件时出错" />
+  <string key="messageBoxTitle-getPluginsError1" value="获取插件列表时出错" />
+  <string key="messageBoxTitle-getPluginsUnknownFile" value="未知文件类型" />
+  <string key="messageBoxTitle-historyDatabase" value="历史数据库" />
+  <string key="messageBoxTitle-htmlNoFileAccess" value="文件访问被拒绝" />
+  <string key="messageBoxTitle-importAbort" value="中止？" />
+  <string key="messageBoxTitle-importFail" value="解析失败" />
+  <string key="messageBoxTitle-importParseError" value="解析失败" />
+  <string key="messageBoxTitle-invalidRegex" value="无效的正则表达式" />
+  <string key="messageBoxTitle-loadError" value="加载错误" />
+  <string key="messageBoxTitle-localSecurityPolicy" value="安全异常" />
+  <string key="messageBoxTitle-noFileFound" value="未找到文件" />
+  <string key="messageBoxTitle-noPluginPath" value="浏览路径无效" />
+  <string key="messageBoxTitle-odbcDropTables" value="ACT ODBC 数据库删除" />
+  <string key="messageBoxTitle-odbcHackError" value="无法添加 OdbcHack" />
+  <string key="messageBoxTitle-odbcQueryError" value="ODBC 连接查询失败" />
+  <string key="messageBoxTitle-openLogWizard" value="检测到日志文件" />
+  <string key="messageBoxTitle-openLogWizardNoFolder" value="没有日志文件夹" />
+  <string key="messageBoxTitle-openLogWizardNoLogs" value="未找到日志文件" />
+  <string key="messageBoxTitle-playerRemoveError" value="未选择" />
+  <string key="messageBoxTitle-pluginCompileError" value="编译错误" />
+  <string key="messageBoxTitle-pluginImageError" value="映像格式错误" />
+  <string key="messageBoxTitle-pluginInitFail" value="插件初始化失败" />
+  <string key="messageBoxTitle-pluginInvalid" value="无效插件" />
+  <string key="messageBoxTitle-pluginWizTitleError" value="无法获取插件标题" />
+  <string key="messageBoxTitle-removePlugin" value="移除插件？" />
+  <string key="messageBoxTitle-restartAct" value="重启" />
+  <string key="messageBoxTitle-searchResults" value="搜索完成" />
+  <string key="messageBoxTitle-serverStartError" value="无法启动服务器" />
+  <string key="messageBoxTitle-sortingColumnError" value="未选择任何内容" />
+  <string key="messageBoxTitle-spellTimerDeleteMultiple" value="删除多个技能计时器？" />
+  <string key="messageBoxTitle-startupLogError" value="加载上次的日志文件时出错" />
+  <string key="messageBoxTitle-startupWizEQ2" value="EQ2？" />
+  <string key="messageBoxTitle-startupWizFF14" value="FFXIV？" />
+  <string key="messageBoxTitle-startupWizManualSelect" value="选择日志文件" />
+  <string key="messageBoxTitle-startupWizParserWarn" value="插件事件已被占用" />
+  <string key="messageBoxTitle-unblock" value="解除文件锁定？" />
+  <string key="messageBoxTitle-unblockFail" value="解除锁定失败" />
+  <string key="messageBoxTitle-updateAct" value="更新？" />
+  <string key="messageBoxTitle-updateCheckFail" value="ACT 版本检查失败" />
+  <string key="messageBoxTitle-updateError" value="更新错误" />
+  <string key="messageBoxTitle-viewLogsDisabled" value="日志记录已禁用" />
+  <string key="messageBoxTitle-xmlPrefError" value="XML 设置错误" />
+  <string key="messageboxTitle-xmlShareError" value="添加 XML 共享时出错" />
+  <string key="messageBoxTitle-xmlShareError" value="解析 XML 共享时出错" />
+  <string key="messageBoxTitle-xmlSnippetError" value="添加 XML 共享时出错" />
+  <string key="messageBoxTitle-xmlSubsImportQuestion" value="XML 订阅" />
+  <string key="messageBoxTitle-xmlSubsUpdatesComplete" value="更新完成" />
+  <string key="messageBox-updateAct" value="这将关闭程序并开始更新。&#10;要继续吗？" />
+  <string key="messageBox-updateCheckFail" value="无法从网络获取版本信息。&#10;" />
+  <string key="messageBox-xmlPrefLoadError" value="XML 设置文件可能已损坏或无法使用。请考虑从“配置导入/导出”选项中加载备份。" />
+  <string key="messageBox-xmlReadError" value="解析 XML 设置时出错: 行 #{0} ({1})&#10;{2}&#10;&#10; 尝试使用默认设置" />
+  <string key="messageBox-xmlSyntaxError" value="XML 设置文件可能已损坏或无法使用。将在适用处加载默认值。&#10;{0}" />
+  <string key="notifText-clipboardReadFail" value="无法从剪贴板获取文本..." />
+  <string key="notifText-oldSslError" value="此版本的 Windows 无法创建下载插件/更新所需的安全通道。您需要手动下载此文件。&#10;&#10;要在默认浏览器中打开该文件的下载页面吗？" />
+  <string key="notifText-ongoingDownload" value="有一项下载耗时超出预期。" />
+  <string key="notifText-unknownAssembly" value="以下程序集无法识别。如果它们是插件或来自插件，应将其删除或移至其他文件夹，以避免“版本错误”加载问题。&#10;&#10;{0}" />
+  <string key="notifText-UnzipError" value="以下文件无法解压：{0}" />
+  <string key="notifText-windowOutOfBounds" value="{0}({1}) 超出所有显示器范围，无法恢复到原来的位置/大小。" />
+  <string key="notifText-xmlShareAdded" value="已将来自 ({1}) 的 ({0}) 添加到 ACT。" />
+  <string key="notifText-xmlShareDetected" value="在日志文件中检测到来自 ({1}) 的 ({0})。&#10;&#10;是否要将其导入 ACT？&#10;&#10;&#10;&#10;&#10;[也可在 选项 -&gt; 配置导入/导出 -&gt; XML 共享片段 中找到]" />
+  <string key="notifText-xmlSnippetError" value="导入此 XML 片段时发生意外错误。&#10;&#10;{0}" />
+  <string key="notifText-xmlSnippetIncomplete" value="共享的 XML 似乎缺少导入所需的属性" />
+  <string key="notifText-xmlSnippetNotHandled" value="XML 片段未被标记为已处理。该共享类型是否需要插件？" />
+  <string key="notifTitle-clipboardReadFail" value="剪贴板错误" />
+  <string key="notifTitle-imageSaveException" value="无法保存图像。" />
+  <string key="notifTitle-oldSslError" value="无法下载" />
+  <string key="notifTitle-ongoingDownload" value="正在下载 ({0}%)" />
+  <string key="notifTitle-unknownAssembly" value="ACT 文件夹中存在未知程序集。（点击“显示”打开文件夹）" />
+  <string key="notifTitle-UnzipError" value="解压错误" />
+  <string key="notifTitle-webserverError" value="Web 服务器错误" />
+  <string key="notifTitle-webserverException" value="Web 服务器已关闭" />
+  <string key="notifTitle-windowOutOfBounds" value="窗口超出显示范围" />
+  <string key="notifTitle-xmlShareAdded" value="ACT XML 共享" />
+  <string key="notifTitle-xmlSnippetError" value="XML 共享错误" />
+  <string key="notifTitle-xmlSnippetIncomplete" value="XML 共享不完整" />
+  <string key="notifTitle-xmlSnippetNotHandled" value="XML 共享未处理" />
+  <string key="opColorFont" value="颜色和字体设置" />
+  <string key="opColorGraphing" value="图表" />
+  <string key="opColorMisc" value="其他" />
+  <string key="opColorUserInterface" value="主用户界面" />
+  <string key="opDataCorrection" value="数据修正" />
+  <string key="opDataCorrectionMisc" value="其他" />
+  <string key="opDataCorrectionRedirect" value="技能重定向" />
+  <string key="opDataCorrectionRename" value="战斗者重命名" />
+  <string key="opEncCulling" value="战斗削减" />
+  <string key="opFileHTML" value="HTML 文件生成" />
+  <string key="opGraphing" value="图表" />
+  <string key="opImportExport" value="配置导入/导出" />
+  <string key="opMainTable" value="主表格/战斗" />
+  <string key="opMainTableGen" value="常规" />
+  <string key="opMiniParse" value="迷你解析窗口" />
+  <string key="opMisc" value="其他" />
+  <string key="opOutputDisplay" value="输出显示" />
+  <string key="opSelectiveParsing" value="选择性解析" />
+  <string key="opSound" value="声音设置" />
+  <string key="opSoundTts" value="文本转语音" />
+  <string key="opTableAttackType" value="攻击类型视图选项" />
+  <string key="opTableCombatant" value="战斗者视图选项" />
+  <string key="opTableDamageType" value="伤害类型视图选项" />
+  <string key="opTableEncounter" value="战斗视图选项" />
+  <string key="opTableZone" value="区域视图选项" />
+  <string key="opTextExports" value="文本导出设置" />
+  <string key="opWebServer" value="ACT Web 服务器" />
+  <string key="opXmlShare" value="XML 共享片段" />
+  <string key="opXmlSubs" value="XML 配置订阅" />
+  <string key="sliderText-badPluginLocation" value="{0} 不应从 ACT 的安装文件夹加载。这可能导致文件锁定或其他难以诊断的问题。请将其移动到子文件夹或其他位置，如 %APPDATA%\Advanced Combat Tracker\Plugins\。" />
+  <string key="sliderText-logFileTimeError" value="该日志文件对当前解析插件无效。（无法读取时间戳）&#10;&#10;请确认已启用正确的解析插件，并且*仅*启用了一个解析插件。" />
+  <string key="sliderText-oldLog" value="当前打开的日志文件已超过一周未被修改。请确认游戏内已开启 /log，并且选择了正确的日志文件。" />
+  <string key="sliderText-pluginRestart" value="应重启 ACT 以应用新的插件加载顺序。" />
+  <string key="sliderTitle-badPluginLocation" value="插件位置错误" />
+  <string key="sliderTitle-oldLog" value="旧日志文件" />
+  <string key="tooltip-regexWildcardWarn" value="请勿在不必要时使用 .* 之类的通配符。" />
+  <string key="trayButton-benchShow" value="显示基准测试" />
+  <string key="trayButton-continue" value="继续" />
+  <string key="trayButton-ignore" value="暂时忽略" />
+  <string key="trayButton-ignoreRestart" value="忽略" />
+  <string key="trayButton-never" value="不再询问" />
+  <string key="trayButton-no" value="否" />
+  <string key="trayButton-notNow" value="暂不" />
+  <string key="trayButton-ok" value="确定" />
+  <string key="trayButton-openActLog" value="打开错误日志" />
+  <string key="trayButton-openLogs" value="打开日志文件夹" />
+  <string key="trayButton-restartAct" value="重启" />
+  <string key="trayButton-skip" value="跳过" />
+  <string key="trayButton-yes" value="是" />
+  <string key="trayText-ctBench2" value="自定义触发器的日志解析已落后 10 秒。可能需要在选项页面中增加自定义触发器线程，或优化当前的自定义触发器以提高效率。&#10;&#10;是否打开自定义触发器基准测试以找出有问题的自定义触发器？" />
+  <string key="trayText-encClearGcCollect" value="已分配内存差值 {0:0,0} 字节" />
+  <string key="trayText-eventExceptions1" value="在过去一分钟内，以下插件在事件处理程序中引发了异常:&#10;" />
+  <string key="trayText-eventExceptions2" value="{0} [{1} 次]" />
+  <string key="trayText-findZoneBusy" value="在日志文件中查找区域名称似乎耗时较长。是否跳过扫描？&#10;&#10;{0} {1:0,0} 字节" />
+  <string key="trayText-globalMutex" value="已有另一个 ACT 正在运行。您应关闭所有正在运行的 ACT 后重新启动。&#10;&#10;可在命令行参数中添加 &#10;-skipmutex 来禁用此警告。添加 -onlyone 可阻止启动新实例。" />
+  <string key="trayText-LinuxConfigurationErrors" value="部分 Linux 用户由于 app.config 中的某项设置被视为“无法识别”，导致 ACT 无法发出网络请求。此配置用于支持 HiDPI 显示器，除此之外并非必需。&#10;&#10;是否要删除此配置？" />
+  <string key="trayText-parsingBusy" value="日志行解析已落后 10 秒。订阅了 BeforeLogLine/OnLogLine 的插件可能正在同步处理且耗时过长。" />
+  <string key="trayText-restartACT" value="需要重启 ACT 以完成更改。 &#10;&#10;{0}" />
+  <string key="trayText-xmlPrefErrorCount" value="加载设置时遇到 {0} 个错误。&#10;如果您刚更换了 ACT 版本，这些错误可能是 ACT 设置名称/位置变更导致的一次性结果。" />
+  <string key="trayTitle-ctBench" value="自定义触发器处理滞后" />
+  <string key="trayTitle-eventUnhandledException" value="事件处理程序未处理的异常" />
+  <string key="trayTitle-findZoneBusy" value="正在扫描日志文件" />
+  <string key="trayTitle-globalMutex" value="多个实例" />
+  <string key="trayTitle-LinuxConfigurationErrors" value="WebRequest 异常" />
+  <string key="trayTitle-parsingBusy" value="日志解析处理滞后" />
+  <string key="trayTitle-restartAct" value="ACT 请求重新启动" />
+  <string key="trayTitle-unhandledException" value="ACT 发生未处理的异常" />
+  <string key="trayTitle-updateAvailable" value="ACT 有可用更新" />
+  <string key="trayTitle-xmlPrefErrorCount" value="配置加载错误" />
+  <string key="ttOptionsXmlShare-invalidXml" value="无效 XML: 请在此字段中粘贴 XML 共享文本" />
+  <string key="ttOptionsXmlShare-noName" value="必须输入名称" />
+  <string key="ttOptionsXmlShare-xmlMissingAttributes" value="共享的 XML 似乎缺少导入所需的属性" />
+  <string key="tts-commandTest" value="命令名称" />
+  <string key="tts-spellExpired" value="{0} 已结束" />
+  <string key="tts-spellExpiredTest" value="技能名 已结束" />
+  <string key="tts-spellStarted" value="{0} 已开始" />
+  <string key="tts-spellStartedTest" value="技能名 已开始" />
+  <string key="tts-spellWarning" value="{0} 警告" />
+  <string key="tts-spellWarningTest" value="技能名 警告" />
+  <string key="ui-customTriggerGeneralCategory" value=" 常规" />
+  <string key="ui-customTriggerSearch" value="自定义触发器线程" />
+  <string key="uiFormActMain-Title0" value="{0}{1}Advanced Combat Tracker{2} - {3} - 日志时间：{4}（估计 {5}）" />
+  <string key="uiFormActMain-Title1" value="*战斗中* " />
+  <string key="uiFormActMain-Title2a" value="日志活动中" />
+  <string key="uiFormActMain-Title2b" value="日志空闲" />
+  <string key="uiFormActMain-Title3" value="[导出中]" />
+  <string key="uiFormActMain-Title4" value="[导入中]" />
+  <string key="uiFormAvoidanceReport-avoidCount" value="次数" />
+  <string key="uiFormAvoidanceReport-avoidCount2" value="闪避" />
+  <string key="uiFormAvoidanceReport-avoidDamage" value="平均闪避伤害" />
+  <string key="uiFormAvoidanceReport-avoidLabel" value="[{4}] {0} 的 {1} 对 {2} = 平均 {3:0}" />
+  <string key="uiFormAvoidanceReport-avoidTitle" value="{0} 的闪避/其他报告  (点击行查看详情)" />
+  <string key="uiFormAvoidanceReport-avoidTitle2" value="{0} 的回避报告（点击行查看详情）" />
+  <string key="uiFormAvoidanceReport-avoidType" value="类型" />
+  <string key="uiFormAvoidanceReport-noDamage" value="无伤害 (Stoneskin)" />
+  <string key="uiFormAvoidanceReport-percAvoids" value="% 闪避占比" />
+  <string key="uiFormAvoidanceReport-percSwings" value="% 攻击占比" />
+  <string key="uiFormAvoidanceReport-specialTitle" value="{0} 的特殊攻击报告" />
+  <string key="uiFormAvoidanceReport-swings" value="出手次数" />
+  <string key="uiFormAvoidanceReport-total" value="合计" />
+  <string key="uiFormByCombatantLookup-title" value="{0} 按战斗者细分" />
+  <string key="uiFormCustomTriggerBenchmark-bench1" value="&lt;基准测试&gt;" />
+  <string key="uiFormCustomTriggerBenchmark-benchBaseline" value="&lt;基准测试...&gt;" />
+  <string key="uiFormCustomTriggerBenchmark-lineCount" value="本场战斗共 {0:#,0} 行日志。" />
+  <string key="uiFormEncounterVcr-currentHealth" value="当前体力: {0:0.00%} / {1:#,0}" />
+  <string key="uiFormEncounterVcr-damageTaken" value="承受伤害: {0:0.00%} / {1:#,0}" />
+  <string key="uiFormEncounterVcr-healingTaken" value="承受治疗: {0:0.00%} / {1:#,0}" />
+  <string key="uiFormEncounterVcr-linked" value="已链接 @ T+{0}" />
+  <string key="uiFormEncounterVcr-paused" value="已暂停 @ T+{0}" />
+  <string key="uiFormEncounterVcr-play" value="播放 @ T+{0}" />
+  <string key="uiFormEncounterVcr-play4" value="4 倍速播放 @ T+{0}" />
+  <string key="uiFormEncounterVcr-rewind" value="倒带 @ T+{0}" />
+  <string key="uiFormExportFormat-edit" value="直接编辑" />
+  <string key="uiFormExportFormat-noSelection" value="未选择元素" />
+  <string key="uiFormExportFormat-save" value="保存" />
+  <string key="uiFormGetPlugins-headerLabel" value="插件说明（添加：{1} - 修改：{2} {3}）" />
+  <string key="uiFormImportProgress-batchStep" value="批次 {0} / {1}" />
+  <string key="uiFormImportProgress-complete" value="操作完成" />
+  <string key="uiFormImportProgress-importStats" value="{0:#,0} 秒&#10;{1:#,0}&#10;每秒 {2:#,0}&#10;{3:#,0} k&#10;{4:#,0} k/s" />
+  <string key="uiFormImportProgress-progressPerc" value="进度：{0}%" />
+  <string key="uiFormImportProgress-timeElapsed" value="操作耗时：{0:#,0} 秒&#10;" />
+  <string key="uiFormMiniParse-switchTooltip" value="切换文本和图表模式" />
+  <string key="uiFormMiniParse-title" value="迷你解析" />
+  <string key="uiFormMiniParse-titleCombat" value="迷你解析 - *战斗中*" />
+  <string key="uiFormMiniParse-valueTooltip" value="值：{0:0} Y：{1}" />
+  <string key="uiFormPerformanceWizard-advanced" value="高级" />
+  <string key="uiFormPerformanceWizard-simple" value="简单" />
+  <string key="uiFormResistsDeathReport-deathLegend" value="时间：伤害（伤害 - 治疗）[伤害合计]&#10;" />
+  <string key="uiFormResistsDeathReport-deathTitle" value="死亡报告" />
+  <string key="uiFormResistsDeathReport-reportCopyLeft" value="点击复制到左侧...&#10;" />
+  <string key="uiFormSpellRecastCalc-delaysLabel" value="已勾选的延迟: " />
+  <string key="uiFormSpellRecastCalc-title" value="技能重新施放计算 - {0} -&gt; {1}" />
+  <string key="uiFormSpellTimers-displayRemaining" value="{0:00}分 {1:00}秒{2}" />
+  <string key="uiFormSpellTimers-displayTooltip" value="{0}秒 - {1}" />
+  <string key="uiFormSpellTimersPanel-optionsTooltip" value="右键单击查看选项" />
+  <string key="uiFormSpellTimers-searchPH" value="搜索名称或提示" />
+  <string key="uiFormSqlQuery-connectionInfo" value="服务器版本：{0}，数据库：{1}，数据源：{2}" />
+  <string key="uiFormSqlQuery-rowsAffected" value="&#10;{0} - 受影响的行数: {1}" />
+  <string key="uiFormSqlQuery-tableCommitError" value="&#10;{0} - {1} 出现以下错误: {2} -- 已忽略。" />
+  <string key="uiFormStartupWizard-eq2FolderFound" value="已找到 EQ2 Logs 文件夹。" />
+  <string key="uiFormStartupWizard-eq2FolderFound2" value="未找到 EQ2 Logs 文件夹。" />
+  <string key="uiFormStartupWizard-eq2FolderTitle" value="选择 EQ2 安装文件夹" />
+  <string key="uiFormStartupWizard-loaded" value="点击此处为您的游戏选择插件..." />
+  <string key="uiFormStartupWizard-loading" value="请稍候..." />
+  <string key="uiFormStartupWizard-pluginInfo" value="添加: {1} - 修改: {2} {3}" />
+  <string key="uiFormStartupWizard-pluginLog" value="插件选择的日志文件。" />
+  <string key="uiFormStartupWizard-pluginLog2" value="日志文件状态未知。插件稍后可能会重新生成。" />
+  <string key="uiFormTimeLine-alignType1" value="我方" />
+  <string key="uiFormTimeLine-alignType2" value="对方" />
+  <string key="uiFormTimeLine-classType1" value="坦克" />
+  <string key="uiFormTimeLine-classType2" value="治疗职业" />
+  <string key="uiFormTimeLine-classType3" value="近战 DPS" />
+  <string key="uiFormTimeLine-classType4" value="其他 DPS" />
+  <string key="uiFormTimeLine-title1" value="时间轴 - {0} {1:0.00}%" />
+  <string key="uiFormTimeLine-title2" value="时间轴" />
+  <string key="uiFormTimeLine-toolTipError" value="此提示内容过长。请用鼠标中键单击单独查看。" />
+  <string key="uiFormUpdater-checking" value="正在从网络检查版本..." />
+  <string key="uiFormUpdater-download1" value="正在下载更新...  正在连接..." />
+  <string key="uiFormUpdater-download2" value="正在下载更新: {0:#,0} / {1:#,0} KB。" />
+  <string key="uiFormUpdater-download3" value="正在下载更新: 已读取 {0:#,0} KB..." />
+  <string key="uiFormUpdater-download4" value="下载完成。点击“更新”继续。" />
+  <string key="uiFormUpdater-downloadError" value="更新时出错：&#10;" />
+  <string key="uiFormUpdater-noUpdates" value="没有可用的更新。" />
+  <string key="uiFormUpdater-updateAvailable" value="有可用更新 {0}。&#10;点击“下载”获取。" />
+  <string key="uiIoImportClip-clipStatus" value="Windows 剪贴板包含 {0:#,0} 个字符。" />
+  <string key="uiIoImportClip-noText" value="剪贴板中不包含文本数据。" />
+  <string key="uiIoXmlFile-exportCanceled" value="导出已取消..." />
+  <string key="uiIoXmlFile-exportComplete" value="已完成导出到 {0}。&#10;耗时 {1:0} 秒。" />
+  <string key="uiIoXmlFile-exporting" value="正在导出 XML...&#10;请稍候..." />
+  <string key="uiLoading-init10" value="InitACT 10...  (设置日志文件，扫描区域/名称信息)" />
+  <string key="uiLoading-init11" value="InitACT 11...  (设置数据对象)" />
+  <string key="uiLoading-init12" value="InitACT 12...  (扫描被阻止的 Internet 文件)" />
+  <string key="uiLoading-init13" value="InitACT 13...  (设置处理器关联)" />
+  <string key="uiLoading-init14" value="InitACT 14...  (初始化主表格样式)" />
+  <string key="uiLoading-init15" value="InitACT 15...  (验证列和导出变量)" />
+  <string key="uiLoading-init16" value="InitACT 16...  (启动日志监视器)" />
+  <string key="uiLoading-init17" value="InitACT 17...  (重置选项卡视图)" />
+  <string key="uiLoading-init18" value="InitACT 18...  (重置下拉框样式，检查解析器事件)" />
+  <string key="uiLoading-init19" value="InitACT 19...  (检查更新，设置初始视图状态)" />
+  <string key="uiLoading-init20" value="InitACT 20...  (检查插件)" />
+  <string key="uiLoading-init21" value="InitACT 21...  (设置历史数据库)" />
+  <string key="uiLoading-init22" value="InitACT 22...  (检查 ACT 文件夹、XML 订阅)" />
+  <string key="uiLoading-init23" value="InitACT 23...  (检查配置备份)" />
+  <string key="uiLoading-initExit" value="正在退出 InitACT..." />
+  <string key="ui-loadingPlugin" value="正在加载插件 {0}..." />
+  <string key="uiOpMisc-logPaused" value="解析已暂停..." />
+  <string key="uiOpMisc-logPosition1" value="正在读取 {0}&#10;位置：{1:0,0}。" />
+  <string key="uiOpMisc-logPosition2a" value=" (落后 {0} 行。)" />
+  <string key="uiOpMisc-logPosition3" value=" (落后 {0} 行自定义触发器。)" />
+  <string key="uiOpMisc-logPosition4" value="&#10;正在同步附属文件: " />
+  <string key="uiOpMisc-logResumed" value="解析已恢复..." />
+  <string key="uiOptionsImportExport-xmlConverted" value="XML 已转换。上述内容可作为 ACT 配置片段复制并粘贴。" />
+  <string key="uiOptionsOdbc-connectSuccess" value="ODBC 连接成功" />
+  <string key="uiOptionsOdbc-tableCreated" value="已成功创建“{0}”。" />
+  <string key="uiOptionsOdbc-tableDropped" value="已成功删除“{0}”。" />
+  <string key="uiOptionsOdbc-tableValidated" value="已成功验证“{0}”。" />
+  <string key="uiOptions-searchDefault" value="搜索选项..." />
+  <string key="uiOptionsSound-soundMethod" value="声音方式：" />
+  <string key="uiOptionsSound-ttsMethod" value="TTS 方式：" />
+  <string key="uiOptionsXmlShare-customEntry" value="* 自定义项 *" />
+  <string key="uiOptionsXmlShare-pasteHere" value="(在此粘贴 XML)" />
+  <string key="uiOpWebServer-sessionStats" value="会话统计 | 最近 10 秒&#10;接收 {0:#,0} 字节 | 接收 {3:0.00} KB/s&#10;发送 {1:#,0} 字节 | 发送 {4:0.00} KB/s&#10;{2} 个独立客户端 | {5} 个独立客户端" />
+  <string key="uiPlugins-fileDetails" value="{3}&#10;{0,0} 字节，最后修改：{1} - {2}" />
+  <string key="ui-processPriority" value="普通" />
+  <string key="ui-processPriority-" value="低于正常" />
+  <string key="ui-processPriority--" value="最低" />
+  <string key="ui-processPriority+" value="高于正常" />
+  <string key="ui-ReadLogClosed" value="日志文件已关闭。" />
+  <string key="ui-ReadLogException" value="系统消息：{0}" />
+  <string key="ui-ReadLogPaused" value="解析已暂停..." />
+  <string key="ui-ReadLogResumed" value="解析已恢复..." />
+  <string key="ui-soundTypeBeep" value="蜂鸣" />
+  <string key="ui-soundTypeNone" value="无" />
+  <string key="ui-soundTypeSound" value="声音" />
+  <string key="ui-spellTimerTooltip" value="{0} - {1}秒。" />
+  <string key="ui-tableColumnError" value="错误" />
+  <string key="uiText-actExport1" value="正在导出..." />
+  <string key="uiText-actExport2" value="{0} 已导出。" />
+  <string key="uiText-actExportError1" value="文件错误: {0}" />
+  <string key="uiText-actExportError2" value="意外错误：{0}" />
+  <string key="uiText-actExportError3" value="解析 ACT/XML 文件时出错: 行 #" />
+  <string key="uiText-actExportError4" value="ACT 文件已损坏，可能是不兼容的版本。&#10;" />
+  <string key="uiText-assemblyReport1" value="&#10;ACT 程序集:" />
+  <string key="uiText-assemblyReport2" value="&#10;插件程序集:" />
+  <string key="uiText-assemblyReport3" value="&#10;其他程序集:" />
+  <string key="uiText-clipConnectDisc" value="未连接。" />
+  <string key="uiText-clipConnectError1" value="IP/端口格式无效。" />
+  <string key="uiText-clipConnectFail" value="连接失败。" />
+  <string key="uiText-clipConnectStart1" value="正在尝试连接..." />
+  <string key="uiText-clipConnectStart2" value="已连接到 {0}:{1}。" />
+  <string key="uiText-customTriggerClear" value="清除项目" />
+  <string key="uiText-customTriggerColLogLine" value="日志行" />
+  <string key="uiText-customTriggerColTimeStamp" value="时间戳" />
+  <string key="uiText-customTriggerCopy1" value="复制搜索结果" />
+  <string key="uiText-customTriggerCopy2" value="复制选中内容" />
+  <string key="uiText-customTriggerCopy3" value="全部复制" />
+  <string key="uiText-customTriggerFindNext" value="查找下一个" />
+  <string key="uiText-customTriggerFindPrev" value="查找上一个" />
+  <string key="uiText-customTriggerSearch" value="搜索已触发的日志行..." />
+  <string key="uiText-customTriggerSearchRegex" value="按正则搜索" />
+  <string key="uiText-customTriggerSearchText" value="按文本搜索" />
+  <string key="uiText-exitAct" value="正在退出 ACT..." />
+  <string key="ui-textExportDefault" value="[当前默认]" />
+  <string key="uiText-htmlComplete" value="已完成导出到 {0}。&#10;耗时 {1} 秒。" />
+  <string key="uiText-htmlGen" value="正在生成 HTML...&#10;" />
+  <string key="uiText-htmlWrite" value="正在将 HTML 写入文件..." />
+  <string key="uiText-odbcCalc" value="已在 {1} 秒内计算 {0} 的数据。" />
+  <string key="uiText-odbcComplete" value="ODBC 导出已完成。&#10;耗时 {0} 秒。&#10;{1} 个错误。" />
+  <string key="uiText-odbcComplete2" value="  错误说明请参阅“常规选项”选项卡中的 ODBC 部分。" />
+  <string key="uiText-odbcGen1" value="{0}，{1}。&#10;正在生成 SQL..." />
+  <string key="uiText-odbcGen2" value="{0}，{1}。&#10;正在生成 SQL... {2}%" />
+  <string key="uiText-odbcGen3" value="{0}，{1}。&#10;正在生成 SQL... {2}% | {3}%" />
+  <string key="uiText-odbcGen4" value="{0}，{1}。&#10;正在生成 SQL... {2}% | {3}% | {4}%" />
+  <string key="uiText-odbcSending" value="{0}，{1}。&#10;正在向数据源发送 SQL... {2}%" />
+  <string key="uiText-odbcSent" value="已为 {1} 发送 {0:0,0} 条 SQL 命令，耗时 {2} 秒。" />
+  <string key="uiText-odbcSent2" value="已为 {2} 通过 {1} 条命令发送 {0:0,0} 行，耗时 {3} 秒。" />
+  <string key="uiText-pluginDefaultLabel" value="无状态" />
+  <string key="uiText-pluginEnabled" value="已启用" />
+  <string key="uiText-pluginInfoParts2" value="原始文件名: " />
+  <string key="uiText-pluginInfoParts4" value="产品版本: " />
+  <string key="uiText-pluginInfoParts6" value="产品名称: " />
+  <string key="uiText-pluginInfoTitle1" value="程序集信息:&#10;" />
+  <string key="uiText-pluginInfoTitle2" value="源文件信息：&#10;" />
+  <string key="uiText-startupWizLogFileInfo" value="{0}\{1}&#10;文件大小：{2:0,0}  最后修改：{3}" />
+  <string key="uiText-xmlSubsQueryInfo" value="最后更新: {0} {1}" />
+  <string key="ui-webserverStatus" value="服务器状态" />
+  <string key="webDesc-browse" value="浏览 ACT 当前内存中的所有表格。" />
+  <string key="webDesc-current" value="当前正在进行的战斗可在此查看。页面每 5 秒刷新一次。" />
+  <string key="webDesc-mini" value="当前战斗的迷你窗口纯文本显示。页面每 5 秒刷新一次。" />
+  <string key="webDesc-timers" value="查看 ACT 当前正在跟踪的技能计时器表格。页面每 2 秒刷新一次。" />
+  <string key="webText-actUi" value="ACT Web 界面" />
+  <string key="webText-browse" value="浏览" />
+  <string key="webText-copyAll" value="全部复制到剪贴板" />
+  <string key="webText-currentEncounter" value="当前战斗" />
+  <string key="webText-currentNoEncounter" value="无战斗" />
+  <string key="webText-loading" value="正在加载..." />
+  <string key="webText-miniNoEncounter" value="无战斗" />
+  <string key="webText-miniNoFormat" value="未选择文本格式" />
+  <string key="webText-reload" value="重新加载" />
+  <string key="webText-timers" value="技能计时器" />
+  <string key="webText-timersNormal" value="普通视图" />
+  <string key="webText-timersNoTimers" value="没有可显示的技能计时器。" />
+  <string key="webText-timersSimple" value="简单视图" />
+  <string key="webTitle-browse" value="浏览 ACT 的战斗数据" />
+  <string key="webTitle-current" value="当前战斗表格" />
+  <string key="webTitle-mini" value="当前迷你窗口文本" />
+  <string key="webTitle-timers" value="计时器窗口表格" />
+</InternalStrings>

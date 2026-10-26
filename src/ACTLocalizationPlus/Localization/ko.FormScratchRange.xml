@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormScratchRange">
+  <Control ControlPath="root" UniqueName="btnOk" Text="확인" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="시간 범위 입력" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label1" Text="범위 시작" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label2" Text="범위 끝" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label3" Text="시간 코드 (다른 창과 복사/붙여넣기)" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnPasteCodes" Text="붙여넣기" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnCopyCodes" Text="복사" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="시간 범위 이동" />
+  <Control ControlPath="root\groupBox1" UniqueName="label5" Text="끝" />
+  <Control ControlPath="root\groupBox1" UniqueName="label4" Text="시작" />
+</ControlText>

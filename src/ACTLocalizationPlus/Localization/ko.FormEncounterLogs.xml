@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormEncounterLogs">
+  <Control ControlPath="root" UniqueName="cbOnlyResults" Text="검색 결과만&#10;표시" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="전투 로그에서 찾기..." />
+  <Control ControlPath="root\groupBox1" UniqueName="btnSearchText" Text="텍스트로 검색" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnSearchRegex" Text="정규식으로 검색" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnFindNext" Text="다음 찾기" />
+  <Control ControlPath="root\groupBox1" UniqueName="btnFindPrev" Text="이전 찾기" />
+  <Control ControlPath="root\groupBox2" UniqueName="btnCopyCombat" Text="전투 복사" />
+  <Control ControlPath="root\groupBox2" UniqueName="btnCopyResults" Text="결과 복사" />
+  <Control ControlPath="root\groupBox2" UniqueName="btnCopySelection" Text="선택 영역 복사" />
+  <Control ControlPath="root\groupBox2" UniqueName="btnCopyAll" Text="모두 복사" />
+</ControlText>

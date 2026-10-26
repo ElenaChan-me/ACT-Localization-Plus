@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormActMain">
+  <Control ControlPath="root\flpCornerButtons" UniqueName="cbbMiniParse" Text="미니 표시" />
+  <Control ControlPath="root\flpCornerButtons" UniqueName="cbbShowTimers" Text="타이머 표시" />
+  <Control ControlPath="root\flpCornerButtons" UniqueName="btnPasteXmlSnippet" Text="XML&#10;가져오기" />
+  <Control ControlPath="root\tc1" UniqueName="tpMain" Text="메인" />
+  <Control ControlPath="root\tc1\tpMain\pRightView\pDG" UniqueName="lblDG" Text="전투" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="btnMergeChecked" Text="선택 항목 병합" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="btnDeleteChecked" Text="선택 항목 삭제" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnClear" Text="전투 지우기(&amp;C)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnEndEnc" Text="전투 종료(&amp;E)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnRefresh" Text="목록 새로 고침(&amp;R)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnCDSearch" Text="검색(&amp;S)..." />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="cbShowChecks" Text="체크박스 표시 (병합/삭제)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="cbLockDG" Text="표 자동 새로 고침 끄기(&amp;D)" />
+  <Control ControlPath="root\tc1" UniqueName="tpOptions" Text="설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare" UniqueName="groupBox4" Text="받은 XML 공유" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareDelete" Text="위 데이터 삭제" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareRemoveBanned" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareAddBanned" Text="추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareRemoveTrusted" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="groupBox5" Text="자동으로 데이터 수락:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="groupBox6" Text="자동으로 데이터 거부:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareAddTrusted" Text="추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareImport" Text="위 데이터 가져오기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs" UniqueName="groupBox1" Text="XML 설정 구독" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubAdd" Text="추가/편집" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubRemove" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubCheckNow" Text="지금 확인" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubUpdateChecked" Text="체크 항목 업데이트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1" UniqueName="groupBox2" Text="구독 상세 정보" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="linkSubBrowser" Text="브라우저에서 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="btnSubQuery" Text="URL 조회" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="groupBox3" Text="가져오기 정보 조회" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubAuto" Text="시작 시 갱신된 파일 가져오기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubNotify" Text="업데이트된 파일 알림" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubIgnore" Text="갱신된 파일 무시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling" UniqueName="groupBox30" Text="일반 정리 설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullNoAlly" Text="&quot;전투&quot;로 표시된 모든 전투 정리  (아군 없음)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullCountIgnoreNoAlly" Text="&quot;전투&quot;로 표시된 전투는 이 개수에 포함하지 않음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullCount" Text="일반 전투가 총 이 개수가 되면 오래된 전투 정리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullTimer" Text="생성된 지 이 시간(분)이 지난 일반 전투 정리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling" UniqueName="groupBox31" Text="이전 지역 정리" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox31" UniqueName="cbCullOther" Text="이 개수만큼 이전 지역의 다른 전투 정리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox31" UniqueName="cbCullAll" Text="이 개수만큼 이전 지역의 &quot;전체&quot; 전투 정리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="btnFontDisplay" Text="글꼴 변경" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="btnAddPresetMini" Text="프리셋 추가..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label44" Text="창 불투명도" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label89" Text="미니 분석 텍스트 서식:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label23" Text="초." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label22" Text="갱신 간격:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbRestoreEncBox" Text="창 복원 시 미니 분석 숨기기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbSmallEncTop" Text="미니 분석 - 항상 위" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMiniColumnAlign" Text="셀 내용에 맞춰 텍스트를 열 단위로 정렬" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMiniClickThrough" Text="마우스 클릭이 통과하도록 허용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMinEncBox" Text="최소화 시 미니 분석 창으로 전환" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="btnRemovePresetMini" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableZone" UniqueName="btnTableDefaults" Text="열을 기본값으로 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableZone" UniqueName="gbTableDepth1" Text="지역 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc" UniqueName="btnTableDefaults" Text="열을 기본값으로 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc" UniqueName="gbTableDepth2" Text="전투 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="lblSortby1" Text="정렬 #1:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="label47" Text="정렬 #2:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="btnEDSort2" Text="지속 시간" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableCombatant" UniqueName="btnTableDefaults" Text="열을 기본값으로 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableCombatant" UniqueName="gbTableDepth3" Text="전투원 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType" UniqueName="btnTableDefaults" Text="열을 기본값으로 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType" UniqueName="gbTableDepth4" Text="피해 유형 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="lblSortby2" Text="정렬 #1:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="btnMDSort" Text="피해량" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="label48" Text="정렬 #2:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="btnMDSort2" Text="지속 시간" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType" UniqueName="gbTableDepth5" Text="공격 유형 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="lblSortby3" Text="정렬 #1:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="btnATSort" Text="시간" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="label49" Text="정렬 #2:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="btnATSort2" Text="시간" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType" UniqueName="btnTableDefaults" Text="열을 기본값으로 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbEncSilenceCut" Text="마지막 전투 행동 후 전투(인카운터) 시간을 일시 정지하기까지 대기할 시간(초):" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="groupBox6" Text="주 표 설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="cbTableCommas" Text="메인 탭 표에 천 단위 구분 기호 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="cbReverseSort" Text="메인 표의 정렬 순서를 반대로 합니다.  (내림차순)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="label2" Text="주 표 갱신 주기(초):" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleEnd" Text="마지막 전투 행동 후 새 전투(인카운터)를 시작하기까지 대기할 시간(초):" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleTimerEnd" Text="로그 파일 타임스탬프에만 의존하지 않고 내부 타이머로 카운트다운합니다." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="rbGraphSimple" Text="현재 정렬을 나타내는 간단한 막대 그래프." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="rbGraphAdv" Text="시간별 고급 DPS 그래프  (CPU 부하 높음)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="cbOnlyGraphAllies" Text="아군만 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="cbSimpleGraphTotals" Text="합계 &amp;&amp; 평균 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="cbBarGraphUseSuffixDecimals" Text="소수점 사용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="cbGraphsUseSuffix" Text="그래프에서 숫자를 K/M/B 단위로 간략화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="groupBox2" Text="고급 그래프 설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2\tableLayoutPanel2" UniqueName="label92" Text="선 그래프의 각 점에 최근 N초 평균 포함:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2\tableLayoutPanel1" UniqueName="label11" Text="그래프 생성 CPU 우선순위:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2" UniqueName="label1" Text="전투원 선 그래프에 포함할 DamageType 분류" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2" UniqueName="cbGraphRollingAvg" Text="그래프 선을 시간 구간별 묶음 대신 이동 평균으로 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="groupBox11" Text="컴퓨터 간 클립보드 공유" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="lblClipStatus" Text="연결되지 않음." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="cbClipAutoConnect" Text="이 IP에 자동으로 연결" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="cbClipConnect" Text="연결" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="label68" Text="ACT Clipboard Sharer(ACT 웹사이트에서 받을 수 있음)에 연결되어 있으면 ACT가 클립보드로 텍스트를 내보낼 때마다 연결된 컴퓨터의 클립보드로 전송됩니다.  네트워크를 통해 ACT를 실행하면서도 게임에 데이터를 붙여넣을 수 있습니다.  G15/G19 데이터에도 사용할 수 있습니다.&#13;&#10;" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="label17" Text="게임과 다른 컴퓨터에서 ACT를 실행하는 사용자를 위한 기능입니다." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExportFilterSpace" Text="텍스트 내보내기에서 이름에 공백이 있는 전투원 제외 (소환수 무리일 수 있음)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="label3" Text="클립보드 서식:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="groupBox35" Text="전투 후 EQ2 매크로 파일로 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile3" Text="EQ2 명령: /do_file_commands" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="btnExFileRemovePreset" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="btnExFileAddPreset" Text="추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile2" Text="채널 명령&#10;(gsay, raidsay, tellchannel)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile1" Text="서식:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFileLines" Text="내보낼 최대 줄 수" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="cbExFileColumnAlign" Text="셀 내용에 맞춰 텍스트를 열 단위로 정렬" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="btnAddPresetClip" Text="프리셋 추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="btnRemovePresetClip" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExText" Text="전투 후 클립보드로 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc" UniqueName="groupBox25" Text="ODBC 데이터베이스" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="gbOdbcHacks" Text="데이터 소스 호환성 보정  (정규식)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks\tableLayoutPanel2" UniqueName="label2" Text="찾기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks\tableLayoutPanel2" UniqueName="label3" Text="바꾸기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnResetOdbcHacks" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnOdbcHackRemove" Text="제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnOdbcHackAdd" Text="추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="label1" Text="연결 문자열 일치" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbCurrentOdbc" Text="N초마다 현재 전투 표 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="linkLabelOdbcControl" Text="ODBC 제어판 열기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcTestConnection" Text="연결 테스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcValidateTables" Text="테이블 구성 검증" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcDropTables" Text="테이블 삭제" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="label54" Text="데이터베이스 테이블 깊이 선택:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx5" Text="개별 공격까지 내보내기 (대용량 DB 필요)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx4" Text="AttackType 표까지 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx3" Text="전투원 DamageType까지 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx2" Text="전투 상세까지 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx1" Text="마스터 전투 목록만 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="linkLabelConnectionString" Text="연결 문자열:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="label53" Text="고급 사용자 전용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbSqlSafeMode" Text="INSERT 문당 한 행씩 전송. (디버그/MSSQL)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbExOdbc" Text="전투 후 ODBC DB로 데이터 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML" UniqueName="groupBox15" Text="EQ2 HTML 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="label1" Text="초:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="label25" Text="주기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="btnClearHTML" Text="모두 지우기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbHTMLCullEncounters" Text="표시되는 전투 수를 지정한 개수로 자동 정리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="groupBox16" Text="FTP 설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="btnExFTPTest" Text="이 설정 테스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label34" Text="고급 사용자 전용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label33" Text="연결 방식" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label28" Text="서버 주소" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="cbExHTMLFTP" Text="EQ2 HTML 파일을 FTP 서버로 전송" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label29" Text="로그인 시 초기 경로 설정" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label30" Text="사용자 이름" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label31" Text="비밀번호" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label32" Text="원격 포트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="rbExFTPPassive" Text="패시브" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbHtmlTimers" Text="매초 타이머 창 HTML 페이지 생성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbExGraph" Text="전투 그래프 포함 " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbCurrentTable" Text="주 전투 표 생성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbCurrentGraph" Text="현재 전투의 그래프 생성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbExHTML" Text="/browser로 볼 정적 HTML 파일 내보내기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="lblGraphXY" Text="HTML 그래프 이미지 크기(픽셀)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer" UniqueName="groupBox28" Text="HTML 인터페이스 웹 서버" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="btnEchoRecent" Text="최근 클라이언트 모두에 에코" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="btnEchoAll" Text="모든 클라이언트에 에코" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="cbWebServerShowReq" Text="모든 HTTP 요청 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="lblWebServerPort" Text="서버 수신 포트:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="cbWebServerEnabled" Text="웹 서버 사용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="lblWebServerConnections" Text="서버 상태" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound" UniqueName="linkTtsCpl" Text="텍스트 음성 변환 제어판" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="lblMiscSound" Text="기타 소리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="rbSndCommandNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="rbSndCommandBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="lblCommandSound" Text="명령 소리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="cbWmpRequireInvoke" Text="사운드 재생에 UI 스레드 사용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndPlugin" Text="플러그인 사운드" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndWmpApi" Text="WMP API 사운드 사용 (음량 조절, 동시 재생 가능, 약간의 지연)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndWinApi" Text="Windows API 사운드 사용  (음량 조절 불가, 한 번에 하나만 재생)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="label93" Text="TTS 음량" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="label12" Text="WAV 음량" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="lblSndMethod" Text="사운드 방식: " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="rbSndTimerNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="rbSndTimerBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="lblTimerExpireSound" Text="타이머 만료:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="rbSndWarnNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="rbSndWarnBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="lblTimerWarningSound" Text="타이머 경고:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="rbSndStartNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="rbSndStartBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="lblTimerStartSound" Text="타이머 시작:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="lblExportSound" Text="내보내기 소리:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface" UniqueName="groupBox1" Text="주 사용자 인터페이스" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1" UniqueName="btnResetColors" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccMainWindow" Text="주 창 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblText" Text="주 창 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="btnFontDisplay" Text="글꼴 변경" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccWindowColors" Text="내부 창 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblText" Text="내부 창 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="btnFontDisplay" Text="샘플" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="cbColorPlugins" Text="이 설정을 플러그인 탭에도 적용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccPluginsNotifications" Text="플러그인 &amp;&amp; 알림 패널" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblText" Text="플러그인 &amp;&amp; 알림 패널" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="btnFontDisplay" Text="샘플" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccTreeView" Text="트리 보기 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblText" Text="트리 보기 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="btnFontDisplay" Text="글꼴 변경" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel1" Text="전투 색상 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel1" UniqueName="lblText" Text="전투 색상 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel2" Text="전투 색상 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel2" UniqueName="lblText" Text="전투 색상 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel3" Text="전투 색상 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel3" UniqueName="lblText" Text="전투 색상 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccDataGrid" Text="데이터 표 항목" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblText" Text="데이터 표 항목" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="btnFontDisplay" Text="글꼴 변경" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccDGAllyText" Text="아군 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccDGAllyText" UniqueName="lblText" Text="아군 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccDGPersonalBackcolor" Text="본인 셀 배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccDGPersonalBackcolor" UniqueName="lblText" Text="본인 셀 배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label3" Text="(이 영역에서 지정하지 않은 색상만 조정)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label2" Text="채도 오프셋:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label1" Text="명도 보정:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="cbInvertLuminosity" Text="명도 반전 (어두운 테마용)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="cbShadeMainScrollbars" Text="트리 보기/데이터 표 스크롤 막대에 음영 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccScrollShade" Text="음영 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccScrollShade" UniqueName="lblText" Text="음영 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel7" UniqueName="label6" Text="음영 불투명도 %:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing" UniqueName="groupBox2" Text="그래프 채우기 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2" UniqueName="btnResetGraphFillColors" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill1" Text="그래프 채우기 01" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill1" UniqueName="lblText" Text="그래프 채우기 01" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill2" Text="그래프 채우기 02" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill2" UniqueName="lblText" Text="그래프 채우기 02" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill3" Text="그래프 채우기 03" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill3" UniqueName="lblText" Text="그래프 채우기 03" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill4" Text="그래프 채우기 04" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill4" UniqueName="lblText" Text="그래프 채우기 04" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill5" Text="그래프 채우기 05" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill5" UniqueName="lblText" Text="그래프 채우기 05" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill6" Text="그래프 채우기 06" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill6" UniqueName="lblText" Text="그래프 채우기 06" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill7" Text="그래프 채우기 07" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill7" UniqueName="lblText" Text="그래프 채우기 07" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill8" Text="그래프 채우기 08" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill8" UniqueName="lblText" Text="그래프 채우기 08" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill9" Text="그래프 채우기 09" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill9" UniqueName="lblText" Text="그래프 채우기 09" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill10" Text="그래프 채우기 10" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill10" UniqueName="lblText" Text="그래프 채우기 10" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill11" Text="그래프 채우기 11" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill11" UniqueName="lblText" Text="그래프 채우기 11" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill12" Text="그래프 채우기 12" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill12" UniqueName="lblText" Text="그래프 채우기 12" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill13" Text="그래프 채우기 13" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill13" UniqueName="lblText" Text="그래프 채우기 13" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill14" Text="그래프 채우기 14" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill14" UniqueName="lblText" Text="그래프 채우기 14" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill15" Text="그래프 채우기 15" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill15" UniqueName="lblText" Text="그래프 채우기 15" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill16" Text="그래프 채우기 16" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill16" UniqueName="lblText" Text="그래프 채우기 16" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill17" Text="그래프 채우기 17" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill17" UniqueName="lblText" Text="그래프 채우기 17" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill18" Text="그래프 채우기 18" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill18" UniqueName="lblText" Text="그래프 채우기 18" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill19" Text="그래프 채우기 19" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill19" UniqueName="lblText" Text="그래프 채우기 19" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill20" Text="그래프 채우기 20" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill20" UniqueName="lblText" Text="그래프 채우기 20" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill21" Text="그래프 채우기 21" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill21" UniqueName="lblText" Text="그래프 채우기 21" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill22" Text="그래프 채우기 22" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill22" UniqueName="lblText" Text="그래프 채우기 22" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill23" Text="그래프 채우기 23" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill23" UniqueName="lblText" Text="그래프 채우기 23" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill24" Text="그래프 채우기 24" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill24" UniqueName="lblText" Text="그래프 채우기 24" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill25" Text="그래프 채우기 25" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill25" UniqueName="lblText" Text="그래프 채우기 25" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill26" Text="그래프 채우기 26" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill26" UniqueName="lblText" Text="그래프 채우기 26" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill27" Text="그래프 채우기 27" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill27" UniqueName="lblText" Text="그래프 채우기 27" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill28" Text="그래프 채우기 28" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill28" UniqueName="lblText" Text="그래프 채우기 28" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing" UniqueName="groupBox1" Text="그래프 일반 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1" UniqueName="btnResetEncBarColors" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarBackFill" Text="그래프 배경 채우기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarBackFill" UniqueName="lblText" Text="그래프 배경 채우기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarLegendText" Text="축 범례 텍스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarLegendText" UniqueName="lblText" Text="축 범례 텍스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarYLines" Text="Y축 선" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarYLines" UniqueName="lblText" Text="Y축 선" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarOutlining" Text="테두리 펜" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarOutlining" UniqueName="lblText" Text="테두리 펜" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarAvgText" Text="평균/합계 텍스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarAvgText" UniqueName="lblText" Text="평균/합계 텍스트" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor1" Text="막대 색상 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor1" UniqueName="lblText" Text="막대 색상 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor2" Text="막대 색상 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor2" UniqueName="lblText" Text="막대 색상 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor3" Text="막대 색상 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor3" UniqueName="lblText" Text="막대 색상 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarText" Text="막대 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarText" UniqueName="lblText" Text="막대 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc" UniqueName="groupBox2" Text="사용자 트리거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="btnResetColorsCustomTriggers" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerRestricted" Text="분류로 제한된 사용자 트리거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerRestricted" UniqueName="lblText" Text="분류로 제한된 사용자 트리거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerInactive" Text="사용자 트리거 비활성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerInactive" UniqueName="lblText" Text="사용자 트리거 비활성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerActive" Text="사용자 트리거 활성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerActive" UniqueName="lblText" Text="사용자 트리거 활성" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="fccCustomTriggerTreeView" Text="사용자 트리거 트리 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblText" Text="사용자 트리거 트리 보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblForeColor" Text="글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="btnFontDisplay" Text="글꼴 변경" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblBackColor" Text="배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc" UniqueName="groupBox1" Text="주문 타이머 창" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="btnResetColors" Text="초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerForeColor" Text="주문 타이머 창 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerForeColor" UniqueName="lblText" Text="주문 타이머 창 글자색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerExpireColor" Text="주문 타이머 만료 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerExpireColor" UniqueName="lblText" Text="주문 타이머 만료 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerWarnColor" Text="주문 타이머 경고 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerWarnColor" UniqueName="lblText" Text="주문 타이머 경고 색상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerBackColor" Text="주문 타이머 창 배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerBackColor" UniqueName="lblText" Text="주문 타이머 창 배경색" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbOriginalLoglineCustomTriggers" Text="사용자 트리거에 원본 로그 줄 유지" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbOriginalLoglineViewLogs" Text="로그 보기에 원본 로그 줄 유지" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel5" UniqueName="label1" Text="사용자 트리거 분석에 사용할 추가 스레드 최대 수: " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel4" UniqueName="label69" Text="프로세스 CPU 선호도:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel4" UniqueName="btnCpuAffinityApply" Text="변경/보기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel3" UniqueName="lblLogPriority" Text="일반 로그 분석 CPU 우선순위:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel2" UniqueName="label2" Text="ACT 창 제목 표시줄 형식:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbDisableIncrementalCaching" Text="데이터 객체의 증분 캐싱 사용 안 함" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbUnblockFiles" Text="ACT 폴더와 플러그인에서 인터넷 다운로드 파일을 찾아 차단을 해제합니다." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="gbFile" Text="로그 파일" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile\tableLayoutPanel6" UniqueName="lblSplitFile" Text="로그 파일을 열거나 닫을 때 이 값(MB)을 넘으면 로그 이름 변경 시도:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="cbbPauseLog" Text="로그 일시 정지" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="cbAutoLoadLogs" Text="최근 변경된 로그 파일 자동 불러오기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="lblLogFile" Text="로그 파일이 선택되지 않았습니다.  (/log ON을 잊지 마십시오)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="btnCloseLog" Text="로그 닫기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="btnOpenLog" Text="로그 열기..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbAutoSaveDatabase" Text="1분마다 ACT의 전투(인카운터) 기록 데이터베이스를 자동 저장합니다. " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbAutoSaveSettings" Text="1분마다 ACT의 설정을 자동 저장합니다." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbGCollectOnClear" Text="전투를 지울 때 사용하지 않는 메모리를 즉시 해제 (ACT가 멈출 수 있음)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbMinimizeToIcon" Text="ACT를 트레이 아이콘으로 최소화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbRecordLogs" Text="분석 중 모든 로그 줄 기록  (로그 보기 컨텍스트 메뉴 옵션)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbZoneAllListing" Text="지역 내 개별 전투(인카운터)의 모든 데이터를 포함하는 'All' 전투(인카운터)를 생성합니다.  (소급 적용 안 됨)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbRestrictToAll" Text="(Ref) 표시가 없는 DamageType 분류는 'All' 항목만 생성합니다.  (소급 적용 안 됨)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnResetLocs" Text="창 위치/크기 초기화" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnShowStartupWiz" Text="시작 마법사 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnShowPerfWiz" Text="성능 마법사 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="label9" Text="ACT 설정 가져오기/내보내기 ..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="btnImportSettings" Text="가져오기..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="btnExportSettings" Text="내보내기..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport" UniqueName="groupBox2" Text="구성 XML을 XML 공유 스니펫으로 변환" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox2\tableLayoutPanel2" UniqueName="btnConvertXmlSnippet" Text="    XML 스니펫으로 변환" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport" UniqueName="groupBox1" Text="ACT 설정 백업 불러오기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox1" UniqueName="btnLoadSelected" Text="백업 불러오기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox1" UniqueName="btnRefreshListing" Text="새로 고침" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox19" Text="플레이어 일괄 제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseCull" Text="선택 안 된 항목 지우기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseClear" Text="전체 목록 지우기" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseUncheckAll" Text="모두 선택 해제" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox18" Text="플레이어 추가/제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox18\tableLayoutPanel2" UniqueName="btnSParseRemovePlayer" Text="제거(&amp;R)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox18\tableLayoutPanel2" UniqueName="btnSParseAddPlayer" Text="추가(&amp;A)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox17" Text="전투원 제한" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="cbSParseIgnoreEnemies" Text="허용 목록에 없는 전투원은 표시하지 않음" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseNone" Text="선택적 분석 안 함 (자동 아군 감지 사용)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseExport" Text="그래프/텍스트 내보내기에 목록의 전투원만 표시" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseFull" Text="목록에 있는 대상의/대상에 대한 전투 행동만 기록" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="cbSParseExportIgnoreOtherAllies" Text="&quot;아군&quot; 합계에 목록의 플레이어만 포함" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc\tableLayoutPanel1" UniqueName="lblCharName" Text="로그 파일 이름으로 정해지지 않을 때의 기본 캐릭터 이름" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc\tableLayoutPanel1" UniqueName="btnCharNameApply" Text="적용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbCalcRealAvgDly" Text="평균 지연 계산 시 1초 안의 여러 타격을 하나로 묶습니다.  (더 정확함)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbBlockisHit" Text="피해가 없는 적중도 계산 시 적중으로 집계" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbExportDurationWallTime" Text="텍스트 내보내기 지속 시간에 전투 중 실제 경과 시간 포함" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbLongEncDuration" Text="마지막 피해 이후에도 치유로 전투 시간을 연장할 수 있도록 허용" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label80" Text="전투원 이름을 새 이름으로 변경하거나 기존 전투원에 병합" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label82" Text="이후" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label81" Text="이전" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel1" UniqueName="btnRenameAdd" Text="보정 추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel1" UniqueName="btnRenameRemove" Text="수정 항목 제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel2" UniqueName="btnAbilityRedirectRemove" Text="수정 항목 제거" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel2" UniqueName="btnAbilityRedirectAdd" Text="보정 추가" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label95" Text="특정 기술 이름의 피해를 전투원에게 귀속" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label97" Text="대상" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label96" Text="기술" />
+  <Control ControlPath="root\tc1\tpOptions\tableLayoutPanel12" UniqueName="btnOptionSearchClear" Text="지우기" />
+  <Control ControlPath="root\tc1" UniqueName="tpTriggers" Text="사용자 트리거" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers" UniqueName="tabPage0" Text="트리거" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0" UniqueName="btnOpenCtBenchmark" Text="CT 벤치마크..." />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="btnRemoveTrigger" Text="제거(&amp;R)" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="btnAddTrigger" Text="추가/편집" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerBeep" Text="비프음" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerNone" Text="없음" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="label40" Text="사용자 트리거:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel1" UniqueName="linkRegex" Text="정규식:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="label90" Text="분류:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="btnCtInsZone" Text="← 지역" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerCategoryRestrict" Text="분류 지역으로 제한" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="label91" Text="타이머 또는 탭 이름:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerTimer" Text="타이머 실행" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerTabbed" Text="결과 탭 추가" />
+  <Control ControlPath="root\tc1" UniqueName="tpPlugins" Text="플러그인" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins" UniqueName="tabPage1" Text="플러그인 목록" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\flpPluginButtons" UniqueName="btnGetPlugins" Text="플러그인 받기..." />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\flpPluginButtons" UniqueName="btnGetAssemblies" Text="로드된 어셈블리 보기" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1" UniqueName="groupBox3" Text="플러그인 정보" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="btnAddPluginPanel" Text="플러그인 추가/활성화" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="btnPluginBrowse" Text="찾아보기..." />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="lblPluginFileInfo" Text="찾아보기로 플러그인 파일을 선택하십시오..." />
+  <Control ControlPath="root\tc1" UniqueName="tpImportExport" Text="가져오기/내보내기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="btnImportClip" Text="클립보드 가져오기..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="btnRefreshClipStats" Text="클립보드 검사" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="groupBox2" Text="통계" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="groupBox1" Text="스니펫" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="cbContToEndCombat" Text="시간 기준으로 가져올 때 전투가 끝날 때까지 계속 가져오기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="groupBox3" Text="로그 파일 끝 위치" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox3" UniqueName="lblImportEFile" Text="파일 끝" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox3" UniqueName="groupBox4" Text="날짜/시간 기준" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="btnImportFile" Text="파일 선택..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="cbImportCustomTriggers" Text="가져올 때 사용자 트리거 분석 (탭 결과만)" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="groupBox1" Text="로그 파일 시작 위치" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox1" UniqueName="lblImportBFile" Text="파일 시작" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox1" UniqueName="groupBox2" Text="날짜/시간 기준" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="btnImportAct" Text="ACT 파일 가져오기..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="cbParseCt" Text="가져온 파일에 로그 텍스트가 있으면 사용자 트리거 분석 (탭 결과만)" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="groupBox1" Text="상태" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="cbExportLogText" Text="내보낼 때 로그 보기 기능의 로그 줄 포함" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="groupBox1" Text="상태" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="btnExportAct" Text="ACT 파일 내보내기..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="btnCancel" Text="취소" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox3" Text="기타 설정" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml\groupBox3" UniqueName="lblGraphXY" Text="HTML 그래프 이미지 크기(픽셀)" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox2" Text="상태" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="btnExportHtml" Text="이 설정으로 HTML 내보내기..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox1" Text="내보내기 깊이 설정" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="btnShowSqlWindow" Text="SQL 창 보기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="btnExportOdbc" Text="전투 내보내기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="groupBox1" Text="상태" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc\groupBox1" UniqueName="btnCancel" Text="취소" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml3" Text="선택한 전투의 모든 표 내보내기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml2" Text="주 표부터 DamageType 데이터 표까지 내보내기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml1" Text="주 표 데이터만 내보내기" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="btnExportXmlFile" Text="내보내기..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="groupBox1" Text="상태" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile\groupBox1" UniqueName="btnCancel" Text="취소" />
+  <Control ControlPath="root\tc1" UniqueName="tpHistory" Text="기록 데이터베이스" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox5" Text="관리" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="label76" Text="일" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="btnHistoryDelete" Text="지정한 기간보다 오래된 기록 삭제:" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="label73" Text="선택하면 ACT가 세션 기록을 파일로 저장하고 시작 시 불러옵니다.   이 기능을 켜면 이전에 저장한 데이터베이스 파일을 자동으로 불러옵니다." />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="cbRecordsSave" Text="기록 저장 사용" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox27" Text="검색 결과" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsSelectZones" Text="목록의 지역 선택" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsSelectEncs" Text="목록의 전투 선택" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsDelete" Text="선택한 기록 삭제" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsImport" Text="선택 항목 가져오기" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox4" Text="기록 검색" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4\tableLayoutPanel10" UniqueName="label72" Text="검색 결과는 달력에 굵은 날짜로 표시됩니다.&#10;&#10;달력에서 날짜나 범위를 선택하거나 검색 결과의 항목을 선택하면 해당 날짜/시간 범위가 선택기에 지정됩니다." />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="label75" Text="끝" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="label74" Text="시작" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="cbRecordSearchEncs" Text="전투(인카운터) 제목 검색" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="cbRecordSearchZones" Text="지역 이름 검색" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="btnRecordSearchDateTime" Text="날짜/시간으로 검색" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="btnRecordSearchText" Text="텍스트로 검색" />
+  <Control ControlPath="root\tc1" UniqueName="tpNotifications" Text="알림" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="btnNotificationsClear" Text="읽은 항목 지우기" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="btnNotificationsMarkRead" Text="모두 읽음으로 표시" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="gbNotifications" Text="알림 기록" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="cbNotificationBlink" Text="알림 배지 깜박임" />
+  <Control ControlPath="root\tc1" UniqueName="tpAbout" Text="정보" />
+  <Control ControlPath="root\tc1\tpAbout" UniqueName="groupBox14" Text="버그 또는 의견 보내기" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="rtbFeedback" Text="여기에 의견을 입력한 후 제출을 클릭하세요." />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="lblFeedback" Text="ACT 본체에 관해 개인 메시지를 보내고 싶다면 이 양식을 자유롭게 사용하십시오.  제가 만들지 않은 플러그인은 도와드리지 못할 수 있습니다.  &#13;&#10;&#13;&#10;빠른 답변을 원하시면 ACT 웹사이트 포럼이나 이메일을 이용하시기 바랍니다.  링크는 위에 있습니다." />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="btnFeedbackSubmit" Text="제출" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="cbFeedbackLogs" Text="오류 로그 포함          &quot;Advanced Combat Tracker.log&quot;" />
+  <Control ControlPath="root\tc1\tpAbout" UniqueName="gbAbout" Text="정보" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="linkLabelAppData" Text="앱 데이터 폴더" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="cbAutoCheck" Text="자동 버전 확인" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="btnCheckVer" Text="지금 버전 확인" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label5" Text="버전:" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label7" Text="방문:" />
+</ControlText>

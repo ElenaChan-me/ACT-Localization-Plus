@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormScratchRange">
+  <Control ControlPath="root" UniqueName="btnOk" Text="确定" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="输入时间范围" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label1" Text="范围开始" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label2" Text="范围结束" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="label3" Text="时间代码（可与其他窗口复制/粘贴）" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnPasteCodes" Text="粘贴" />
+  <Control ControlPath="root\groupBox2\tableLayoutPanel1" UniqueName="btnCopyCodes" Text="复制" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="平移时间范围" />
+  <Control ControlPath="root\groupBox1" UniqueName="label5" Text="结束" />
+  <Control ControlPath="root\groupBox1" UniqueName="label4" Text="开始" />
+</ControlText>

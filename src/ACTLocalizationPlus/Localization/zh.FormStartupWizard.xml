@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormStartupWizard">
+  <Control ControlPath="root" UniqueName="btnClose" Text="关闭" />
+  <Control ControlPath="root" UniqueName="btnBack" Text="&lt; 上一步" />
+  <Control ControlPath="root" UniqueName="btnNext" Text="下一步 &gt;" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage1" Text="开始" />
+  <Control ControlPath="root\tabControl1\tabPage1" UniqueName="label1" Text="本向导将帮助您选择解析插件、配置更新并选择日志文件。" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage4" Text="解析插件" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label8" Text="请务必为正在玩的游戏选择正确的插件。(以红色粗体标记)" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label7" Text="ACT 本身不具备解析游戏日志文件的功能。必须使用外部插件来解析不同游戏的日志文件。请在下拉列表中选择插件，然后点击相应按钮启用。请勿同时启用多个解析插件。" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="btnUsePlugin" Text="下载/启用插件" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage2" Text="日志文件" />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="label3" Text="每次切换角色时，ACT 都能检测到使用了不同的日志文件并自动切换。" />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="cbAutoLogSwitch" Text="自动加载最近更改的日志文件。" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage3" Text="启动设置" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label6" Text="启动、退出或切换角色时，如果上次打开的日志文件大于所列大小，ACT 将尝试重命名该文件。这可能需要管理员权限，且对正在写入的文件无效。&#13;&#10;&#13;&#10;此操作仅为了方便导入旧文件或用文本编辑器打开。更改此设置不会影响实时性能。" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label5" Text="MB。（0 为禁用）" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label4" Text="尝试分割日志文件，每" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label2" Text="启用后，ACT 及插件可能会在每次启动时检查新版本。建议启用以及时获得修复和新功能。(需要网络连接)" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="cbAutoVerCheck" Text="自动检查版本" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage5" Text="颜色/主题" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark2" Text="应用深色示例配色 2" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark" Text="应用深色示例配色" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnResetColors" Text="重置所有颜色" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="label9" Text="虽然 Microsoft WinForms 不支持按应用设置主题，但您可以覆盖部分颜色。可调颜色位于“选项”页的“颜色和字体设置”中的“主用户界面”页面。也可以让 ACT 清除所有自定义设置，或应用一些示例颜色以获得更深色的主题。&#13;&#10;&#13;&#10;部分控件的某些部分无法重新着色，将始终以系统定义的颜色显示。&#13;&#10;&#13;&#10;更改部分颜色后，可能需要重启 ACT 才能正确显示。" />
+</ControlText>

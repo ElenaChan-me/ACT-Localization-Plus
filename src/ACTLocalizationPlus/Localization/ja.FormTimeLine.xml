@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormTimeLine">
+  <Control ControlPath="root" UniqueName="groupBox" Text="イベントの切り替え" />
+  <Control ControlPath="root\groupBox" UniqueName="btnInvertChecked" Text="選択を反転" />
+  <Control ControlPath="root\groupBox" UniqueName="btnCheckAll" Text="すべて選択" />
+  <Control ControlPath="root\groupBox" UniqueName="btnApplyRecalc" Text="上記設定を適用して再計算" />
+  <Control ControlPath="root\groupBox" UniqueName="label2" Text="サンプル間隔 (秒)" />
+  <Control ControlPath="root\groupBox" UniqueName="cbGlobalMaxLimit" Text="同種の行は同じスケールを使用" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingHealing" Text="被ヒール" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutgoingHealing" Text="与ヒール" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingDamage" Text="被ダメージ" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutDamage" Text="与ダメージ" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLRollingAvg" Text="移動平均でプロット (区間ではなく)" />
+  <Control ControlPath="root\groupBox" UniqueName="label1" Text="戦闘者のグループ化" />
+</ControlText>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormCustomTriggerBenchmark">
+  <Control ControlPath="root" UniqueName="btnDoBenchmark" Text="执行基准测试" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="自定义触发器列表" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="选择包含日志文本的战斗进行基准测试..." />
+</ControlText>

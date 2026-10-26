@@ -1,0 +1,15 @@
+# Claude Code local configuration
+CLAUDE.md
+.claude/
+
+# ビルド生成物
+bin/
+obj/
+*.user
+.vs/
+
+# 翻訳の元にする ACT の書き出し（作者のリポジトリから取得する）
+tools/upstream/
+
+# ビルドで参照する ACT 本体（配布物なので入れない）
+lib/

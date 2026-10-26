@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormPerformanceWizard">
+  <Control ControlPath="root\tc1" UniqueName="tabPage1" Text="1단계 " />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnCancel1" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="button2" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="btnTab1Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage1" UniqueName="label1" Text="이 마법사는 ACT의 CPU 사용량에 영향을 주는 설정에 쉽게 접근하기 위한 것입니다.  각 섹션에서 설정을 자세히 설명하므로 기능과 성능의 균형을 더 잘 맞출 수 있습니다.&#13;&#10;&#13;&#10;참고:  활성화된 사용자 트리거의 수는 일반 동작의 분석 속도(CPU 사용량)에 직접 영향을 줍니다." />
+  <Control ControlPath="root\tc1" UniqueName="tabPage2" Text="2단계 " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label21" Text="사용자 트리거 분석 전용 스레드 수를 변경합니다.  0으로 설정하면 사용자 트리거는 원래 분석 스레드에서 처리됩니다.  사용 중인 사용자 트리거가 많아 일반 로그 분석이 따라가지 못하면 1 이상으로 늘리세요.  이 값은 CPU 코어 수에서 게임이 사용하는 코어 수를 뺀 값보다 크게 설정하지 마세요.  &#13;&#10;&#13;&#10;예를 들어 4코어 CPU에서 EQ2를 플레이한다면 이 값은 3을 넘지 않아야 합니다.  EQ2의 멀티코어 지원이 활성화되어 있다면 2가 더 안전합니다.  듀얼코어 CPU라면 ACT가 EQ2를 느리게 하지 않도록 0-1이 가장 좋습니다.&#13;&#10;&#13;&#10;(사용자 트리거 분석이 지연되고 있는지는 설정 - 기타 페이지의 로그 파일 섹션에서 확인할 수 있습니다.)" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label16" Text="사용자 트리거 분석에 사용할 추가 스레드 최대 수: " />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnCancel2" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="btnTab2Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="label2" Text="일반 로그 분석의 우선순위를 변경합니다.  모든 프로그램에는 우선순위가 있으며 보통 기본값은 보통입니다. 이 우선순위는 현재 작업에 할당할 CPU 시간을 정합니다.  가장 낮음(유휴)으로 설정하면 로그 분석은 다른 애플리케이션이 사용하지 않는 CPU 시간만 사용합니다.&#13;&#10;&#13;&#10;이 설정을 적용하려면 ACT를 다시 시작하거나 현재 로그를 닫았다가 다시 열어야 합니다." />
+  <Control ControlPath="root\tc1\tabPage2" UniqueName="lblLogPriority" Text="일반 로그 분석 CPU 우선순위:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage3" Text="3단계 " />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnCancel3" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="btnTab3Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="label3" Text="각 지역 분기의 첫 번째 전투로, 해당 지역의 다른 모든 전투 데이터를 합친 &quot;전체&quot; 항목을 둘 수 있습니다.  해당 지역에서 전투가 진행되면 전체 항목도 실시간으로 갱신됩니다.  전체 전투 항목은 해당 지역의 모든 전투를 병합한 것과 같습니다.&#13;&#10;&#13;&#10;이 옵션을 끄면 기본 설정 대비 메모리와 CPU 사용량이 10% 조금 넘게 줄어듭니다." />
+  <Control ControlPath="root\tc1\tabPage3" UniqueName="cbZoneAllListing" Text="지역 내 개별 전투(인카운터)의 모든 데이터를 포함하는 'All' 전투(인카운터)를 생성합니다.  (소급 적용 안 됨)" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage4" Text="4단계 " />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnCancel4" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="btnTab4Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="label4" Text="체크하면 각 전투원 아래에서 (Ref)(참조) 표시가 있는 피해 유형 항목만 완전히 채워집니다.  'Melee (Out)'에 All, crush, slash가 표시되는 대신 crush/slash를 합친 All만 표시됩니다.  (Ref) 태그 덕분에 crush와 slash는 'All Outgoing (Ref)' 아래에서 계속 확인할 수 있습니다.&#13;&#10;&#13;&#10;이 옵션을 켜면 기본 설정 대비 CPU 사용량이 10% 조금 못 미치게, 메모리 사용량이 10% 조금 넘게 줄어듭니다.  체크를 해제하면 모든 항목이 논리적 목록에 채워집니다." />
+  <Control ControlPath="root\tc1\tabPage4" UniqueName="cbRestrictToAll" Text="(Ref) 표시가 없는 DamageType 분류는 'All' 항목만 생성합니다." />
+  <Control ControlPath="root\tc1" UniqueName="tabPage5" Text="5단계 " />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnCancel5" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="btnTab5Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label6" Text="이 설정은 화면이 새 정보로 갱신되는 빈도를 변경합니다.  메인 탭 표 갱신의 경우 그래프도 이 주기로 갱신될 수 있습니다.  간격이 짧을수록 ACT가 계산 갱신에 사용하는 CPU 시간이 늘어납니다.&#13;&#10;&#13;&#10;ACT가 최소화되어 있거나 '표 자동 새로 고침 끄기'가 체크되어 있으면 이 설정과 관계없이 메인 탭 표/그래프가 갱신되지 않습니다.  미니 분석 창이 활성화되어 있지 않으면 미니 분석 설정을 변경해도 CPU 사용량에 영향을 주지 않습니다(갱신되지 않으므로)." />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label23" Text="초." />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label22" Text="미니 분석 창 갱신 주기:" />
+  <Control ControlPath="root\tc1\tabPage5" UniqueName="label5" Text="N초마다 표 갱신." />
+  <Control ControlPath="root\tc1" UniqueName="tabPage6" Text="6단계 " />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnCancel6" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="btnTab6Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="label7" Text="메인 전투(인카운터) 그래프 생성 방식을 변경합니다.&#13;&#10;- 간단 방식은 현재 정렬된 열의 각 값을 막대 그래프로 표시합니다.  모든 열이 막대 그래프를 표시할 수 있는 것은 아니지만, 생성에 드는 CPU 시간은 항상 비교적 적습니다.&#13;&#10;- 고급 방식은 각 인원의 DPS 추이를 시간 구간별로 나눈 선 그래프로 표시합니다.  전체 전투(인카운터)의 DPS보다 계산 시간이 훨씬 더 걸립니다." />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphSimple" Text="현재 정렬을 나타내는 간단한 막대 그래프." />
+  <Control ControlPath="root\tc1\tabPage6" UniqueName="rbGraphAdv" Text="시간별 고급 DPS 그래프  (CPU 부하 높음)" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage7" Text="7단계 " />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnCancel7" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="btnTab7Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label8" Text="DPS 추이 그래프 생성(고급 전투(인카운터) 그래프 및 전투원 그래프)의 우선순위를 변경합니다.  모든 프로그램에는 우선순위가 있으며 보통 기본값은 보통입니다. 이 우선순위는 현재 작업에 할당할 CPU 시간을 정합니다.  가장 낮음(유휴)으로 설정하면 그래프 생성은 다른 애플리케이션이 사용하지 않는 CPU 시간만 사용합니다.  EQ2가 실행 중이면 거의 없을 것입니다.  보통 우선순위는 ACT와 EQ2 같은 다른 작업에 같은 양의 CPU 시간을 할당합니다.&#13;&#10;&#13;&#10;보통 이상(고급 전투(인카운터) 그래프 사용 시 권장하지 않음)은 그래프 생성을 대부분의 다른 프로그램보다 우선시하므로 EQ2에서 눈에 띄는 끊김이나 순간적인 멈춤이 생길 수 있습니다.  그래프 생성 중 ACT의 UI가 응답하지 않을 수도 있습니다.&#13;&#10;&#13;&#10;이 설정은 EQ2 유사 HTML(및 자동 ODBC) 내보내기에도 영향을 줍니다.  다음 전투(인카운터)가 끝나 내보내기가 필요해질 때까지 HTML 내보내기가 완료되지 않는다면 이 설정을 높이는 것이 좋습니다." />
+  <Control ControlPath="root\tc1\tabPage7" UniqueName="label11" Text="그래프 생성 CPU 우선순위:" />
+  <Control ControlPath="root\tc1" UniqueName="tabPage9" Text="8단계" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnCancel8" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Back" Text="&lt; 이전" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="btnTab8Next" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="cbRecordLogs" Text="분석 중 모든 로그 줄 기록  (로그 보기 컨텍스트 메뉴 옵션)" />
+  <Control ControlPath="root\tc1\tabPage9" UniqueName="label20" Text="체크하면 ACT가 전투(인카운터) 중 나타나는 모든 로그 줄을 기록합니다.  전투(인카운터)를 우클릭하고 로그 보기를 선택하여 보거나 검색할 수 있습니다.  &#13;&#10;&#13;&#10;이 옵션을 끄면 기본 설정 대비 메모리 사용량이 45% 조금 못 미치게 줄어듭니다.  내보낸 ACT 파일에는 기록된 로그가 유지됩니다." />
+  <Control ControlPath="root\tc1" UniqueName="tabPage8" Text="완료 " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS8B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label25" Text="8단계: 전투(인카운터) 로그 기록" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2A" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label12" Text="이후" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS7B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS6B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS5B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS4B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS3B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="lblS2B" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label10" Text="이전" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label19" Text="7단계: 그래프/HTML 우선순위" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label18" Text="6단계: 메인 전투(인카운터) 그래프" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label17" Text="5단계: 표 데이터 갱신" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label15" Text="4단계: All만 생성 (Ref)" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label14" Text="3단계: 'All' 전투(인카운터) 생성" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label13" Text="2단계: 로그 분석" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="label9" Text="1단계: " />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnOk" Text="확인" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnCancel" Text="취소" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="button5" Text="다음 &gt;" />
+  <Control ControlPath="root\tc1\tabPage8" UniqueName="btnTab9Back" Text="&lt; 이전" />
+</ControlText>

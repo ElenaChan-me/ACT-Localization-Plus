@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormXmlSettingsIO">
+  <Control ControlPath="root" UniqueName="linkLabelAppData" Text="애플리케이션 데이터 폴더" />
+  <Control ControlPath="root\groupBox2" UniqueName="label1" Text="이 기능으로 ACT 전체 설정을 백업하지 마세요.  애플리케이션 데이터 폴더 링크를 클릭하고 그 안의 Config 폴더를 안전한 곳에 복사하세요." />
+  <Control ControlPath="root\groupBox2" UniqueName="cbFormSizes" Text="ACT 창 위치/크기" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbPerfWizard" Text="성능 마법사 설정" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimersSound" Text="주문 타이머 사운드 설정" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimersEnabled" Text="주문 타이머 사용 체크박스" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimers" Text="주문 타이머 목록" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbCustomTriggers" Text="사용자 트리거" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="설정 탭 항목" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox24" Text="색상 및 글꼴 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox17" Text="출력 표시" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectAbility" Text="기술 리디렉션" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbSelectiveParsing" Text="선택적 분석 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectMisc" Text="기타" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsMisc" Text="기타" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectRename" Text="전투원 이름 변경" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsGraphing" Text="그래프" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox32" Text="데이터 보정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsMain" Text="주 사용자 인터페이스" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputHtml" Text="HTML 파일 생성" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputWebServer" Text="ACT 웹 서버" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputText" Text="텍스트 내보내기 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputMini" Text="미니 분석 창" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputGraphing" Text="그래프" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableAt" Text="AttackType 보기 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableDt" Text="DamageType 보기 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableCd" Text="전투원 보기 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableEnc" Text="전투 보기 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableZone" Text="지역 보기 옵션" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbEncCulling" Text="전투 정리" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableGeneral" Text="일반" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbXmlSubs" Text="XML 설정 구독" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox9" Text="주 표/전투" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox5" Text="구성 가져오기/내보내기" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbXmlSnippets" Text="XML 공유 스니펫" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbSoundSettings" Text="사운드 설정" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbMisc" Text="기타" />
+  <Control ControlPath="root" UniqueName="btnSave" Text="저장..." />
+  <Control ControlPath="root" UniqueName="btnCancel" Text="취소" />
+</ControlText>

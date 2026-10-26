@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+    <ActPath Condition="'$(ActPath)' == ''">$(MSBuildThisFileDirectory)..\..\lib\Advanced Combat Tracker.exe</ActPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ACTLocalizationPlus\ACTLocalizationPlus.csproj" />
+    <!-- プラグインの型を読み込むには ACT 本体が要るので、テストのときだけ出力先に置く -->
+    <Reference Include="Advanced Combat Tracker">
+      <HintPath>$(ActPath)</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+
+</Project>

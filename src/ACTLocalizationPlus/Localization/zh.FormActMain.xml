@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormActMain">
+  <Control ControlPath="root\flpCornerButtons" UniqueName="cbbMiniParse" Text="显示迷你窗口" />
+  <Control ControlPath="root\flpCornerButtons" UniqueName="cbbShowTimers" Text="显示计时器" />
+  <Control ControlPath="root\flpCornerButtons" UniqueName="btnPasteXmlSnippet" Text="导入&#10;XML" />
+  <Control ControlPath="root\tc1" UniqueName="tpMain" Text="主界面" />
+  <Control ControlPath="root\tc1\tpMain\pRightView\pDG" UniqueName="lblDG" Text="战斗" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="btnMergeChecked" Text="合并已勾选项" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="btnDeleteChecked" Text="删除已勾选项" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnClear" Text="清除战斗(&amp;C)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnEndEnc" Text="结束战斗(&amp;E)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnRefresh" Text="刷新列表(&amp;R)" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns\tableLayoutPanel11" UniqueName="btnCDSearch" Text="搜索(&amp;S)..." />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="cbShowChecks" Text="显示复选框（合并/删除）" />
+  <Control ControlPath="root\tc1\tpMain\pLeftView\pTvBtns" UniqueName="cbLockDG" Text="禁用表格自动刷新(&amp;D)" />
+  <Control ControlPath="root\tc1" UniqueName="tpOptions" Text="选项" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare" UniqueName="groupBox4" Text="收到的 XML 共享" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareDelete" Text="删除以上数据" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareRemoveBanned" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareAddBanned" Text="添加" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareRemoveTrusted" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="groupBox5" Text="自动接受来自以下的数据:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="groupBox6" Text="自动拒绝来自以下的数据:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareAddTrusted" Text="添加" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlShare\groupBox4\tableLayoutPanel2" UniqueName="btnShareImport" Text="导入以上数据" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs" UniqueName="groupBox1" Text="XML 配置订阅" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubAdd" Text="添加/编辑" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubRemove" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubCheckNow" Text="立即检查" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\tableLayoutPanel1" UniqueName="btnSubUpdateChecked" Text="更新已勾选项" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1" UniqueName="groupBox2" Text="订阅详情" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="linkSubBrowser" Text="在浏览器中查看" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="btnSubQuery" Text="查询 URL" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="groupBox3" Text="导入信息查询" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubAuto" Text="启动时导入已更新的文件" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubNotify" Text="文件更新时通知" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_XmlSubs\groupBox1\groupBox2" UniqueName="rbSubIgnore" Text="忽略已更新的文件" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling" UniqueName="groupBox30" Text="常规削减设置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullNoAlly" Text="削减所有标记为“Encounter”的战斗  (无队友)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullCountIgnoreNoAlly" Text="计数时不包括标记为“Encounter”的战斗。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullCount" Text="普通战斗总数达到此数量时削减旧战斗:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox30" UniqueName="cbCullTimer" Text="削减创建时间超过此分钟数的普通战斗:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling" UniqueName="groupBox31" Text="旧区域清理" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox31" UniqueName="cbCullOther" Text="削减此数量之前区域的其他战斗:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_EncCulling\groupBox31" UniqueName="cbCullAll" Text="削减此数量之前区域的“All”战斗:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="btnFontDisplay" Text="更改字体" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse\fccMiniParse" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="btnAddPresetMini" Text="添加预设..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label44" Text="窗口不透明度" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label89" Text="迷你解析文本格式:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label23" Text="秒。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="label22" Text="更新间隔：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbRestoreEncBox" Text="还原程序时隐藏迷你解析窗口" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbSmallEncTop" Text="迷你解析 - 始终置顶" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMiniColumnAlign" Text="根据单元格内容将文本按列对齐" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMiniClickThrough" Text="允许鼠标点击穿透。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="cbMinEncBox" Text="将程序最小化到迷你解析窗口" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MiniParse" UniqueName="btnRemovePresetMini" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableZone" UniqueName="btnTableDefaults" Text="重置列为默认" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableZone" UniqueName="gbTableDepth1" Text="区域视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc" UniqueName="btnTableDefaults" Text="重置列为默认" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc" UniqueName="gbTableDepth2" Text="战斗视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="lblSortby1" Text="排序 #1：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="label47" Text="排序 #2：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableEnc\gbTableDepth2" UniqueName="btnEDSort2" Text="持续时间" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableCombatant" UniqueName="btnTableDefaults" Text="重置列为默认" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableCombatant" UniqueName="gbTableDepth3" Text="战斗者视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType" UniqueName="btnTableDefaults" Text="重置列为默认" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType" UniqueName="gbTableDepth4" Text="伤害类型视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="lblSortby2" Text="排序 #1：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="btnMDSort" Text="伤害" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="label48" Text="排序 #2：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableDamageType\gbTableDepth4" UniqueName="btnMDSort2" Text="持续时间" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType" UniqueName="gbTableDepth5" Text="攻击类型视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="lblSortby3" Text="排序 #1：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="btnATSort" Text="时间" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="label49" Text="排序 #2：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType\gbTableDepth5" UniqueName="btnATSort2" Text="时间" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TableAttackType" UniqueName="btnTableDefaults" Text="重置列为默认" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbEncSilenceCut" Text="最后一次战斗行动后等待多少秒暂停战斗计时：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="groupBox6" Text="主表格选项" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="cbTableCommas" Text="在主页表格中显示千位分隔符" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="cbReverseSort" Text="反转主表格的排序顺序。（降序）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen\groupBox6" UniqueName="label2" Text="主表格更新频率 (秒):" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleEnd" Text="最后一次战斗行动后等待多少秒开始新战斗：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_MainTableGen" UniqueName="cbIdleTimerEnd" Text="使用内部计时器倒计时，而不仅依赖日志文件时间戳。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="rbGraphSimple" Text="以简单条形图显示当前排序。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="rbGraphAdv" Text="高级 DPS 时间曲线图。(占用 CPU)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="cbOnlyGraphAllies" Text="仅显示队友" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\tableLayoutPanel3" UniqueName="cbSimpleGraphTotals" Text="显示总计 &amp;&amp; 平均" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="cbBarGraphUseSuffixDecimals" Text="使用小数" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="cbGraphsUseSuffix" Text="在图表中，将数字简化为 K/M/B 后缀" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing" UniqueName="groupBox2" Text="高级图表选项" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2\tableLayoutPanel2" UniqueName="label92" Text="折线图中，每个数据点取最近 N 秒的平均值:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2\tableLayoutPanel1" UniqueName="label11" Text="图表生成的 CPU 优先级:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2" UniqueName="label1" Text="战斗者折线图中包含的伤害类型分类。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Graphing\groupBox2" UniqueName="cbGraphRollingAvg" Text="图表线条显示滚动平均值，而不是按时间段分组" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="groupBox11" Text="跨电脑剪贴板共享" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="lblClipStatus" Text="未连接。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="cbClipAutoConnect" Text="自动连接到此 IP。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="cbClipConnect" Text="连接" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="label68" Text="连接到 ACT Clipboard Sharer（可从 ACT 网站获取）后，每当 ACT 将文本导出到剪贴板时，都会发送到所连接计算机的剪贴板。这样即使通过网络运行 ACT，也能将数据粘贴到游戏中。也可用于 G15/G19 数据。&#13;&#10;" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox11" UniqueName="label17" Text="此功能用于在游戏以外的计算机上运行 ACT 的用户。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExportFilterSpace" Text="文本导出时，过滤名称中含有空格的战斗者。(可能是召唤的宠物群)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="label3" Text="剪贴板格式:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="groupBox35" Text="战斗后导出到 EQ2 宏文件。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile3" Text="EQ2 命令: /do_file_commands" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="btnExFileRemovePreset" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="btnExFileAddPreset" Text="添加" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile2" Text="频道命令&#10;(gsay, raidsay, tellchannel)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFile1" Text="格式:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="lblExFileLines" Text="尝试导出的最大行数" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports\groupBox35" UniqueName="cbExFileColumnAlign" Text="根据单元格内容将文本按列对齐" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="btnAddPresetClip" Text="添加预设" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="btnRemovePresetClip" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_TextExports" UniqueName="cbExText" Text="战斗后导出到剪贴板。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc" UniqueName="groupBox25" Text="ODBC 数据库" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="gbOdbcHacks" Text="数据源兼容性修正  (正则表达式)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks\tableLayoutPanel2" UniqueName="label2" Text="查找" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks\tableLayoutPanel2" UniqueName="label3" Text="替换" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnResetOdbcHacks" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnOdbcHackRemove" Text="移除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="btnOdbcHackAdd" Text="添加" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\gbOdbcHacks" UniqueName="label1" Text="连接字符串匹配" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbCurrentOdbc" Text="每 N 秒导出一次当前战斗的表格。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="linkLabelOdbcControl" Text="打开 ODBC 控制面板" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcTestConnection" Text="测试连接" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcValidateTables" Text="验证表设置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25\tableLayoutPanel1" UniqueName="btnOdbcDropTables" Text="删除表" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="label54" Text="选择数据库表深度：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx5" Text="导出至每次攻击 (需要大型数据库)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx4" Text="导出至攻击类型表" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx3" Text="导出至战斗者伤害类型" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx2" Text="导出至战斗详情" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="rbOdbcEx1" Text="仅导出主战斗列表" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="linkLabelConnectionString" Text="连接字符串:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="label53" Text="仅限高级用户" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbSqlSafeMode" Text="每条 INSERT 语句只发送一行。（调试/MSSQL）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Odbc\groupBox25" UniqueName="cbExOdbc" Text="战斗后将数据导出到 ODBC 数据库" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML" UniqueName="groupBox15" Text="EQ2 HTML 查看" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="label1" Text="秒：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="label25" Text="每" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="btnClearHTML" Text="全部清除" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbHTMLCullEncounters" Text="自动将列出的战斗数量削减到指定数量:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="groupBox16" Text="FTP 设置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="rbExFTPActive" Text="主动" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="btnExFTPTest" Text="测试这些设置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label34" Text="仅限高级用户" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label33" Text="连接类型" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label28" Text="服务器地址" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="cbExHTMLFTP" Text="将 EQ2 HTML 文件发送到 FTP 服务器" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label29" Text="登录时设置初始路径" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label30" Text="用户名" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label31" Text="密码" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="label32" Text="远程端口" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15\groupBox16" UniqueName="rbExFTPPassive" Text="被动" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbHtmlTimers" Text="每秒生成一次计时器窗口 HTML 页面" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbExGraph" Text="包含战斗图表 " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbCurrentTable" Text="生成主战斗表格。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbCurrentGraph" Text="生成当前战斗的图表。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="cbExHTML" Text="导出静态 HTML 文件以通过 /browser 查看" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_FileHTML\groupBox15" UniqueName="lblGraphXY" Text="HTML 图表图像的目标尺寸 (像素)。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer" UniqueName="groupBox28" Text="HTML 界面 Web 服务器" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="btnEchoRecent" Text="回显所有最近客户端" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="btnEchoAll" Text="回显所有客户端" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="cbWebServerShowReq" Text="显示所有 HTTP 请求" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="lblWebServerPort" Text="服务器监听端口：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="cbWebServerEnabled" Text="启用 Web 服务器" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_WebServer\groupBox28" UniqueName="lblWebServerConnections" Text="服务器状态" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound" UniqueName="linkTtsCpl" Text="文本转语音控制面板" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscTTS" Text="TTS：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="rbSndMiscBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel6" UniqueName="lblMiscSound" Text="其他声音:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="rbSndCommandNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="rbSndCommandWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="rbSndCommandBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel5" UniqueName="lblCommandSound" Text="命令声音:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="cbWmpRequireInvoke" Text="在 UI 线程上播放声音" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndPlugin" Text="插件声音" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndWmpApi" Text="使用 WMP API 声音（可调音量、可同时播放多个声音、略有延迟）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="rbSndWinApi" Text="使用 Windows API 声音（无法调节音量、一次只能播放一个声音）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="label93" Text="TTS 音量" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="label12" Text="WAV 音量" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\pAudioDevice" UniqueName="lblSndMethod" Text="声音方式： " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="rbSndTimerNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="rbSndTimerWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="rbSndTimerBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel4" UniqueName="lblTimerExpireSound" Text="计时器到期：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="rbSndWarnNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="rbSndWarnWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="rbSndWarnBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel3" UniqueName="lblTimerWarningSound" Text="计时器警告：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="rbSndStartNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="rbSndStartWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="rbSndStartBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel2" UniqueName="lblTimerStartSound" Text="计时器开始：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportTTS" Text="TTS：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="rbSndExportNone" Text="无" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Sound\tableLayoutPanel1" UniqueName="lblExportSound" Text="导出声音:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface" UniqueName="groupBox1" Text="主用户界面" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1" UniqueName="btnResetColors" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccMainWindow" Text="主窗口颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblText" Text="主窗口颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="btnFontDisplay" Text="更改字体" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccMainWindow" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccWindowColors" Text="内部窗口颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblText" Text="内部窗口颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="btnFontDisplay" Text="示例" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccWindowColors" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="cbColorPlugins" Text="允许这些设置影响插件选项卡" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccPluginsNotifications" Text="插件 &amp;&amp; 通知面板" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblText" Text="插件 &amp;&amp; 通知面板" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="btnFontDisplay" Text="示例" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccPluginsNotifications" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccTreeView" Text="树状视图颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblText" Text="树状视图颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="btnFontDisplay" Text="更改字体" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccTreeView" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel1" Text="战斗颜色 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel1" UniqueName="lblText" Text="战斗颜色 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel2" Text="战斗颜色 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel2" UniqueName="lblText" Text="战斗颜色 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccEncLabel3" Text="战斗颜色 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccEncLabel3" UniqueName="lblText" Text="战斗颜色 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="fccDataGrid" Text="数据表格项目" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblText" Text="数据表格项目" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="btnFontDisplay" Text="更改字体" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\fccDataGrid" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccDGAllyText" Text="队友文本颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccDGAllyText" UniqueName="lblText" Text="队友文本颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccDGPersonalBackcolor" Text="个人单元格背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccDGPersonalBackcolor" UniqueName="lblText" Text="个人单元格背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label3" Text="(仅调整此处未定义的颜色)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label2" Text="饱和度偏移：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="label1" Text="亮度偏移:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel1" UniqueName="cbInvertLuminosity" Text="反转亮度 (适用于深色主题)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="cbShadeMainScrollbars" Text="在树状视图/数据表格滚动条上绘制阴影" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1" UniqueName="ccScrollShade" Text="阴影颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\ccScrollShade" UniqueName="lblText" Text="阴影颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorUserInterface\groupBox1\flowLayoutPanel1\panel7" UniqueName="label6" Text="阴影不透明度 %：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing" UniqueName="groupBox2" Text="图表填充颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2" UniqueName="btnResetGraphFillColors" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill1" Text="图表填充 01" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill1" UniqueName="lblText" Text="图表填充 01" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill2" Text="图表填充 02" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill2" UniqueName="lblText" Text="图表填充 02" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill3" Text="图表填充 03" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill3" UniqueName="lblText" Text="图表填充 03" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill4" Text="图表填充 04" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill4" UniqueName="lblText" Text="图表填充 04" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill5" Text="图表填充 05" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill5" UniqueName="lblText" Text="图表填充 05" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill6" Text="图表填充 06" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill6" UniqueName="lblText" Text="图表填充 06" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill7" Text="图表填充 07" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill7" UniqueName="lblText" Text="图表填充 07" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill8" Text="图表填充 08" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill8" UniqueName="lblText" Text="图表填充 08" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill9" Text="图表填充 09" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill9" UniqueName="lblText" Text="图表填充 09" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill10" Text="图表填充 10" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill10" UniqueName="lblText" Text="图表填充 10" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill11" Text="图表填充 11" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill11" UniqueName="lblText" Text="图表填充 11" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill12" Text="图表填充 12" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill12" UniqueName="lblText" Text="图表填充 12" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill13" Text="图表填充 13" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill13" UniqueName="lblText" Text="图表填充 13" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill14" Text="图表填充 14" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill14" UniqueName="lblText" Text="图表填充 14" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill15" Text="图表填充 15" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill15" UniqueName="lblText" Text="图表填充 15" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill16" Text="图表填充 16" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill16" UniqueName="lblText" Text="图表填充 16" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill17" Text="图表填充 17" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill17" UniqueName="lblText" Text="图表填充 17" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill18" Text="图表填充 18" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill18" UniqueName="lblText" Text="图表填充 18" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill19" Text="图表填充 19" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill19" UniqueName="lblText" Text="图表填充 19" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill20" Text="图表填充 20" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill20" UniqueName="lblText" Text="图表填充 20" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill21" Text="图表填充 21" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill21" UniqueName="lblText" Text="图表填充 21" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill22" Text="图表填充 22" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill22" UniqueName="lblText" Text="图表填充 22" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill23" Text="图表填充 23" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill23" UniqueName="lblText" Text="图表填充 23" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill24" Text="图表填充 24" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill24" UniqueName="lblText" Text="图表填充 24" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill25" Text="图表填充 25" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill25" UniqueName="lblText" Text="图表填充 25" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill26" Text="图表填充 26" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill26" UniqueName="lblText" Text="图表填充 26" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill27" Text="图表填充 27" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill27" UniqueName="lblText" Text="图表填充 27" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2" UniqueName="ccGraphFill28" Text="图表填充 28" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox2\flowLayoutPanel2\ccGraphFill28" UniqueName="lblText" Text="图表填充 28" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing" UniqueName="groupBox1" Text="图表常规颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1" UniqueName="btnResetEncBarColors" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarBackFill" Text="图表背景填充" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarBackFill" UniqueName="lblText" Text="图表背景填充" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarLegendText" Text="坐标轴图例文本" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarLegendText" UniqueName="lblText" Text="坐标轴图例文本" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarYLines" Text="Y 轴线" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarYLines" UniqueName="lblText" Text="Y 轴线" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarOutlining" Text="轮廓笔" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarOutlining" UniqueName="lblText" Text="轮廓笔" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarAvgText" Text="平均/总计文本" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarAvgText" UniqueName="lblText" Text="平均/总计文本" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor1" Text="条形颜色 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor1" UniqueName="lblText" Text="条形颜色 1" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor2" Text="条形颜色 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor2" UniqueName="lblText" Text="条形颜色 2" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarColor3" Text="条形颜色 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarColor3" UniqueName="lblText" Text="条形颜色 3" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1" UniqueName="ccEncBarText" Text="条形文本颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorGraphing\groupBox1\flowLayoutPanel1\ccEncBarText" UniqueName="lblText" Text="条形文本颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc" UniqueName="groupBox2" Text="自定义触发器" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="btnResetColorsCustomTriggers" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerRestricted" Text="自定义触发器 限定分类" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerRestricted" UniqueName="lblText" Text="自定义触发器 限定分类" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerInactive" Text="自定义触发器 无效" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerInactive" UniqueName="lblText" Text="自定义触发器 无效" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="ccCustomTriggerActive" Text="自定义触发器 有效" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\ccCustomTriggerActive" UniqueName="lblText" Text="自定义触发器 有效" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2" UniqueName="fccCustomTriggerTreeView" Text="自定义触发器树状视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblText" Text="自定义触发器树状视图" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblForeColor" Text="前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="btnFontDisplay" Text="更改字体" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox2\fccCustomTriggerTreeView" UniqueName="lblBackColor" Text="背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc" UniqueName="groupBox1" Text="技能计时器窗口" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="btnResetColors" Text="重置" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerForeColor" Text="技能计时器窗口前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerForeColor" UniqueName="lblText" Text="技能计时器窗口前景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerExpireColor" Text="技能计时器到期颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerExpireColor" UniqueName="lblText" Text="技能计时器到期颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerWarnColor" Text="技能计时器警告颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerWarnColor" UniqueName="lblText" Text="技能计时器警告颜色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1" UniqueName="ccSpellTimerBackColor" Text="技能计时器窗口背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ColorMisc\groupBox1\ccSpellTimerBackColor" UniqueName="lblText" Text="技能计时器窗口背景色" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbOriginalLoglineCustomTriggers" Text="为自定义触发器保留原始日志行" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbOriginalLoglineViewLogs" Text="为查看日志保留原始日志行" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel5" UniqueName="label1" Text="自定义触发器解析最多可额外创建的线程数: " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel4" UniqueName="label69" Text="进程 CPU 相关性：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel4" UniqueName="btnCpuAffinityApply" Text="更改/查看" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel3" UniqueName="lblLogPriority" Text="常规日志解析的 CPU 优先级:" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel2" UniqueName="label2" Text="ACT 窗口标题栏格式：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbDisableIncrementalCaching" Text="禁用数据对象的增量缓存" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbUnblockFiles" Text="扫描 ACT 文件夹和插件中从网络下载的文件并解除锁定。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="gbFile" Text="日志文件" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile\tableLayoutPanel6" UniqueName="lblSplitFile" Text="打开或关闭日志文件时，若日志超过此值（MB）则尝试重命名：" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="cbbPauseLog" Text="暂停日志" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="cbAutoLoadLogs" Text="自动加载最近更改的日志文件。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="lblLogFile" Text="未选择日志文件。(记得开启 /log)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="btnCloseLog" Text="关闭日志" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\gbFile" UniqueName="btnOpenLog" Text="打开日志..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbAutoSaveDatabase" Text="每分钟自动保存 ACT 的战斗历史数据库。 " />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbAutoSaveSettings" Text="每分钟自动保存 ACT 的设置。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbGCollectOnClear" Text="清除战斗时立即尝试释放所有未使用的内存 (可能导致 ACT 卡死)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbMinimizeToIcon" Text="将 ACT 最小化到托盘图标。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbRecordLogs" Text="解析时记录所有日志行。（“查看日志”右键菜单选项）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbZoneAllListing" Text="生成包含区域内所有单独战斗数据的“All”战斗。（不追溯）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc" UniqueName="cbRestrictToAll" Text="DamageType 分类仅填充“All”条目（标记 (Ref) 的除外）。（不追溯）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnResetLocs" Text="重置窗口位置/大小" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnShowStartupWiz" Text="显示启动向导" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_Misc\tableLayoutPanel1" UniqueName="btnShowPerfWiz" Text="显示性能向导" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="label9" Text="导入/导出 ACT 设置 ..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="btnImportSettings" Text="导入..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\tableLayoutPanel1" UniqueName="btnExportSettings" Text="导出..." />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport" UniqueName="groupBox2" Text="将配置 XML 转换为 XML 共享片段" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox2\tableLayoutPanel2" UniqueName="btnConvertXmlSnippet" Text="    转换为 XML 片段" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport" UniqueName="groupBox1" Text="加载 ACT 配置备份" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox1" UniqueName="btnLoadSelected" Text="加载备份" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_ImportExport\groupBox1" UniqueName="btnRefreshListing" Text="刷新" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox19" Text="批量移除玩家" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseCull" Text="清除未勾选项" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseClear" Text="清除整个列表" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox19\tableLayoutPanel1" UniqueName="btnSParseUncheckAll" Text="全部取消勾选" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox18" Text="添加/移除玩家" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox18\tableLayoutPanel2" UniqueName="btnSParseRemovePlayer" Text="移除(&amp;R)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox18\tableLayoutPanel2" UniqueName="btnSParseAddPlayer" Text="添加(&amp;A)" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing" UniqueName="groupBox17" Text="战斗者限制" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="cbSParseIgnoreEnemies" Text="从不显示非白名单的战斗者" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseNone" Text="不进行选择性解析（依赖自动队友检测）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseExport" Text="图表/文本导出中仅显示列表中的战斗者" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="rbSParseFull" Text="仅记录列表中对象造成/承受的战斗行动" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_SelectiveParsing\groupBox17" UniqueName="cbSParseExportIgnoreOtherAllies" Text="在“队友”总计中，仅包含列出的玩家" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc\tableLayoutPanel1" UniqueName="lblCharName" Text="日志文件名未指定时的默认角色名称。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc\tableLayoutPanel1" UniqueName="btnCharNameApply" Text="应用" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbCalcRealAvgDly" Text="计算平均间隔时，将同一秒内的多次命中合并计算。（更准确）" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbBlockisHit" Text="将未造成伤害的命中计为命中。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbExportDurationWallTime" Text="文本导出持续时间时，包含战斗中的实际经过时间。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionMisc" UniqueName="cbLongEncDuration" Text="允许治疗将战斗持续时间延长到最后一次伤害行为之后。" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label80" Text="将战斗者重命名为新名称，或合并到已有的战斗者" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label82" Text="之后" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel2" UniqueName="label81" Text="之前" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel1" UniqueName="btnRenameAdd" Text="添加修正" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRename\tableLayoutPanel1" UniqueName="btnRenameRemove" Text="移除修正" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel2" UniqueName="btnAbilityRedirectRemove" Text="移除修正" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel2" UniqueName="btnAbilityRedirectAdd" Text="添加修正" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label95" Text="将特定技能造成的伤害重定向到某个战斗者" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label97" Text="改为" />
+  <Control ControlPath="root\tc1\tpOptions\flpOptionControls\Options_DataCorrectionRedirect\tableLayoutPanel1" UniqueName="label96" Text="技能" />
+  <Control ControlPath="root\tc1\tpOptions\tableLayoutPanel12" UniqueName="btnOptionSearchClear" Text="清除" />
+  <Control ControlPath="root\tc1" UniqueName="tpTriggers" Text="自定义触发器" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers" UniqueName="tabPage0" Text="触发器" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0" UniqueName="btnOpenCtBenchmark" Text="基准测试 CT..." />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="btnRemoveTrigger" Text="移除(&amp;R)" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="btnAddTrigger" Text="添加/编辑" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerTTS" Text="TTS：" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerWAV" Text="WAV：" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerBeep" Text="蜂鸣" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="rbSndTriggerNone" Text="无" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel2" UniqueName="label40" Text="自定义触发器:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\tableLayoutPanel1" UniqueName="linkRegex" Text="正则表达式：" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="label90" Text="分类:" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="btnCtInsZone" Text="← 区域" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerCategoryRestrict" Text="限制为分类区域" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="label91" Text="计时器或标签名：" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerTimer" Text="触发计时器" />
+  <Control ControlPath="root\tc1\tpTriggers\tcTriggers\tabPage0\flowLayoutPanel1" UniqueName="cbTriggerTabbed" Text="添加结果选项卡" />
+  <Control ControlPath="root\tc1" UniqueName="tpPlugins" Text="插件" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins" UniqueName="tabPage1" Text="插件列表" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\flpPluginButtons" UniqueName="btnGetPlugins" Text="获取插件..." />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\flpPluginButtons" UniqueName="btnGetAssemblies" Text="查看已加载的程序集" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1" UniqueName="groupBox3" Text="插件信息" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="btnAddPluginPanel" Text="添加/启用插件" />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="btnPluginBrowse" Text="浏览..." />
+  <Control ControlPath="root\tc1\tpPlugins\tcPlugins\tabPage1\panel15" UniqueName="lblPluginFileInfo" Text="浏览以选择插件文件..." />
+  <Control ControlPath="root\tc1" UniqueName="tpImportExport" Text="导入/导出" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="btnImportClip" Text="导入剪贴板..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="btnRefreshClipStats" Text="检查剪贴板" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="groupBox2" Text="统计" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportClip" UniqueName="groupBox1" Text="片段" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="cbContToEndCombat" Text="按时间导入时，直到战斗结束才停止导入" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="groupBox3" Text="日志文件结束位置" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox3" UniqueName="lblImportEFile" Text="文件末尾" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox3" UniqueName="groupBox4" Text="按日期/时间" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="btnImportFile" Text="选择文件..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="cbImportCustomTriggers" Text="导入时解析自定义触发器（仅标签页结果）" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog" UniqueName="groupBox1" Text="日志文件开始位置" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox1" UniqueName="lblImportBFile" Text="文件开头" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportLog\groupBox1" UniqueName="groupBox2" Text="按日期/时间" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="btnImportAct" Text="导入 ACT 文件..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="cbParseCt" Text="导入的文件包含日志文本时，解析自定义触发器（仅标签页结果）" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ImportAct" UniqueName="groupBox1" Text="状态" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="cbExportLogText" Text="导出时包含“查看日志”中的日志行" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="groupBox1" Text="状态" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportAct" UniqueName="btnExportAct" Text="导出 ACT 文件..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="btnCancel" Text="取消" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox3" Text="其他设置" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml\groupBox3" UniqueName="lblGraphXY" Text="HTML 图表图像的目标尺寸 (像素)。" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox2" Text="状态" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="btnExportHtml" Text="按这些选项导出为 HTML..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_ExportHtml" UniqueName="groupBox1" Text="导出深度选项" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="btnShowSqlWindow" Text="查看 SQL 窗口" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="btnExportOdbc" Text="导出战斗" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc" UniqueName="groupBox1" Text="状态" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_Odbc\groupBox1" UniqueName="btnCancel" Text="取消" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml3" Text="导出所选战斗的所有表格" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml2" Text="从主表导出至伤害类型数据表" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="rbXml1" Text="仅导出主表数据" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="btnExportXmlFile" Text="导出..." />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile" UniqueName="groupBox1" Text="状态" />
+  <Control ControlPath="root\tc1\tpImportExport\flpIoControls\IO_XmlFile\groupBox1" UniqueName="btnCancel" Text="取消" />
+  <Control ControlPath="root\tc1" UniqueName="tpHistory" Text="历史数据库" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox5" Text="管理" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="label76" Text="天" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="btnHistoryDelete" Text="删除早于指定时间的历史记录:" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="label73" Text="勾选后，ACT 会将会话记录保存到文件，并在启动时加载。启用此功能将自动加载之前保存的数据库文件。" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox5" UniqueName="cbRecordsSave" Text="启用历史保存" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox27" Text="搜索结果" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsSelectZones" Text="勾选列出的区域" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsSelectEncs" Text="勾选列出的战斗" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsDelete" Text="删除已勾选的记录" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox27" UniqueName="btnRecordsImport" Text="导入已勾选项" />
+  <Control ControlPath="root\tc1\tpHistory" UniqueName="groupBox4" Text="搜索历史" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4\tableLayoutPanel10" UniqueName="label72" Text="搜索结果的日期会在日历中以粗体显示。&#10;&#10;在日历中选择日期或范围，或选择搜索结果中的条目，会在选择器中选中对应的日期/时间范围。" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="label75" Text="结束" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="label74" Text="开始" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="cbRecordSearchEncs" Text="搜索战斗标题" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="cbRecordSearchZones" Text="搜索区域名称" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="btnRecordSearchDateTime" Text="按日期/时间搜索" />
+  <Control ControlPath="root\tc1\tpHistory\groupBox4" UniqueName="btnRecordSearchText" Text="按文本搜索" />
+  <Control ControlPath="root\tc1" UniqueName="tpNotifications" Text="通知" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="btnNotificationsClear" Text="清除已读" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="btnNotificationsMarkRead" Text="全部标为已读" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="gbNotifications" Text="通知历史" />
+  <Control ControlPath="root\tc1\tpNotifications" UniqueName="cbNotificationBlink" Text="通知徽章闪烁" />
+  <Control ControlPath="root\tc1" UniqueName="tpAbout" Text="关于" />
+  <Control ControlPath="root\tc1\tpAbout" UniqueName="groupBox14" Text="发送错误报告或反馈" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="rtbFeedback" Text="在此输入意见，然后点击“提交”。" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="lblFeedback" Text="如需就 ACT 主程序发送私人消息，欢迎使用此提交表单。对于非本人编写的插件，可能无法提供帮助。&#13;&#10;&#13;&#10;如需尽快得到回复，强烈建议使用 ACT 网站论坛或电子邮件。链接见上方。" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="btnFeedbackSubmit" Text="提交" />
+  <Control ControlPath="root\tc1\tpAbout\groupBox14" UniqueName="cbFeedbackLogs" Text="包含错误日志，来自          &quot;Advanced Combat Tracker.log&quot;" />
+  <Control ControlPath="root\tc1\tpAbout" UniqueName="gbAbout" Text="关于" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="linkLabelAppData" Text="应用数据文件夹" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="cbAutoCheck" Text="自动检查版本" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="btnCheckVer" Text="立即检查版本" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label5" Text="版本：" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label4" Text="由 EQAditu 制作" />
+  <Control ControlPath="root\tc1\tpAbout\gbAbout" UniqueName="label7" Text="访问：" />
+</ControlText>

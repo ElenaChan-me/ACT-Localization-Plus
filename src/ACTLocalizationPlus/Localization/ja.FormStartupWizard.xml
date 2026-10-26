@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormStartupWizard">
+  <Control ControlPath="root" UniqueName="btnClose" Text="閉じる" />
+  <Control ControlPath="root" UniqueName="btnBack" Text="&lt; 戻る" />
+  <Control ControlPath="root" UniqueName="btnNext" Text="次へ &gt;" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage1" Text="開始" />
+  <Control ControlPath="root\tabControl1\tabPage1" UniqueName="label1" Text="このウィザードでは、解析プラグインの選択、更新の設定、ログファイルの選択を行います。" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage4" Text="解析プラグイン" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label8" Text="プレイ中のゲームに対応した正しいプラグインを選択してください。(赤の太字で表示)" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="label7" Text="ACT 単体ではゲームのログファイルを解析できません。各ゲームのログを解析するには外部プラグインが必要です。ドロップダウンリストからプラグインを選択し、対応するボタンで有効化してください。解析用プラグインを同時に複数有効にしないでください。" />
+  <Control ControlPath="root\tabControl1\tabPage4" UniqueName="btnUsePlugin" Text="プラグインをダウンロード/有効化" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage2" Text="ログファイル" />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="label3" Text="キャラクターを切り替えた際、ACT は別のログファイルの使用を検出して自動的に切り替えます。" />
+  <Control ControlPath="root\tabControl1\tabPage2" UniqueName="cbAutoLogSwitch" Text="最近更新されたログファイルを自動で読み込む。" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage3" Text="起動時の設定" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label6" Text="起動時、終了時、キャラクター切り替え時に、最後に開いていたログファイルが指定サイズより大きければ、ACTはその名前の変更を試みます。管理者権限が必要な場合があり、書き込み中のファイルには機能しません。&#13;&#10;&#13;&#10;この処理は、古いファイルのインポートやテキストエディターで開く際の利便性のためだけのものです。この設定を変更してもリアルタイムのパフォーマンスには影響しません。" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label5" Text="MB (0で無効)" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label4" Text="ログファイルを分割する間隔" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="label2" Text="有効にすると、ACT や一部のプラグインが起動時に新しいバージョンを確認します。修正や機能追加を反映するため、有効にすることを推奨します。(インターネット接続が必要)" />
+  <Control ControlPath="root\tabControl1\tabPage3" UniqueName="cbAutoVerCheck" Text="自動バージョン確認" />
+  <Control ControlPath="root\tabControl1" UniqueName="tabPage5" Text="配色/テーマ" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark2" Text="ダークサンプル配色2を適用" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnApplyDark" Text="ダークサンプル配色を適用" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="btnResetColors" Text="すべての色をリセット" />
+  <Control ControlPath="root\tabControl1\tabPage5" UniqueName="label9" Text="Microsoft WinForms にはアプリごとのテーマ機能はありませんが、一部の色を上書きできます。調整できる色は、設定タブの「色とフォントの設定」の「メインユーザーインターフェイス」ページにあります。すべてのカスタマイズを破棄したり、ダークテーマ風のサンプル配色を適用したりすることもできます。&#13;&#10;&#13;&#10;一部のコントロールには色を変更できない部分があり、常にシステム定義の色で表示されます。&#13;&#10;&#13;&#10;一部の色は、ACTを再起動するまで正しく表示されない場合があります。" />
+</ControlText>

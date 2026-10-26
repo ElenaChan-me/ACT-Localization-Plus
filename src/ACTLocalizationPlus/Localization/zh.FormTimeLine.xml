@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormTimeLine">
+  <Control ControlPath="root" UniqueName="groupBox" Text="事件开关" />
+  <Control ControlPath="root\groupBox" UniqueName="btnInvertChecked" Text="反选" />
+  <Control ControlPath="root\groupBox" UniqueName="btnCheckAll" Text="全选" />
+  <Control ControlPath="root\groupBox" UniqueName="btnApplyRecalc" Text="应用以上设置并重新计算" />
+  <Control ControlPath="root\groupBox" UniqueName="label2" Text="采样精度（秒）" />
+  <Control ControlPath="root\groupBox" UniqueName="cbGlobalMaxLimit" Text="同类型行使用相同比例" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingHealing" Text="承受治疗" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutgoingHealing" Text="造成治疗" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLIncomingDamage" Text="承受伤害" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLOutDamage" Text="造成伤害" />
+  <Control ControlPath="root\groupBox" UniqueName="cbTLRollingAvg" Text="使用滚动平均绘图（非分段）" />
+  <Control ControlPath="root\groupBox" UniqueName="label1" Text="战斗者分组" />
+</ControlText>

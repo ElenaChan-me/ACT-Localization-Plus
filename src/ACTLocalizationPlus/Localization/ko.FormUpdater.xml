@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormUpdater">
+  <Control ControlPath="root" UniqueName="btnCancel" Text="취소" />
+  <Control ControlPath="root" UniqueName="label1" Text="현재 버전:" />
+  <Control ControlPath="root" UniqueName="label2" Text="웹 버전:" />
+  <Control ControlPath="root" UniqueName="btnUpdate" Text="업데이트" />
+  <Control ControlPath="root" UniqueName="btnDownload" Text="다운로드" />
+</ControlText>

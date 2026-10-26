@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormXmlSettingsIO">
+  <Control ControlPath="root" UniqueName="linkLabelAppData" Text="应用程序数据文件夹" />
+  <Control ControlPath="root\groupBox2" UniqueName="label1" Text="此功能不应用于备份完整的 ACT 设置。请点击“应用程序数据文件夹”链接，并将其中的 Config 文件夹复制到安全的位置。" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbFormSizes" Text="ACT 窗口位置/大小" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbPerfWizard" Text="性能向导设置" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimersSound" Text="技能计时器声音设置" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimersEnabled" Text="技能计时器启用复选框" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbSpellTimers" Text="技能计时器列表" />
+  <Control ControlPath="root\groupBox2" UniqueName="cbCustomTriggers" Text="自定义触发器" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="选项页设置" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox24" Text="颜色和字体设置" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox17" Text="输出显示" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectAbility" Text="技能重定向" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbSelectiveParsing" Text="选择性解析设置" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectMisc" Text="其他" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsMisc" Text="其他" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbDataCorrectRename" Text="战斗者重命名" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsGraphing" Text="图表" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox32" Text="数据修正" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbColorsMain" Text="主用户界面" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputHtml" Text="HTML 文件生成" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputWebServer" Text="ACT Web 服务器" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputText" Text="文本导出设置" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputMini" Text="迷你解析窗口" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbOutputGraphing" Text="图表" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableAt" Text="攻击类型视图选项" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableDt" Text="伤害类型视图选项" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableCd" Text="战斗者视图选项" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableEnc" Text="战斗视图选项" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableZone" Text="区域视图选项" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbEncCulling" Text="战斗削减" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbTableGeneral" Text="常规" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbXmlSubs" Text="XML 配置订阅" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox9" Text="主表格/战斗" />
+  <Control ControlPath="root\groupBox1" UniqueName="checkBox5" Text="配置导入/导出" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbXmlSnippets" Text="XML 共享片段" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbSoundSettings" Text="声音设置" />
+  <Control ControlPath="root\groupBox1" UniqueName="cbMisc" Text="其他" />
+  <Control ControlPath="root" UniqueName="btnSave" Text="保存..." />
+  <Control ControlPath="root" UniqueName="btnCancel" Text="取消" />
+</ControlText>

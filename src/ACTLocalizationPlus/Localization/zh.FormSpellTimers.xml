@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ControlText Form="FormSpellTimers">
+  <Control ControlPath="root" UniqueName="btnClearSearch" Text="清除" />
+  <Control ControlPath="root" UniqueName="groupBox1" Text="计时器专用设置" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label17" Text="AE/技能/自定义触发器名称" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label1" Text="计时器周期（秒）" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label9" Text="计时器移除时间点" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label3" Text="警告时间点（秒）" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label23" Text="限制为分类区域或怪物" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label22" Text="分类" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label21" Text="在面板 B 中显示" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label20" Text="在面板 A 中显示" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label19" Text="允许计时器修正影响此项" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label18" Text="显示环形计时器" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label4" Text="将计时器限制为“白名单”" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label2" Text="剩余时间内忽略计时器重新开始" />
+  <Control ControlPath="root\groupBox1\tableLayoutPanel2" UniqueName="label24" Text="不使用 DoT 跳数，仅重新开始" />
+  <Control ControlPath="root\splitContainer2\" UniqueName="btnAddEdit" Text="添加/编辑(&amp;E)" />
+  <Control ControlPath="root\splitContainer2\" UniqueName="btnRemove" Text="移除(&amp;R)" />
+  <Control ControlPath="root" UniqueName="groupBox4" Text="计时器白名单" />
+  <Control ControlPath="root\groupBox4" UniqueName="btnWhiteListRemove" Text="移除" />
+  <Control ControlPath="root\groupBox4" UniqueName="btnWhiteListAdd" Text="添加" />
+  <Control ControlPath="root" UniqueName="groupBox3" Text="全局设置" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label8" Text="设置" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label11" Text="面板不透明度 (%)" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label12" Text="面板 A" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label13" Text="面板 B" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label10" Text="视觉缩放比例" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label14" Text="始终置顶" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label15" Text="启用点击穿透" />
+  <Control ControlPath="root\groupBox3\tableLayoutPanel1" UniqueName="label16" Text="可见" />
+  <Control ControlPath="root" UniqueName="groupBox2" Text="计时器专用声音/备注/颜色" />
+  <Control ControlPath="root\groupBox2" UniqueName="label7" Text="自定义计时器开始音效" />
+  <Control ControlPath="root\groupBox2" UniqueName="label6" Text="自定义提示" />
+  <Control ControlPath="root\groupBox2" UniqueName="label5" Text="自定义警告音效" />
+</ControlText>
