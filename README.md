@@ -17,9 +17,9 @@ An ACT (Advanced Combat Tracker) plugin that shows ACT's screens in Japanese, Ko
 
 ## インストール / Install
 
-[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) で ACT をインストールすると一緒に選ばれ、ACT に登録されます。表示言語もハブで選んだものになります。
+[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub)（[XIVToolHub-Setup.exe](https://github.com/ElenaChan-me/XIVToolHub/releases/latest)）で ACT を選ぶと、このプラグインも一緒に入れるか確認し、ACT に登録します。表示言語もハブで選んだものになります。
 
-When ACT is installed with XIVToolHub, this plugin is selected together and registered in ACT.
+When ACT is selected in [XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub), this plugin is offered too and registered in ACT.
 
 手で入れる場合は、リリースの `ACTLocalizationPlus.dll` を ACT の「プラグイン」タブで追加してください。画面の文字は ACT の起動中にしか置き換えられないため、追加・言語の変更のあとは ACT を再起動してください。
 
