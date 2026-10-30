@@ -6,7 +6,7 @@
     <LangVersion>latest</LangVersion>
     <RootNamespace>ACTLocalizationPlus</RootNamespace>
     <AssemblyName>ACTLocalizationPlus</AssemblyName>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <!-- 参照する ACT 本体の場所。ビルド時に -p:ActPath=... で変えられる -->
